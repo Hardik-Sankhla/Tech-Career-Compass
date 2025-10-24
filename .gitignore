@@ -1,0 +1,40 @@
+# Jekyll / GitHub Pages
+_site/
+.jekyll-cache/
+.sass-cache/
+node_modules/
+npm-debug.log*
+
+# Python
+env*/
+venv/
+ENV/
+*.py[cod]
+__pycache__/
+*.pyo
+*.pyd
+
+# Virtualenv / venv for Windows
+env310/
+VIEnv/
+VIEnv312/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Build outputs
+dist/
+build/
