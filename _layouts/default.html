@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+    <!-- SEO Meta Tags -->
+    <meta name="keywords" content="{% if page.tags %}{{ page.tags | join: ', ' }}{% endif %}">
+    <meta name="author" content="{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:image" content="{% if page.og_image %}{{ site.url }}{{ page.og_image }}{% else %}{{ site.url }}/assets/images/og-default.jpg{% endif %}">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="twitter:image" content="{% if page.og_image %}{{ site.url }}{{ page.og_image }}{% else %}{{ site.url }}/assets/images/twitter-default.jpg{% endif %}">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="{% if page.canonical_url %}{{ page.canonical_url }}{% else %}{{ site.url }}{{ page.url }}{% endif %}">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "{{ site.title }}",
+        "description": "{{ site.description }}",
+        "url": "{{ site.url }}",
+        "author": {
+            "@type": "Organization",
+            "name": "{{ site.author }}"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="/">
+                        <i class="fas fa-code"></i>
+                        <span>{{ site.title }}</span>
+                    </a>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="/" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
+                        <li><a href="/00_Master_Index_Tech_Careers.html" {% if page.url contains 'Master_Index' %}class="active"{% endif %}>Master Index</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle">Career Guides <i class="fas fa-chevron-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/01_Software_Engineering_Careers.html">Software Engineering</a></li>
+                                <li><a href="/02_Data_AI_ML_Careers.html">Data & AI/ML</a></li>
+                                <li><a href="/03_Cloud_Infrastructure_Careers.html">Cloud & Infrastructure</a></li>
+                                <li><a href="/04_Cybersecurity_Careers.html">Cybersecurity</a></li>
+                                <li><a href="/05_DevOps_SRE_Careers.html">DevOps & SRE</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            {{ content }}
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-code"></i> {{ site.title }}</h3>
+                    <p>Comprehensive career guides for aspiring technologists. Complete roadmaps, salary data, and market insights for 2025-2030.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/username/tech-career-guides" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://discord.gg/techcareers" target="_blank" aria-label="Discord">
+                            <i class="fab fa-discord"></i>
+                        </a>
+                        <a href="https://techcareer.com/newsletter" target="_blank" aria-label="Newsletter">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="/00_Master_Index_Tech_Careers.html">Master Index</a></li>
+                        <li><a href="/01_Software_Engineering_Careers.html">Software Engineering</a></li>
+                        <li><a href="/02_Data_AI_ML_Careers.html">Data & AI/ML</a></li>
+                        <li><a href="/03_Cloud_Infrastructure_Careers.html">Cloud & Infrastructure</a></li>
+                        <li><a href="/04_Cybersecurity_Careers.html">Cybersecurity</a></li>
+                        <li><a href="/05_DevOps_SRE_Careers.html">DevOps & SRE</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contribute">Contribute</a></li>
+                        <li><a href="#privacy">Privacy</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Stay Updated</h4>
+                    <p>Get the latest tech career insights and market updates.</p>
+                    <div class="newsletter-signup">
+                        <input type="email" placeholder="Enter your email" id="newsletter-email">
+                        <button type="button" id="newsletter-submit">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2025 {{ site.author }}. Free for personal use. Attribution required for commercial use.</p>
+                    <p>Made with ❤️ for the tech community</p>
+                </div>
+                <div class="version-info">
+                    <p>Version {{ site.version }} | Last updated: {{ site.last_updated }}</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/assets/js/main.js"></script>
+
+    <!-- Google Analytics (optional) -->
+    {% if site.google_analytics %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ site.google_analytics }}');
+    </script>
+    {% endif %}
+</body>
+</html>

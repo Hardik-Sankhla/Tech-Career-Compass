@@ -1,0 +1,132 @@
+# Tech Career Guides - Jekyll Configuration for GitHub Pages
+# https://techcareers.guide
+
+# Site settings
+title: "Tech Career Guides"
+description: "Comprehensive career guides for software engineering, data science, cloud computing, cybersecurity, and DevOps. Complete roadmaps, salary data, and market insights for 2025-2030."
+url: "https://techcareers.guide"
+baseurl: ""
+repository: "username/tech-career-guides"  # Replace with your GitHub username/repo
+
+# Author information
+author: "Tech Career Guides"
+email: "careers@techcareers.guide"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  guides:
+    output: true
+    permalink: /:collection/:name/
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .bundle/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - .vscode/
+  - .git/
+  - .github/
+
+# Include files
+include:
+  - _pages
+
+# SEO and social
+logo: /assets/images/logo.png
+social:
+  name: Tech Career Guides
+  links:
+    - https://github.com/username/tech-career-guides
+    - https://discord.gg/techcareers
+    - https://techcareer.com/newsletter
+
+# Custom variables
+version: "2.0"
+last_updated: "2025-10-25"
+
+# Navigation
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Master Index"
+    url: "/00_Master_Index_Tech_Careers.html"
+  - title: "Software Engineering"
+    url: "/01_Software_Engineering_Careers.html"
+  - title: "Data & AI/ML"
+    url: "/02_Data_AI_ML_Careers.html"
+  - title: "Cloud & Infrastructure"
+    url: "/03_Cloud_Infrastructure_Careers.html"
+  - title: "Cybersecurity"
+    url: "/04_Cybersecurity_Careers.html"
+  - title: "DevOps & SRE"
+    url: "/05_DevOps_SRE_Careers.html"
+
+# Career guides metadata
+guides:
+  master_index:
+    title: "Master Index: Tech Career Guides"
+    description: "Complete navigation hub for all tech career paths with salary data, market insights, and career roadmaps."
+    tags: ["career-guide", "tech-careers", "navigation", "salary-data"]
+  software_engineering:
+    title: "Software Engineering Careers Guide"
+    description: "Master frontend, backend, full-stack, mobile, and DevOps engineering careers with complete roadmaps and salary data."
+    tags: ["software-engineering", "frontend", "backend", "full-stack", "career-guide"]
+  data_ai_ml:
+    title: "Data, AI & ML Careers Guide"
+    description: "Navigate data science, AI/ML engineering, and MLOps careers with comprehensive roadmaps and market insights."
+    tags: ["data-science", "ai", "machine-learning", "mlops", "career-guide"]
+  cloud_infrastructure:
+    title: "Cloud & Infrastructure Careers Guide"
+    description: "Master cloud engineering, DevOps, SRE, and platform engineering with salary data and career strategies."
+    tags: ["cloud-computing", "devops", "sre", "platform-engineering", "infrastructure"]
+  cybersecurity:
+    title: "Cybersecurity Careers Guide"
+    description: "Complete guide to security analysis, penetration testing, SOC operations, and security architecture careers."
+    tags: ["cybersecurity", "pentesting", "soc", "security-engineering", "threat-analysis"]
+  devops_sre:
+    title: "DevOps & SRE Careers Guide"
+    description: "Master DevOps engineering, site reliability engineering, and platform engineering with automation and reliability focus."
+    tags: ["devops", "sre", "platform-engineering", "automation", "reliability"]
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      author: "Tech Career Guides"
+  - scope:
+      path: ""
+      type: "guides"
+    values:
+      layout: "guide"
+      author: "Tech Career Guides"
+
+# Sass
+sass:
+  style: compressed
+
+# Compression
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
