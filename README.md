@@ -135,13 +135,13 @@ We welcome contributions! Here's how you can help:
 
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 
-**You are free to:**
+See the [LICENSE](LICENSE) file for full license text.
 
+**You are free to:**
 - **Share** — copy and redistribute the material in any medium or format
 - **Adapt** — remix, transform, and build upon the material for any purpose, even commercially
 
 **Under the following terms:**
-
 - **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made
 - **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license
 
@@ -161,7 +161,7 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 
 ## 🔄 Version History
 
-### Version 2.0 (October 2025)
+### Version 2.0 (October 25, 2025)
 
 - Complete Jekyll website transformation
 - Professional responsive design
@@ -169,6 +169,7 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 - GitHub Pages deployment ready
 - SEO optimization and metadata
 - Interactive features and accessibility
+- Repository setup with .gitignore and LICENSE
 
 ### Version 1.0 (Earlier)
 
@@ -200,8 +201,7 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 
 ---
 
-**Ready to start your tech career journey?** [Explore the guides →](00_Master_Index_Tech_Careers.md)
- 
+**Ready to start your tech career journey?** [Explore the guides →](00_Master_Index_Tech_Careers.md) 
  
 
 
