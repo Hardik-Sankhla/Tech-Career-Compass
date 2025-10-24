@@ -1,8 +1,8 @@
 # Tech Career Guides
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue?style=for-the-badge&logo=github)](https://username.github.io/tech-career-guides/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue?style=for-the-badge&logo=github)](https://hardik-sankhla.github.io/Tech-Career-Compass/)
 [![License](https://img.shields.io/badge/License-CC%20BY--SA%204.0-green?style=for-the-badge)](https://creativecommons.org/licenses/by-sa/4.0/)
-[![Version](https://img.shields.io/badge/Version-2.0-orange?style=for-the-badge)](https://github.com/username/tech-career-guides/releases)
+[![Version](https://img.shields.io/badge/Version-2.0-orange?style=for-the-badge)](https://github.com/Hardik-Sankhla/Tech-Career-Compass/releases)
 
 > 🚀 **Comprehensive career guides for software engineering, data science, cloud computing, cybersecurity, and DevOps. Complete roadmaps, salary data, and market insights for 2025-2030.**
 
@@ -128,8 +128,8 @@ We welcome contributions! Here's how you can help:
 
 - **💬 Discord Community:** [Join our Discord](https://discord.gg/techcareers)
 - **📧 Newsletter:** [Subscribe for updates](https://techcareer.com/newsletter)
-- **🐛 Issues:** [Report bugs or request features](https://github.com/username/tech-career-guides/issues)
-- **💡 Discussions:** [Join community discussions](https://github.com/username/tech-career-guides/discussions)
+- **🐛 Issues:** [Report bugs or request features](https://github.com/Hardik-Sankhla/Tech-Career-Compass/issues)
+- **💡 Discussions:** [Join community discussions](https://github.com/Hardik-Sankhla/Tech-Career-Compass/discussions)
 
 ## 📜 License
 
@@ -194,13 +194,14 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 ## 📞 Contact
 
 - **Email:** [careers@techcareers.guide](mailto:careers@techcareers.guide)
-- **GitHub:** [username/tech-career-guides](https://github.com/username/tech-career-guides)
+- **GitHub:** [Hardik-Sankhla/Tech-Career-Compass](https://github.com/Hardik-Sankhla/Tech-Career-Compass)
 - **Discord:** [Tech Career Community](https://discord.gg/techcareers)
 - **Newsletter:** [Tech Career Updates](https://techcareer.com/newsletter)
 
 ---
 
-**Ready to start your tech career journey?** [Explore the guides →](00_Master_Index_Tech_Careers.md) 
+**Ready to start your tech career journey?** [Explore the guides →](00_Master_Index_Tech_Careers.md)
+ 
  
 
 
