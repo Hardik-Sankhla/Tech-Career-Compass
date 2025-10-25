@@ -31,7 +31,6 @@ collections:
 
 # Exclude from processing
 exclude:
-  - Gemfile
   - Gemfile.lock
   - vendor/
   - .bundle/
