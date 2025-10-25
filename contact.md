@@ -12,13 +12,13 @@ We're here to help you navigate your tech career journey! Whether you have quest
 
 ### **General Inquiries**
 
-- **Email**: <info@techcareerguides.com>
+- **Email**: <datascientist.hardiksankhla@gmail.com>
 - **Subject**: Include "Tech Career Question" or "General Inquiry"
 - **Response Time**: We aim to respond within 24-48 hours
 
 ### **Content Contributions**
 
-- **Email**: <contribute@techcareerguides.com>
+- **Email**: <datascientist.hardiksankhla@gmail.com>
 - **Subject**: Include "Content Contribution" or "Guide Suggestion"
 - **What to Include**:
   - Your background and expertise
@@ -28,7 +28,7 @@ We're here to help you navigate your tech career journey! Whether you have quest
 
 ### **Technical Issues**
 
-- **Email**: <support@techcareerguides.com>
+- **Email**: <datascientist.hardiksankhla@gmail.com>
 - **Subject**: Include "Technical Issue" or "Bug Report"
 - **What to Include**:
   - Page URL where you encountered the issue
@@ -38,7 +38,7 @@ We're here to help you navigate your tech career journey! Whether you have quest
 
 ### **Partnerships & Collaborations**
 
-- **Email**: <partnerships@techcareerguides.com>
+- **Email**: <datascientist.hardiksankhla@gmail.com>
 - **Subject**: Include "Partnership Opportunity" or "Collaboration"
 - **What to Include**:
   - Your organization or project
@@ -51,45 +51,44 @@ We're here to help you navigate your tech career journey! Whether you have quest
 
 Stay updated with the latest career guides, industry insights, and community discussions:
 
-- **[Twitter/X](https://twitter.com/TechCareerGuide)** - Daily tech career tips and industry news
-- **[LinkedIn](https://linkedin.com/company/tech-career-guides)** - Professional networking and career discussions
+- **[LinkedIn](https://www.linkedin.com/in/hardik-sankhla/)** - Professional networking and career discussions
 - **[GitHub](https://github.com/Hardik-Sankhla)** - Access our source code and contribute to guides
-- **[YouTube](https://youtube.com/@TechCareerGuides)** - Video tutorials and career advice
-- **[Discord](https://discord.gg/techcareerguides)** - Join our community discussions
+- **[YouTube](https://www.youtube.com/@Hardik-Sankhla)** - Video tutorials and career advice
+- **[Twitter/X](https://x.com/AIDrivenHardik)** - Daily tech career tips and industry news
+- **[Portfolio](https://dataxhardik.wixsite.com/myportfolio)** - My personal portfolio and projects
 
 ### **Community Guidelines**
 
 When reaching out on social media:
 
 - Be respectful and professional
-- Use relevant hashtags: #TechCareers #CareerDevelopment #SoftwareEngineering
+- Use relevant hashtags: #TechCareers #CareerDevelopment #SoftwareEngineering #DataScience #AI
 - Tag us in relevant discussions
 - Share your success stories and feedback
 
-## 📍 **Office & Mailing Address**
+## 📍 **Location & Contact**
 
-### **Physical Address**
+### **Location**
 
-Tech Career Guides  
-123 Innovation Drive  
-Silicon Valley, CA 94043  
-United States
+- **City**: Jodhpur, Rajasthan, India
+- **Time Zone**: IST (UTC+5:30)
+- **Current Status**: Data Science Student & AI Intern
 
-*Note: This is our virtual office address. For official correspondence, please use email.*
+*Note: This is my current location. For official correspondence, please use email or social media.*
 
-## 🕒 **Business Hours**
-
-### **Support Availability**
-
-- **Monday - Friday**: 9:00 AM - 6:00 PM PST
-- **Saturday**: 10:00 AM - 4:00 PM PST
-- **Sunday**: Closed (Emergency support only)
+## 🕒 **Availability**
 
 ### **Response Times**
 
-- **Email**: 24-48 hours
+- **Email**: Within 24-48 hours
+- **LinkedIn**: Within 12 hours during active hours
+- **GitHub Issues**: Within 24 hours for repository-related queries
 - **Social Media**: Within 12 hours during business days
-- **Urgent Issues**: Within 4 hours
+
+### **Active Hours**
+
+- **Monday - Saturday**: Available for discussions and collaborations
+- **Sunday**: Limited availability (personal time)
 
 ## 🤝 **Contributing to Our Guides**
 
@@ -140,13 +139,13 @@ A: Our content is licensed under Creative Commons Attribution-ShareAlike 4.0. Pl
 ### **Technical Support**
 
 **Q: The website isn't loading properly**  
-A: Try clearing your browser cache, or contact us at <support@techcareerguides.com> with details.
+A: Try clearing your browser cache, or contact me at <datascientist.hardiksankhla@gmail.com> with details.
 
 **Q: I found a broken link**  
-A: Please report it to <support@techcareerguides.com> with the page URL and broken link.
+A: Please report it to <datascientist.hardiksankhla@gmail.com> with the page URL and broken link.
 
 **Q: How can I suggest a new guide topic?**  
-A: Email us at <contribute@techcareerguides.com> with your suggestion and reasoning.
+A: Email me at <datascientist.hardiksankhla@gmail.com> with your suggestion and reasoning.
 
 ### **Career Advice**
 
@@ -156,37 +155,47 @@ A: While we can't offer personalized consultations, our guides provide comprehen
 **Q: Do you offer resume reviews or interview coaching?**  
 A: We don't provide individual services, but our guides include templates and tips for resumes and interviews.
 
-## 🏢 **About Our Organization**
+## 🏢 **About Me**
 
-### **Mission**
+### **Background**
 
-Tech Career Guides is a community-driven platform dedicated to helping individuals navigate and succeed in technology careers through comprehensive, accessible guidance and resources.
+I'm **Hardik Sankhla**, a passionate Data Science student and aspiring AI/ML engineer from Jodhpur, Rajasthan. I created Tech Career Compass to help fellow students and professionals navigate the complex world of tech careers.
 
-### **Team**
+### **Current Focus**
 
-- **Editorial Team**: Experienced professionals from various tech fields
-- **Technical Team**: Developers and designers maintaining the platform
-- **Community Managers**: Engaging with our user community
-- **Contributors**: Volunteer writers and subject matter experts
+- **🎓 Education**: B.Tech in Data Science at JIET Institute of Design and Technology
+- **💼 Work**: AI Intern at Gyan Netra
+- **🚀 Learning**: Advanced concepts in Generative AI and Agentic AI
+- **💡 Interests**: Building systems that think, models that evolve, and algorithms that predict
+
+### **Skills & Expertise**
+
+- **Programming**: Python, C++, JavaScript, SQL
+- **Data Science**: Machine Learning, Deep Learning, Data Visualization
+- **Cloud & DevOps**: AWS, Docker, Kubernetes
+- **Web Development**: Frontend & Backend development
+- **Tools**: Git, Power BI, Tableau, Linux
 
 ### **Values**
 
-- **Accessibility**: Free, high-quality resources for everyone
-- **Accuracy**: Evidence-based, up-to-date information
-- **Community**: Collaborative approach to content creation
-- **Inclusivity**: Welcoming diverse perspectives and backgrounds
+- **Accessibility**: Making quality career guidance available to everyone
+- **Accuracy**: Providing evidence-based, practical advice
+- **Community**: Building a supportive tech community
+- **Continuous Learning**: Staying updated with industry trends
 
-## 📊 **Site Statistics**
+## 📊 **Project Statistics**
 
-- **Monthly Visitors**: 50,000+ tech professionals
-- **Content Downloads**: 100,000+ guide downloads annually
-- **Community Members**: 15,000+ across all platforms
-- **Countries Served**: Content accessed in 120+ countries
+- **Career Guides**: 5 comprehensive guides covering major tech paths
+- **Content Size**: 15,000+ lines of detailed career guidance
+- **Creation Date**: October 2025
+- **Last Updated**: October 2025
+- **GitHub Stars**: Growing community interest
+- **Contributors**: Open to community contributions
 
 ---
 
 ## 🎯 **Ready to Connect?**
 
-[Explore Career Guides →](00_Master_Index_Tech_Careers) | [View Resources →](resources) | [Learn About Us →](about)
+[Explore Career Guides →](00_Master_Index_Tech_Careers) | [View Resources →](resources) | [Learn About Me →](about)
 
-*We value your feedback and are committed to continuously improving our resources to better serve the tech community.*
+*I'm passionate about helping others navigate their tech careers. Your feedback helps me improve and create better resources for the community.*
