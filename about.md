@@ -142,9 +142,9 @@ We welcome contributions from the tech community! Our content is enriched by:
 ## Contact & Support
 
 ### 📧 **Get in Touch**
-- **Email**: <careers@techcareers.guide>
-- **GitHub Issues**: [Report bugs or request features](https://github.com/tech-career-compass/Tech-Career-Compass/issues)
-- **Discussions**: [Join community conversations](https://github.com/tech-career-compass/Tech-Career-Compass/discussions)
+- **Email**: <datascientist.hardiksankhla@gmail.com>
+- **GitHub Issues**: [Report bugs or request features](https://github.com/Hardik-Sankhla/Tech-Career-Compass/issues)
+- **Discussions**: [Join community conversations](https://github.com/Hardik-Sankhla/Tech-Career-Compass/discussions)
 
 ### 💬 **Community**
 - **Discord**: [Join our community](https://discord.gg/techcareers)
