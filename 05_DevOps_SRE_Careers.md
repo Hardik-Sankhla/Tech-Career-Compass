@@ -7,7 +7,6 @@ last_modified: "2025-10-25"
 tags: ["devops", "sre", "site-reliability-engineering", "platform-engineering", "infrastructure-as-code", "ci-cd", "career-guide", "kubernetes", "docker", "monitoring", "automation"]
 categories: ["career-guides", "devops", "infrastructure", "reliability-engineering"]
 layout: default
-permalink: /devops-sre-careers/
 author: "Tech Career Guides"
 contributors: ["DevOps Engineers", "SRE Practitioners", "Platform Architects", "Infrastructure Engineers"]
 seo:
