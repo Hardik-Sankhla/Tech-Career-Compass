@@ -80,6 +80,20 @@ Entry Level (0-2 years) → Junior (2-4 years) → Senior (4-7 years) → Lead/P
 - **4 years:** Senior role, team leadership
 - **7 years:** Principal/Lead role, organizational impact
 
+## 📚 Additional Resources
+
+### [🛠️ Resources & Tools](resources)
+
+Comprehensive collection of learning platforms, development tools, communities, certifications, and career development resources to support your tech journey.
+
+### [📬 Contact Us](contact)
+
+Get in touch for questions, feedback, contributions, or collaboration opportunities. Join our community and help improve our guides.
+
+### [ℹ️ About Our Mission](about)
+
+Learn about our mission to provide accessible, comprehensive tech career guidance and meet the team behind these guides.
+
 ---
 
 **Ready to start your tech career journey?** [Explore the Master Index →](00_Master_Index_Tech_Careers)

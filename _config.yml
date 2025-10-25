@@ -2,7 +2,7 @@
 # https://techcareers.guide
 
 # Site settings
-title: "Tech Career Guides"
+title: "Tech Career Guides - Complete Career Roadmaps & Salary Data"
 description: "Comprehensive career guides for software engineering, data science, cloud computing, cybersecurity, and DevOps. Complete roadmaps, salary data, and market insights for 2025-2030."
 url: "https://hardik-sankhla.github.io"
 baseurl: "/Tech-Career-Compass"
@@ -45,6 +45,8 @@ exclude:
 # Include files
 include:
   - _pages
+  - sitemap.xml
+  - robots.txt
 
 # SEO and social
 logo: /assets/images/logo.png
@@ -53,11 +55,21 @@ social:
   links:
     - https://github.com/Hardik-Sankhla/Tech-Career-Compass
     - https://discord.gg/techcareers
-    - https://techcareer.com/newsletter
+    - https://linkedin.com/company/tech-career-guides
+    - https://twitter.com/TechCareerGuide
+
+# Twitter and Open Graph
+twitter:
+  username: TechCareerGuide
+  card: summary_large_image
 
 # Custom variables
-version: "2.0"
+version: "2.1"
 last_updated: "2025-10-25"
+
+# Analytics (add your tracking codes here)
+# google_analytics: "UA-XXXXXXXXX-X"
+# plausible_analytics: "techcareers.guide"
 
 # Navigation
 navigation:
@@ -75,6 +87,12 @@ navigation:
     url: "/04_Cybersecurity_Careers"
   - title: "DevOps & SRE"
     url: "/05_DevOps_SRE_Careers"
+  - title: "About"
+    url: "/about"
+  - title: "Resources"
+    url: "/resources"
+  - title: "Contact"
+    url: "/contact"
 
 # Career guides metadata
 guides:
@@ -82,26 +100,32 @@ guides:
     title: "Master Index: Tech Career Guides"
     description: "Complete navigation hub for all tech career paths with salary data, market insights, and career roadmaps."
     tags: ["career-guide", "tech-careers", "navigation", "salary-data"]
+    keywords: "tech careers, software engineering, data science, cloud computing, cybersecurity, devops, salary data, career roadmap"
   software_engineering:
     title: "Software Engineering Careers Guide"
     description: "Master frontend, backend, full-stack, mobile, and DevOps engineering careers with complete roadmaps and salary data."
     tags: ["software-engineering", "frontend", "backend", "full-stack", "career-guide"]
+    keywords: "software engineering careers, frontend developer, backend developer, full stack engineer, mobile development"
   data_ai_ml:
     title: "Data, AI & ML Careers Guide"
     description: "Navigate data science, AI/ML engineering, and MLOps careers with comprehensive roadmaps and market insights."
     tags: ["data-science", "ai", "machine-learning", "mlops", "career-guide"]
+    keywords: "data science careers, artificial intelligence, machine learning, MLOps, data engineering"
   cloud_infrastructure:
     title: "Cloud & Infrastructure Careers Guide"
     description: "Master cloud engineering, DevOps, SRE, and platform engineering with salary data and career strategies."
     tags: ["cloud-computing", "devops", "sre", "platform-engineering", "infrastructure"]
+    keywords: "cloud engineering, AWS, Azure, GCP, DevOps, SRE, platform engineering"
   cybersecurity:
     title: "Cybersecurity Careers Guide"
     description: "Complete guide to security analysis, penetration testing, SOC operations, and security architecture careers."
     tags: ["cybersecurity", "pentesting", "soc", "security-engineering", "threat-analysis"]
+    keywords: "cybersecurity careers, penetration testing, SOC analyst, security engineer, threat analysis"
   devops_sre:
     title: "DevOps & SRE Careers Guide"
     description: "Master DevOps engineering, site reliability engineering, and platform engineering with automation and reliability focus."
     tags: ["devops", "sre", "platform-engineering", "automation", "reliability"]
+    keywords: "DevOps careers, SRE, site reliability engineering, platform engineering, automation"
 
 # Default front matter
 defaults:
@@ -111,12 +135,14 @@ defaults:
     values:
       layout: "default"
       author: "Tech Career Guides"
+      image: "/assets/images/og-image.png"
   - scope:
       path: ""
       type: "guides"
     values:
       layout: "guide"
       author: "Tech Career Guides"
+      image: "/assets/images/og-image.png"
 
 # Sass
 sass:
@@ -130,3 +156,31 @@ compress_html:
   startings: []
   blanklines: false
   profile: false
+
+# Jekyll SEO Tag defaults
+seo:
+  type: website
+  name: "Tech Career Guides"
+  title: false
+  description: false
+  url: false
+  image: false
+  site_name: "Tech Career Guides"
+  site_description: "Comprehensive career guides for software engineering, data science, cloud computing, cybersecurity, and DevOps"
+  site_image: "/assets/images/og-image.png"
+  twitter:
+    card: summary_large_image
+    site: "@TechCareerGuide"
+    creator: "@TechCareerGuide"
+
+# Performance optimizations
+future: true
+strict_front_matter: true
+
+# Collections directory
+collections_dir: collections
+
+# Liquid rendering
+liquid:
+  error_mode: strict
+  strict_filters: true

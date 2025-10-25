@@ -5,9 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+    <!-- SEO Meta Tags -->
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:image" content="{{ site.baseurl }}/assets/images/og-image.png">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="twitter:image" content="{{ site.baseurl }}/assets/images/twitter-image.png">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        "name": "Tech Career Guides",
+        "description": "Comprehensive career guides for software engineering, data science, cloud computing, cybersecurity, and DevOps",
+        "url": "{{ site.url }}",
+        "logo": "{{ site.url }}/assets/images/logo.png",
+        "sameAs": [
+            "https://github.com/Hardik-Sankhla/Tech-Career-Compass",
+            "https://discord.gg/techcareers"
+        ],
+        "offers": {
+            "@type": "Offer",
+            "category": "Career Development",
+            "price": "0",
+            "priceCurrency": "USD"
+        }
+    }
+    </script>
+
     <link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
     <style>
+        :root {
+            --primary-color: #667eea;
+            --secondary-color: #764ba2;
+            --text-color: #333;
+            --bg-color: #f8f9fa;
+            --card-bg: #ffffff;
+            --border-color: #e1e5e9;
+            --shadow: 0 2px 20px rgba(0,0,0,0.1);
+            --transition: all 0.3s ease;
+        }
+
+        [data-theme="dark"] {
+            --text-color: #e4e7eb;
+            --bg-color: #1a1a1a;
+            --card-bg: #2d2d2d;
+            --border-color: #404040;
+            --shadow: 0 2px 20px rgba(0,0,0,0.3);
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -17,8 +71,9 @@
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             line-height: 1.6;
-            color: #333;
-            background: #f8f9fa;
+            color: var(--text-color);
+            background: var(--bg-color);
+            transition: var(--transition);
         }
 
         .container {
@@ -27,11 +82,33 @@
             padding: 0 20px;
         }
 
+        /* Reading Progress Bar */
+        .reading-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: var(--border-color);
+            z-index: 1000;
+        }
+
+        .reading-progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        /* Header */
         header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
             color: white;
             padding: 1rem 0;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: var(--shadow);
+            position: sticky;
+            top: 0;
+            z-index: 100;
         }
 
         nav {
@@ -56,77 +133,377 @@
             text-decoration: none;
             padding: 0.5rem 1rem;
             border-radius: 5px;
-            transition: background 0.3s;
+            transition: var(--transition);
         }
 
         .nav-links a:hover {
             background: rgba(255,255,255,0.1);
         }
 
+        /* Mobile Menu */
+        .mobile-menu-toggle {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            padding: 0.5rem;
+        }
+
+        .mobile-menu-toggle span {
+            width: 25px;
+            height: 3px;
+            background: white;
+            margin: 3px 0;
+            transition: var(--transition);
+        }
+
+        /* Dark Mode Toggle */
+        .theme-toggle {
+            background: none;
+            border: 2px solid white;
+            color: white;
+            padding: 0.5rem;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1.2rem;
+            transition: var(--transition);
+        }
+
+        .theme-toggle:hover {
+            background: rgba(255,255,255,0.1);
+        }
+
+        /* Main Content Layout */
+        .main-layout {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        @media (min-width: 1024px) {
+            .main-layout {
+                grid-template-columns: 250px 1fr;
+            }
+        }
+
+        /* Table of Contents */
+        .toc-sidebar {
+            display: none;
+        }
+
+        @media (min-width: 1024px) {
+            .toc-sidebar {
+                display: block;
+                position: sticky;
+                top: 100px;
+                height: fit-content;
+            }
+        }
+
+        .toc-container {
+            background: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+        }
+
+        .toc-title {
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+
+        .toc-list {
+            list-style: none;
+        }
+
+        .toc-list li {
+            margin-bottom: 0.5rem;
+        }
+
+        .toc-list a {
+            color: var(--text-color);
+            text-decoration: none;
+            padding: 0.25rem 0;
+            display: block;
+            border-radius: 5px;
+            transition: var(--transition);
+        }
+
+        .toc-list a:hover {
+            background: var(--bg-color);
+            color: var(--primary-color);
+        }
+
+        .toc-list .toc-h2 { padding-left: 0; }
+        .toc-list .toc-h3 { padding-left: 1rem; font-size: 0.9rem; }
+        .toc-list .toc-h4 { padding-left: 2rem; font-size: 0.85rem; }
+
+        /* Main Content */
         main {
             min-height: calc(100vh - 200px);
             padding: 2rem 0;
         }
 
         .content {
-            background: white;
+            background: var(--card-bg);
             padding: 2rem;
             border-radius: 10px;
-            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+            box-shadow: var(--shadow);
             margin-bottom: 2rem;
         }
 
-        h1, h2, h3 {
-            color: #2c3e50;
+        /* Enhanced Typography */
+        h1, h2, h3, h4, h5, h6 {
+            color: var(--text-color);
             margin-bottom: 1rem;
+            line-height: 1.3;
         }
 
-        h1 { font-size: 2.5rem; }
-        h2 { font-size: 2rem; }
-        h3 { font-size: 1.5rem; }
+        h1 { font-size: 2.5rem; margin-top: 0; }
+        h2 { font-size: 2rem; margin-top: 2rem; }
+        h3 { font-size: 1.5rem; margin-top: 1.5rem; }
+        h4 { font-size: 1.25rem; margin-top: 1.25rem; }
+        h5 { font-size: 1.1rem; margin-top: 1rem; }
+        h6 { font-size: 1rem; margin-top: 1rem; }
 
         p { margin-bottom: 1rem; }
 
+        /* Enhanced Tables */
         table {
             width: 100%;
             border-collapse: collapse;
-            margin: 1rem 0;
-            background: white;
-            border-radius: 5px;
+            margin: 1.5rem 0;
+            background: var(--card-bg);
+            border-radius: 8px;
             overflow: hidden;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: var(--shadow);
         }
 
         th, td {
-            padding: 12px;
+            padding: 12px 16px;
             text-align: left;
-            border-bottom: 1px solid #ddd;
+            border-bottom: 1px solid var(--border-color);
         }
 
         th {
-            background: #f8f9fa;
+            background: var(--bg-color);
             font-weight: 600;
-            color: #2c3e50;
+            color: var(--text-color);
         }
 
         tr:hover {
-            background: #f8f9fa;
+            background: var(--bg-color);
         }
 
+        /* Callout Boxes */
+        .callout {
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+            border-left: 4px solid;
+        }
+
+        .callout-info {
+            background: #e3f2fd;
+            border-left-color: #2196f3;
+            color: #0d47a1;
+        }
+
+        .callout-warning {
+            background: #fff3e0;
+            border-left-color: #ff9800;
+            color: #e65100;
+        }
+
+        .callout-tip {
+            background: #e8f5e8;
+            border-left-color: #4caf50;
+            color: #1b5e20;
+        }
+
+        .callout-danger {
+            background: #ffebee;
+            border-left-color: #f44336;
+            color: #b71c1c;
+        }
+
+        /* Buttons */
         .btn {
             display: inline-block;
             padding: 10px 20px;
-            background: #667eea;
+            background: var(--primary-color);
             color: white;
             text-decoration: none;
             border-radius: 5px;
-            transition: background 0.3s;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
         }
 
         .btn:hover {
-            background: #5a6fd8;
+            background: var(--secondary-color);
+            transform: translateY(-1px);
         }
 
+        .btn-secondary {
+            background: var(--bg-color);
+            color: var(--text-color);
+            border: 2px solid var(--border-color);
+        }
+
+        .btn-secondary:hover {
+            background: var(--text-color);
+            color: var(--card-bg);
+        }
+
+        /* Code Blocks */
+        code {
+            background: var(--bg-color);
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Monaco', 'Menlo', monospace;
+            font-size: 0.9rem;
+        }
+
+        pre {
+            background: var(--bg-color);
+            padding: 1rem;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin: 1rem 0;
+            position: relative;
+        }
+
+        .code-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: var(--border-color);
+            padding: 0.5rem 1rem;
+            border-radius: 8px 8px 0 0;
+            font-size: 0.8rem;
+            color: var(--text-color);
+        }
+
+        .copy-btn {
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 0.25rem 0.5rem;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 0.7rem;
+        }
+
+        /* Expandable Sections */
+        .expandable {
+            margin: 1rem 0;
+        }
+
+        .expandable-header {
+            background: var(--bg-color);
+            padding: 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: var(--transition);
+        }
+
+        .expandable-header:hover {
+            background: var(--border-color);
+        }
+
+        .expandable-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+
+        .expandable-content.open {
+            max-height: 1000px;
+        }
+
+        /* Progress Bars */
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: var(--border-color);
+            border-radius: 4px;
+            overflow: hidden;
+            margin: 1rem 0;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        /* Search */
+        .search-container {
+            position: relative;
+            margin: 2rem 0;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            font-size: 1rem;
+            background: var(--card-bg);
+            color: var(--text-color);
+            transition: var(--transition);
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .search-results {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            max-height: 300px;
+            overflow-y: auto;
+            z-index: 1000;
+            display: none;
+        }
+
+        .search-result-item {
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--border-color);
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .search-result-item:hover {
+            background: var(--bg-color);
+        }
+
+        .search-result-title {
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+
+        .search-result-excerpt {
+            font-size: 0.9rem;
+            color: var(--text-color);
+            opacity: 0.8;
+        }
+
+        /* Footer */
         footer {
             background: #2c3e50;
             color: white;
@@ -153,9 +530,14 @@
             color: white;
         }
 
+        /* Mobile Styles */
         @media (max-width: 768px) {
             .nav-links {
                 display: none;
+            }
+
+            .mobile-menu-toggle {
+                display: flex;
             }
 
             .container {
@@ -173,50 +555,127 @@
                 flex-direction: column;
                 text-align: center;
             }
+
+            .main-layout {
+                grid-template-columns: 1fr;
+            }
+
+            .toc-sidebar {
+                display: none;
+            }
         }
 
-        code {
-            background: #f4f4f4;
-            padding: 2px 6px;
-            border-radius: 3px;
-            font-family: 'Monaco', 'Menlo', monospace;
+        /* Accessibility */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
         }
 
-        pre {
-            background: #f4f4f4;
-            padding: 1rem;
-            border-radius: 5px;
-            overflow-x: auto;
-            margin: 1rem 0;
+        /* Focus styles */
+        a:focus, button:focus, input:focus {
+            outline: 2px solid var(--primary-color);
+            outline-offset: 2px;
         }
 
-        blockquote {
-            border-left: 4px solid #667eea;
-            padding-left: 1rem;
-            margin: 1rem 0;
-            color: #666;
+        /* Print styles */
+        @media print {
+            .reading-progress, .toc-sidebar, .search-container, .theme-toggle, .mobile-menu-toggle {
+                display: none !important;
+            }
+
+            body {
+                background: white !important;
+                color: black !important;
+            }
+
+            .content {
+                box-shadow: none !important;
+                border: 1px solid #ccc !important;
+            }
         }
     </style>
 </head>
 <body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress">
+        <div class="reading-progress-bar" id="readingProgress"></div>
+    </div>
+
     <header>
         <nav class="container">
             <div class="logo">
                 <a href="{{ site.baseurl }}/" style="color: white; text-decoration: none;">🚀 Tech Career Guides</a>
             </div>
-            <ul class="nav-links">
-                <li><a href="{{ site.baseurl }}/">Home</a></li>
-                <li><a href="{{ site.baseurl }}/00_Master_Index_Tech_Careers">Master Index</a></li>
-                <li><a href="https://github.com/Hardik-Sankhla/Tech-Career-Compass">GitHub</a></li>
-            </ul>
+
+            <div style="display: flex; align-items: center; gap: 1rem;">
+                <!-- Search -->
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="Search guides..." id="searchInput">
+                    <div class="search-results" id="searchResults"></div>
+                </div>
+
+                <!-- Theme Toggle -->
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    🌙
+                </button>
+
+                <!-- Desktop Navigation -->
+                <ul class="nav-links">
+                    <li><a href="{{ site.baseurl }}/">Home</a></li>
+                    <li><a href="{{ site.baseurl }}/00_Master_Index_Tech_Careers">Master Index</a></li>
+                    <li><a href="{{ site.baseurl }}/about">About</a></li>
+                    <li><a href="{{ site.baseurl }}/resources">Resources</a></li>
+                    <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
+                    <li><a href="https://github.com/Hardik-Sankhla/Tech-Career-Compass" target="_blank">GitHub</a></li>
+                </ul>
+
+                <!-- Mobile Menu Toggle -->
+                <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
         </nav>
+
+        <!-- Mobile Menu -->
+        <div id="mobileMenu" style="display: none; background: rgba(0,0,0,0.9); padding: 1rem; position: absolute; top: 100%; left: 0; right: 0;">
+            <ul style="list-style: none; text-align: center;">
+                <li><a href="{{ site.baseurl }}/" style="color: white; text-decoration: none; display: block; padding: 0.5rem;">Home</a></li>
+                <li><a href="{{ site.baseurl }}/00_Master_Index_Tech_Careers" style="color: white; text-decoration: none; display: block; padding: 0.5rem;">Master Index</a></li>
+                <li><a href="{{ site.baseurl }}/about" style="color: white; text-decoration: none; display: block; padding: 0.5rem;">About</a></li>
+                <li><a href="{{ site.baseurl }}/resources" style="color: white; text-decoration: none; display: block; padding: 0.5rem;">Resources</a></li>
+                <li><a href="{{ site.baseurl }}/contact" style="color: white; text-decoration: none; display: block; padding: 0.5rem;">Contact</a></li>
+                <li><a href="https://github.com/Hardik-Sankhla/Tech-Career-Compass" target="_blank" style="color: white; text-decoration: none; display: block; padding: 0.5rem;">GitHub</a></li>
+            </ul>
+        </div>
     </header>
 
     <main>
         <div class="container">
-            <div class="content">
-                <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
-                {{ content }}
+            <div class="main-layout">
+                <!-- Table of Contents Sidebar -->
+                <aside class="toc-sidebar">
+                    <div class="toc-container">
+                        <div class="toc-title">📋 Table of Contents</div>
+                        <ul class="toc-list" id="tocList">
+                            <!-- Generated by JavaScript -->
+                        </ul>
+                    </div>
+                </aside>
+
+                <!-- Main Content -->
+                <div class="content">
+                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+                    {{ content }}
+                </div>
             </div>
         </div>
     </main>
@@ -226,14 +685,243 @@
             <div class="footer-content">
                 <div>
                     <p>&copy; 2025 Tech Career Guides. Free forever, attribution required for commercial use.</p>
+                    <p style="font-size: 0.9rem; opacity: 0.8; margin-top: 0.5rem;">
+                        Built with ❤️ for the tech community
+                    </p>
                 </div>
                 <div class="footer-links">
-                    <a href="https://github.com/Hardik-Sankhla/Tech-Career-Compass">GitHub</a> |
-                    <a href="https://discord.gg/techcareers">Discord</a> |
-                    <a href="mailto:careers@techcareers.guide">Contact</a>
+                    <a href="https://github.com/Hardik-Sankhla/Tech-Career-Compass" target="_blank">GitHub</a> |
+                    <a href="https://discord.gg/techcareers" target="_blank">Discord</a> |
+                    <a href="mailto:careers@techcareers.guide">Contact</a> |
+                    <a href="{{ site.baseurl }}/sitemap.xml">Sitemap</a>
                 </div>
             </div>
         </div>
     </footer>
+
+    <!-- JavaScript for Interactive Features -->
+    <script>
+        // Theme Toggle
+        const themeToggle = document.getElementById('themeToggle');
+        const body = document.body;
+
+        // Load saved theme
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'dark') {
+            body.setAttribute('data-theme', 'dark');
+            themeToggle.textContent = '☀️';
+        }
+
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = body.getAttribute('data-theme');
+            if (currentTheme === 'dark') {
+                body.removeAttribute('data-theme');
+                localStorage.setItem('theme', 'light');
+                themeToggle.textContent = '🌙';
+            } else {
+                body.setAttribute('data-theme', 'dark');
+                localStorage.setItem('theme', 'dark');
+                themeToggle.textContent = '☀️';
+            }
+        });
+
+        // Mobile Menu Toggle
+        const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        mobileMenuToggle.addEventListener('click', () => {
+            const isVisible = mobileMenu.style.display === 'block';
+            mobileMenu.style.display = isVisible ? 'none' : 'block';
+        });
+
+        // Table of Contents Generation
+        function generateTOC() {
+            const headings = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+            const tocList = document.getElementById('tocList');
+
+            if (!tocList || headings.length === 0) return;
+
+            headings.forEach((heading, index) => {
+                // Skip the main title (first h1)
+                if (index === 0 && heading.tagName === 'H1') return;
+
+                const level = parseInt(heading.tagName.charAt(1));
+                const text = heading.textContent;
+                const id = `heading-${index}`;
+
+                heading.id = id;
+
+                const li = document.createElement('li');
+                const a = document.createElement('a');
+                a.href = `#${id}`;
+                a.textContent = text;
+                a.className = `toc-h${level}`;
+
+                li.appendChild(a);
+                tocList.appendChild(li);
+            });
+        }
+
+        // Reading Progress
+        function updateReadingProgress() {
+            const progressBar = document.getElementById('readingProgress');
+            if (!progressBar) return;
+
+            const scrollTop = window.pageYOffset;
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrollPercent = (scrollTop / docHeight) * 100;
+
+            progressBar.style.width = Math.min(scrollPercent, 100) + '%';
+        }
+
+        // Smooth Scrolling for TOC links
+        document.addEventListener('click', (e) => {
+            if (e.target.matches('.toc-list a')) {
+                e.preventDefault();
+                const targetId = e.target.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+
+                if (targetElement) {
+                    const headerHeight = document.querySelector('header').offsetHeight;
+                    const targetPosition = targetElement.offsetTop - headerHeight - 20;
+
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            }
+        });
+
+        // Copy Code Buttons
+        function addCopyButtons() {
+            const codeBlocks = document.querySelectorAll('pre');
+
+            codeBlocks.forEach((block) => {
+                if (block.querySelector('.code-header')) return;
+
+                const header = document.createElement('div');
+                header.className = 'code-header';
+
+                const language = block.querySelector('code')?.className?.split('-')[1] || 'text';
+                header.innerHTML = `
+                    <span>${language}</span>
+                    <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                `;
+
+                block.parentNode.insertBefore(header, block);
+                block.style.borderRadius = '0 0 8px 8px';
+            });
+        }
+
+        function copyCode(button) {
+            const pre = button.parentNode.nextElementSibling;
+            const code = pre.querySelector('code')?.textContent || pre.textContent;
+
+            navigator.clipboard.writeText(code).then(() => {
+                const originalText = button.textContent;
+                button.textContent = 'Copied!';
+                button.style.background = '#4caf50';
+
+                setTimeout(() => {
+                    button.textContent = originalText;
+                    button.style.background = '';
+                }, 2000);
+            });
+        }
+
+        // Expandable Sections
+        function makeExpandable() {
+            const expandableHeaders = document.querySelectorAll('.expandable-header');
+
+            expandableHeaders.forEach(header => {
+                header.addEventListener('click', () => {
+                    const content = header.nextElementSibling;
+                    const isOpen = content.classList.contains('open');
+
+                    if (isOpen) {
+                        content.classList.remove('open');
+                        header.querySelector('.expand-icon').textContent = '▶️';
+                    } else {
+                        content.classList.add('open');
+                        header.querySelector('.expand-icon').textContent = '🔽';
+                    }
+                });
+            });
+        }
+
+        // Simple Search (client-side)
+        function initializeSearch() {
+            const searchInput = document.getElementById('searchInput');
+            const searchResults = document.getElementById('searchResults');
+
+            if (!searchInput || !searchResults) return;
+
+            // This is a basic implementation - in production, you'd want a proper search index
+            const searchableContent = [
+                { title: 'Software Engineering Careers', url: '{{ site.baseurl }}/01_Software_Engineering_Careers', excerpt: 'Master frontend, backend, full-stack engineering careers' },
+                { title: 'Data Science & AI/ML Careers', url: '{{ site.baseurl }}/02_Data_AI_ML_Careers', excerpt: 'Navigate data science and AI/ML engineering careers' },
+                { title: 'Cloud & Infrastructure Careers', url: '{{ site.baseurl }}/03_Cloud_Infrastructure_Careers', excerpt: 'Master cloud engineering and DevOps careers' },
+                { title: 'Cybersecurity Careers', url: '{{ site.baseurl }}/04_Cybersecurity_Careers', excerpt: 'Complete guide to security analysis careers' },
+                { title: 'DevOps & SRE Careers', url: '{{ site.baseurl }}/05_DevOps_SRE_Careers', excerpt: 'Master DevOps and site reliability engineering' },
+                { title: 'Master Index', url: '{{ site.baseurl }}/00_Master_Index_Tech_Careers', excerpt: 'Complete navigation hub for all tech career paths' },
+                { title: 'Resources & Tools', url: '{{ site.baseurl }}/resources', excerpt: 'Learning platforms, development tools, communities' },
+                { title: 'About Our Mission', url: '{{ site.baseurl }}/about', excerpt: 'Learn about our mission and team' },
+                { title: 'Contact Us', url: '{{ site.baseurl }}/contact', excerpt: 'Get in touch for questions and feedback' }
+            ];
+
+            searchInput.addEventListener('input', (e) => {
+                const query = e.target.value.toLowerCase().trim();
+
+                if (query.length < 2) {
+                    searchResults.style.display = 'none';
+                    return;
+                }
+
+                const matches = searchableContent.filter(item =>
+                    item.title.toLowerCase().includes(query) ||
+                    item.excerpt.toLowerCase().includes(query)
+                );
+
+                if (matches.length > 0) {
+                    searchResults.innerHTML = matches.map(item => `
+                        <div class="search-result-item" onclick="window.location.href='${item.url}'">
+                            <div class="search-result-title">${item.title}</div>
+                            <div class="search-result-excerpt">${item.excerpt}</div>
+                        </div>
+                    `).join('');
+                    searchResults.style.display = 'block';
+                } else {
+                    searchResults.innerHTML = '<div class="search-result-item">No results found</div>';
+                    searchResults.style.display = 'block';
+                }
+            });
+
+            // Hide results when clicking outside
+            document.addEventListener('click', (e) => {
+                if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
+                    searchResults.style.display = 'none';
+                }
+            });
+        }
+
+        // Initialize everything when DOM is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            generateTOC();
+            addCopyButtons();
+            makeExpandable();
+            initializeSearch();
+        });
+
+        // Update reading progress on scroll
+        window.addEventListener('scroll', updateReadingProgress);
+
+        // Close mobile menu on window resize
+        window.addEventListener('resize', () => {
+            if (window.innerWidth > 768) {
+                mobileMenu.style.display = 'none';
+            }
+        });
+    </script>
 </body>
 </html>
