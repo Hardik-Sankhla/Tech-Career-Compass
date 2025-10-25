@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Live Site](https://img.shields.io/badge/Live_Site-Visit-blue?style=for-the-badge&logo=github)](https://tech-career-compass.github.io/)
+[![Live Site](https://img.shields.io/badge/Live_Site-Visit-blue?style=for-the-badge&logo=github)](https://tech-career-compass.github.io/Tech-Career-Compass/)
 [![License](https://img.shields.io/badge/License-CC_BY--SA_4.0-green?style=for-the-badge)](LICENSE)
 [![Version](https://img.shields.io/badge/Version-2.0-orange?style=for-the-badge)](https://github.com/tech-career-compass/Tech-Career-Compass)
 [![GitHub stars](https://img.shields.io/github/stars/tech-career-compass/Tech-Career-Compass?style=for-the-badge&logo=github)](https://github.com/tech-career-compass/Tech-Career-Compass/stargazers)
@@ -11,7 +11,7 @@
 <h3 align="center">🚀 Your comprehensive guide to navigating modern tech careers</h3>
 
 <p align="center">
-  <a href="https://tech-career-compass.github.io/">🌐 Live Website</a> •
+  <a href="https://tech-career-compass.github.io/Tech-Career-Compass/">🌐 Live Website</a> •
   <a href="#career-guides">📚 Browse Guides</a> •
   <a href="#contributing">🤝 Contribute</a> •
   <a href="#contact">📞 Contact</a>
@@ -55,26 +55,26 @@ Tech Career Compass provides **comprehensive, practical career guidance** for as
 | **Cybersecurity** | $85K-$300K | 2-8 years | Security Analysis, Pen Testing |
 | **DevOps & SRE** | $110K-$400K | 2-8 years | DevOps, SRE, Platform Eng |
 
-### 🏠 [Master Index](https://tech-career-compass.github.io/00_Master_Index_Tech_Careers)
+### 🏠 [Master Index](https://tech-career-compass.github.io/Tech-Career-Compass/00_Master_Index_Tech_Careers)
 Complete navigation hub for all tech career paths with comprehensive overview and comparison
 
-### 💻 [Software Engineering Careers](https://tech-career-compass.github.io/01_Software_Engineering_Careers)
+### 💻 [Software Engineering Careers](https://tech-career-compass.github.io/Tech-Career-Compass/01_Software_Engineering_Careers)
 Master frontend, backend, full-stack, mobile, and DevOps engineering careers with complete roadmaps and salary data.  
 **Salary:** $95K-$250K | **Timeline:** 2-5 years to Senior
 
-### 🧠 [Data, AI & ML Careers](https://tech-career-compass.github.io/02_Data_AI_ML_Careers)
+### 🧠 [Data, AI & ML Careers](https://tech-career-compass.github.io/Tech-Career-Compass/02_Data_AI_ML_Careers)
 Navigate data science, AI/ML engineering, and MLOps careers with comprehensive roadmaps and market insights.  
 **Salary:** $100K-$280K | **Timeline:** 2-6 years to Senior
 
-### ☁️ [Cloud & Infrastructure Careers](https://tech-career-compass.github.io/03_Cloud_Infrastructure_Careers)
+### ☁️ [Cloud & Infrastructure Careers](https://tech-career-compass.github.io/Tech-Career-Compass/03_Cloud_Infrastructure_Careers)
 Master cloud engineering, DevOps, SRE, and platform engineering with salary data and career strategies.  
 **Salary:** $110K-$350K | **Timeline:** 2-7 years to Senior
 
-### 🔒 [Cybersecurity Careers](https://tech-career-compass.github.io/04_Cybersecurity_Careers)
+### 🔒 [Cybersecurity Careers](https://tech-career-compass.github.io/Tech-Career-Compass/04_Cybersecurity_Careers)
 Complete guide to security analysis, penetration testing, SOC operations, and security architecture careers.  
 **Salary:** $85K-$300K | **Timeline:** 2-8 years to Senior
 
-### ⚙️ [DevOps & SRE Careers](https://tech-career-compass.github.io/05_DevOps_SRE_Careers)
+### ⚙️ [DevOps & SRE Careers](https://tech-career-compass.github.io/Tech-Career-Compass/05_DevOps_SRE_Careers)
 Master DevOps engineering, site reliability engineering, and platform engineering with automation and reliability focus.  
 **Salary:** $110K-$400K | **Timeline:** 2-8 years to Senior
 
@@ -82,7 +82,7 @@ Master DevOps engineering, site reliability engineering, and platform engineerin
 
 ## 🚀 Quick Start
 
-1. **🎯 Choose Your Path** - Visit the [Master Index](https://tech-career-compass.github.io/00_Master_Index_Tech_Careers) to explore all career options
+1. **🎯 Choose Your Path** - Visit the [Master Index](https://tech-career-compass.github.io/Tech-Career-Compass/00_Master_Index_Tech_Careers) to explore all career options
 2. **📊 Assess Your Level** - Each guide includes entry, mid, and senior level paths
 3. **🗺️ Follow the Roadmap** - Use our detailed learning paths with timeframes and resources
 4. **💻 Build Projects** - Apply concepts with included project ideas and examples
@@ -181,7 +181,7 @@ This site automatically deploys to GitHub Pages when you push to the `main` bran
 ### Manual Deployment
 1. Push changes to GitHub: `git push origin main`
 2. GitHub Actions will build and deploy automatically
-3. Site updates within 2-3 minutes at https://tech-career-compass.github.io/
+3. Site updates within 2-3 minutes at https://tech-career-compass.github.io/Tech-Career-Compass/
 
 ### Custom Domain (Optional)
 Add a `CNAME` file with your domain or configure in repository Settings → Pages.
@@ -278,7 +278,7 @@ See the [LICENSE](LICENSE) file for full license text.
 
 <div align="center">
 
-**🌐 Website:** [tech-career-compass.github.io](https://tech-career-compass.github.io/)  
+**🌐 Website:** [tech-career-compass.github.io/Tech-Career-Compass](https://tech-career-compass.github.io/Tech-Career-Compass/)  
 **🐛 Issues:** [Report Bugs](https://github.com/tech-career-compass/Tech-Career-Compass/issues) • **💡 Ideas:** [Discussions](https://github.com/tech-career-compass/Tech-Career-Compass/discussions)  
 **📧 Email:** careers@techcareers.guide
 
@@ -319,10 +319,10 @@ See the [LICENSE](LICENSE) file for full license text.
 
 **Version 2.0** | October 2025
 
-[![Explore Guides](https://img.shields.io/badge/Explore_Guides-Start_Now-blue?style=for-the-badge)](https://tech-career-compass.github.io/)
+[![Explore Guides](https://img.shields.io/badge/Explore_Guides-Start_Now-blue?style=for-the-badge)](https://tech-career-compass.github.io/Tech-Career-Compass/)
 
 **Ready to start your tech career journey?**
 
-👉 **[Explore the guides now →](https://tech-career-compass.github.io/)**
+👉 **[Explore the guides now →](https://tech-career-compass.github.io/Tech-Career-Compass/)**
 
 </div>
