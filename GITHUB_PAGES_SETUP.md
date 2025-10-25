@@ -7,7 +7,7 @@ Your Jekyll site has been fully restored and is ready for GitHub Pages deploymen
 ## 🚀 Quick Deployment Steps
 
 ### 1. Enable GitHub Pages
-1. Go to your repository: https://github.com/Hardik-Sankhla/Tech-Career-Compass
+1. Go to your repository: https://github.com/tech-career-compass/Tech-Career-Compass
 2. Click **Settings** (top menu)
 3. Scroll down to **Pages** (left sidebar)
 4. Under **Source**, select:
@@ -20,7 +20,7 @@ GitHub will automatically build and deploy your Jekyll site.
 
 ### 3. Access Your Live Site
 Your site will be available at:
-**https://hardik-sankhla.github.io/Tech-Career-Compass/**
+**https://tech-career-compass.github.io/Tech-Career-Compass/**
 
 ## 📊 What Was Restored
 
@@ -47,10 +47,10 @@ Your site will be available at:
 
 ### Test Your Site
 Visit these URLs to confirm everything works:
-- Home: https://hardik-sankhla.github.io/Tech-Career-Compass/
-- Master Index: https://hardik-sankhla.github.io/Tech-Career-Compass/00_Master_Index_Tech_Careers
-- Software Engineering: https://hardik-sankhla.github.io/Tech-Career-Compass/01_Software_Engineering_Careers
-- Contact: https://hardik-sankhla.github.io/Tech-Career-Compass/contact
+- Home: https://tech-career-compass.github.io/Tech-Career-Compass/
+- Master Index: https://tech-career-compass.github.io/Tech-Career-Compass/00_Master_Index_Tech_Careers
+- Software Engineering: https://tech-career-compass.github.io/Tech-Career-Compass/01_Software_Engineering_Careers
+- Contact: https://tech-career-compass.github.io/Tech-Career-Compass/contact
 
 ## 🎨 Site Features
 

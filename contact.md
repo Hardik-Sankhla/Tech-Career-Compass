@@ -53,7 +53,7 @@ Stay updated with the latest career guides, industry insights, and community dis
 
 - **[Twitter/X](https://twitter.com/TechCareerGuide)** - Daily tech career tips and industry news
 - **[LinkedIn](https://linkedin.com/company/tech-career-guides)** - Professional networking and career discussions
-- **[GitHub](https://github.com/tech-career-guides)** - Access our source code and contribute to guides
+- **[GitHub](https://github.com/tech-career-compass)** - Access our source code and contribute to guides
 - **[YouTube](https://youtube.com/@TechCareerGuides)** - Video tutorials and career advice
 - **[Discord](https://discord.gg/techcareerguides)** - Join our community discussions
 
@@ -99,15 +99,15 @@ We welcome contributions from the tech community! Here's how you can get involve
 
 #### **Content Contributors**
 
-1. **Review Guidelines**: Check our [Contribution Guidelines](https://github.com/tech-career-guides/contributing)
-2. **Choose a Topic**: Select from our [Open Issues](https://github.com/tech-career-guides/guides/issues)
+1. **Review Guidelines**: Check our [Contribution Guidelines](https://github.com/tech-career-compass/contributing)
+2. **Choose a Topic**: Select from our [Open Issues](https://github.com/tech-career-compass/guides/issues)
 3. **Write & Submit**: Create your content following our style guide
 4. **Peer Review**: Your submission will be reviewed by our editorial team
 5. **Publication**: Approved content gets published and credited to you
 
 #### **Technical Contributors**
 
-- **Bug Fixes**: Report and fix issues in our [GitHub Repository](https://github.com/tech-career-guides/website)
+- **Bug Fixes**: Report and fix issues in our [GitHub Repository](https://github.com/tech-career-compass/website)
 - **Feature Requests**: Suggest new features or improvements
 - **Documentation**: Help improve our technical documentation
 
