@@ -20,27 +20,27 @@ Choose your career path and dive deep into detailed roadmaps, salary data, and m
 
 ## 🎯 Career Guides
 
-### [🏠 Master Index](00_Master_Index_Tech_Careers.md)
+### [🏠 Master Index](https://hardik-sankhla.github.io/Tech-Career-Compass/00_Master_Index_Tech_Careers)
 
 Complete navigation hub for all tech career paths with salary data, market insights, and career roadmaps.
 
-### [💻 Software Engineering Careers](01_Software_Engineering_Careers.md)
+### [💻 Software Engineering Careers](https://hardik-sankhla.github.io/Tech-Career-Compass/01_Software_Engineering_Careers)
 
 Master frontend, backend, full-stack, mobile, and DevOps engineering careers with complete roadmaps and salary data.
 
-### [🧠 Data, AI & ML Careers](02_Data_AI_ML_Careers.md)
+### [🧠 Data, AI & ML Careers](https://hardik-sankhla.github.io/Tech-Career-Compass/02_Data_AI_ML_Careers)
 
 Navigate data science, AI/ML engineering, and MLOps careers with comprehensive roadmaps and market insights.
 
-### [☁️ Cloud & Infrastructure Careers](03_Cloud_Infrastructure_Careers.md)
+### [☁️ Cloud & Infrastructure Careers](https://hardik-sankhla.github.io/Tech-Career-Compass/03_Cloud_Infrastructure_Careers)
 
 Master cloud engineering, DevOps, SRE, and platform engineering with salary data and career strategies.
 
-### [🔒 Cybersecurity Careers](04_Cybersecurity_Careers.md)
+### [🔒 Cybersecurity Careers](https://hardik-sankhla.github.io/Tech-Career-Compass/04_Cybersecurity_Careers)
 
 Complete guide to security analysis, penetration testing, SOC operations, and security architecture careers.
 
-### [⚙️ DevOps & SRE Careers](05_DevOps_SRE_Careers.md)
+### [⚙️ DevOps & SRE Careers](https://hardik-sankhla.github.io/Tech-Career-Compass/05_DevOps_SRE_Careers)
 
 Master DevOps engineering, site reliability engineering, and platform engineering with automation and reliability focus.
 
@@ -53,9 +53,13 @@ Master DevOps engineering, site reliability engineering, and platform engineerin
 - **💡 Honest Advice** - Real challenges, common mistakes, and practical solutions
 - **🔄 Regularly Updated** - Continuous updates with latest technologies and market changes
 
+## 🌐 Live Website
+
+**Visit the live site:** [https://hardik-sankhla.github.io/Tech-Career-Compass/](https://hardik-sankhla.github.io/Tech-Career-Compass/)
+
 ## 🚀 Getting Started
 
-1. **Choose Your Path** - Browse the [Master Index](00_Master_Index_Tech_Careers.md) to find your ideal career track
+1. **Choose Your Path** - Browse the [Master Index](https://hardik-sankhla.github.io/Tech-Career-Compass/00_Master_Index_Tech_Careers) to find your ideal career track
 2. **Assess Your Level** - Each guide includes entry-level, mid-level, and senior career paths
 3. **Follow the Roadmap** - Use the detailed learning paths and timelines provided
 4. **Build Projects** - Apply concepts with the included project ideas and code examples
@@ -82,11 +86,57 @@ Entry Level (0-2 years) → Junior (2-4 years) → Senior (4-7 years) → Lead/P
 
 This website is built with:
 
-- **Jekyll** - Static site generator for GitHub Pages
-- **GitHub Pages** - Free hosting and deployment
-- **Markdown** - Content format for easy maintenance
-- **CSS3** - Modern styling with responsive design
-- **JavaScript** - Interactive features and enhancements
+- **Jekyll 4.3+** - Static site generator optimized for GitHub Pages
+- **GitHub Pages** - Free, reliable hosting with automatic deployments
+- **Markdown** - Simple, readable content format
+- **Liquid Templates** - Dynamic content rendering
+- **CSS3** - Modern, responsive styling with animations
+- **JavaScript** - Interactive features (TOC, smooth scroll, search)
+- **GitHub Actions** - Automated build and deployment pipeline
+
+## 🔧 Local Development
+
+Want to run the site locally or contribute? Here's how:
+
+### Prerequisites
+```bash
+# Install Ruby (2.7+) and Bundler
+gem install bundler
+```
+
+### Setup
+```bash
+# Clone the repository
+git clone https://github.com/Hardik-Sankhla/Tech-Career-Compass.git
+cd Tech-Career-Compass
+
+# Install dependencies
+bundle install
+
+# Run local server
+bundle exec jekyll serve
+
+# Visit http://localhost:4000/Tech-Career-Compass/
+```
+
+### Making Changes
+1. Edit markdown files in the root directory
+2. Customize layouts in `_layouts/`
+3. Modify styles in `assets/css/`
+4. Update configuration in `_config.yml`
+5. Test locally before pushing
+
+## 📦 Deployment
+
+This site automatically deploys to GitHub Pages when you push to the `main` branch.
+
+### Manual Deployment
+1. Push changes to GitHub: `git push origin main`
+2. GitHub Actions will build and deploy automatically
+3. Site updates within 2-3 minutes at https://hardik-sankhla.github.io/Tech-Career-Compass/
+
+### Custom Domain (Optional)
+Add a `CNAME` file with your domain or configure in repository Settings → Pages.
 
 ## 🤝 Contributing
 
@@ -126,10 +176,10 @@ We welcome contributions! Here's how you can help:
 
 ## 📞 Community & Support
 
-- **💬 Discord Community:** [Join our Discord](https://discord.gg/techcareers)
-- **📧 Newsletter:** [Subscribe for updates](https://techcareer.com/newsletter)
-- **🐛 Issues:** [Report bugs or request features](https://github.com/Hardik-Sankhla/Tech-Career-Compass/issues)
-- **💡 Discussions:** [Join community discussions](https://github.com/Hardik-Sankhla/Tech-Career-Compass/discussions)
+- **🌐 Live Website:** [Visit Tech Career Compass](https://hardik-sankhla.github.io/Tech-Career-Compass/)
+- **🐛 Report Issues:** [GitHub Issues](https://github.com/Hardik-Sankhla/Tech-Career-Compass/issues)
+- **💡 Feature Requests:** [GitHub Discussions](https://github.com/Hardik-Sankhla/Tech-Career-Compass/discussions)
+- **📧 Contact:** careers@techcareers.guide
 
 ## 📜 License
 
@@ -194,14 +244,17 @@ See the [LICENSE](LICENSE) file for full license text.
 
 ## 📞 Contact
 
-- **Email:** [careers@techcareers.guide](mailto:careers@techcareers.guide)
-- **GitHub:** [Hardik-Sankhla/Tech-Career-Compass](https://github.com/Hardik-Sankhla/Tech-Career-Compass)
-- **Discord:** [Tech Career Community](https://discord.gg/techcareers)
-- **Newsletter:** [Tech Career Updates](https://techcareer.com/newsletter)
+- **Website:** [https://hardik-sankhla.github.io/Tech-Career-Compass/](https://hardik-sankhla.github.io/Tech-Career-Compass/)
+- **Email:** careers@techcareers.guide
+- **GitHub:** [Tech-Career-Compass Repository](https://github.com/Hardik-Sankhla/Tech-Career-Compass)
+- **Issues:** [Report bugs or request features](https://github.com/Hardik-Sankhla/Tech-Career-Compass/issues)
+- **Discussions:** [Join community discussions](https://github.com/Hardik-Sankhla/Tech-Career-Compass/discussions)
 
 ---
 
-**Ready to start your tech career journey?** [Explore the guides →](00_Master_Index_Tech_Careers.md) 
+**Ready to start your tech career journey?** 
+
+👉 **[Explore the guides now →](https://hardik-sankhla.github.io/Tech-Career-Compass/)** 
  
 
 
