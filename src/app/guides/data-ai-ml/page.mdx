@@ -1,0 +1,696 @@
+---
+title: "Data, AI & ML Careers: Complete Career Guide"
+description: "Comprehensive guide to data science, AI, and machine learning careers in 2025. Learn about data engineering, ML engineering, AI research roles, career roadmaps, salary data, and market insights for aspiring data professionals."
+date: "2025-10-25"
+version: "2.0"
+tags: ["data-science", "artificial-intelligence", "machine-learning", "career-guide", "data-engineering", "mlops", "ai-ethics", "big-data"]
+---
+
+import { Badge } from "@/components/ui/badge"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
+import { Progress } from "@/components/ui/progress"
+import { TrendingUp, DollarSign, Users, Target, Database, Brain, BarChart3, Zap } from "lucide-react"
+import Link from "next/link"
+
+export const metadata = {
+  title: "Data, AI & ML Careers: Complete Career Guide",
+  description: "Comprehensive guide to data science, AI, and machine learning careers in 2025.",
+}
+
+# 📊 Data, AI & ML Careers: The Complete Career Guide
+
+<div className="flex flex-wrap gap-2 mb-6">
+  <Badge variant="secondary">Data Science</Badge>
+  <Badge variant="secondary">AI/ML</Badge>
+  <Badge variant="secondary">Career Guide</Badge>
+  <Badge variant="secondary">Updated Oct 2025</Badge>
+</div>
+
+> **Your Complete Data, AI & ML Career Navigation System** - *Roadmaps • Salaries • Technologies • Market Insights*
+
+<Alert className="mb-6">
+  <Target className="h-4 w-4" />
+  <AlertTitle>Pro Tip</AlertTitle>
+  <AlertDescription>
+    This guide covers the entire data and AI landscape - from data analysis to cutting-edge AI research and production ML systems.
+  </AlertDescription>
+</Alert>
+
+## 🎯 Core Data & AI Roles
+
+<Tabs defaultValue="data-scientist" className="w-full">
+  <TabsList className="grid w-full grid-cols-4">
+    <TabsTrigger value="data-scientist">Data Scientist</TabsTrigger>
+    <TabsTrigger value="ml-engineer">ML Engineer</TabsTrigger>
+    <TabsTrigger value="data-engineer">Data Engineer</TabsTrigger>
+    <TabsTrigger value="mlops">MLOps Engineer</TabsTrigger>
+  </TabsList>
+
+  <TabsContent value="data-scientist" className="space-y-4">
+    <Card>
+      <CardHeader>
+        <CardTitle className="flex items-center gap-2">
+          <BarChart3 className="h-5 w-5" />
+          Data Scientist
+        </CardTitle>
+        <CardDescription>
+          Extract insights from data to drive business decisions
+        </CardDescription>
+      </CardHeader>
+      <CardContent>
+        <div className="space-y-4">
+          <div>
+            <h4 className="font-semibold mb-2">Key Responsibilities:</h4>
+            <ul className="list-disc list-inside space-y-1 text-sm">
+              <li>Statistical analysis and predictive modeling</li>
+              <li>Data visualization and storytelling</li>
+              <li>Build and validate ML models</li>
+              <li>Communicate insights to stakeholders</li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-semibold mb-2">Core Technologies:</h4>
+            <div className="flex flex-wrap gap-2">
+              <Badge variant="outline">Python</Badge>
+              <Badge variant="outline">R</Badge>
+              <Badge variant="outline">SQL</Badge>
+              <Badge variant="outline">TensorFlow</Badge>
+              <Badge variant="outline">Tableau</Badge>
+            </div>
+          </div>
+          <div>
+            <h4 className="font-semibold mb-2">Salary Range:</h4>
+            <div className="text-sm">
+              <div className="flex justify-between">
+                <span>Entry (0-2yr):</span>
+                <span className="font-semibold">$95-145K</span>
+              </div>
+              <div className="flex justify-between">
+                <span>Senior (5-8yr):</span>
+                <span className="font-semibold">$205-285K</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </CardContent>
+    </Card>
+  </TabsContent>
+
+  <TabsContent value="ml-engineer" className="space-y-4">
+    <Card>
+      <CardHeader>
+        <CardTitle className="flex items-center gap-2">
+          <Brain className="h-5 w-5" />
+          Machine Learning Engineer
+        </CardTitle>
+        <CardDescription>
+          Build and deploy ML models in production environments
+        </CardDescription>
+      </CardHeader>
+      <CardContent>
+        <div className="space-y-4">
+          <div>
+            <h4 className="font-semibold mb-2">Key Responsibilities:</h4>
+            <ul className="list-disc list-inside space-y-1 text-sm">
+              <li>Design and implement ML models for production</li>
+              <li>Build scalable ML pipelines and infrastructure</li>
+              <li>Optimize models for performance and reliability</li>
+              <li>Integrate ML into existing software systems</li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-semibold mb-2">Core Technologies:</h4>
+            <div className="flex flex-wrap gap-2">
+              <Badge variant="outline">Python</Badge>
+              <Badge variant="outline">PyTorch</Badge>
+              <Badge variant="outline">TensorFlow</Badge>
+              <Badge variant="outline">Kubernetes</Badge>
+              <Badge variant="outline">Docker</Badge>
+            </div>
+          </div>
+          <div>
+            <h4 className="font-semibold mb-2">Salary Range:</h4>
+            <div className="text-sm">
+              <div className="flex justify-between">
+                <span>Entry (0-2yr):</span>
+                <span className="font-semibold">$100-150K</span>
+              </div>
+              <div className="flex justify-between">
+                <span>Senior (5-8yr):</span>
+                <span className="font-semibold">$215-300K</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </CardContent>
+    </Card>
+  </TabsContent>
+
+  <TabsContent value="data-engineer" className="space-y-4">
+    <Card>
+      <CardHeader>
+        <CardTitle className="flex items-center gap-2">
+          <Database className="h-5 w-5" />
+          Data Engineer
+        </CardTitle>
+        <CardDescription>
+          Build robust data pipelines and infrastructure
+        </CardDescription>
+      </CardHeader>
+      <CardContent>
+        <div className="space-y-4">
+          <div>
+            <h4 className="font-semibold mb-2">Key Responsibilities:</h4>
+            <ul className="list-disc list-inside space-y-1 text-sm">
+              <li>Design and build data pipelines</li>
+              <li>Ensure data quality and reliability</li>
+              <li>Optimize data storage and processing</li>
+              <li>Build data warehouses and lakes</li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-semibold mb-2">Core Technologies:</h4>
+            <div className="flex flex-wrap gap-2">
+              <Badge variant="outline">Python</Badge>
+              <Badge variant="outline">SQL</Badge>
+              <Badge variant="outline">Apache Spark</Badge>
+              <Badge variant="outline">Kafka</Badge>
+              <Badge variant="outline">Airflow</Badge>
+            </div>
+          </div>
+          <div>
+            <h4 className="font-semibold mb-2">Salary Range:</h4>
+            <div className="text-sm">
+              <div className="flex justify-between">
+                <span>Entry (0-2yr):</span>
+                <span className="font-semibold">$85-130K</span>
+              </div>
+              <div className="flex justify-between">
+                <span>Senior (5-8yr):</span>
+                <span className="font-semibold">$185-255K</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </CardContent>
+    </Card>
+  </TabsContent>
+
+  <TabsContent value="mlops" className="space-y-4">
+    <Card>
+      <CardHeader>
+        <CardTitle className="flex items-center gap-2">
+          <Zap className="h-5 w-5" />
+          MLOps Engineer
+        </CardTitle>
+        <CardDescription>
+          Operationalize and maintain ML systems in production
+        </CardDescription>
+      </CardHeader>
+      <CardContent>
+        <div className="space-y-4">
+          <div>
+            <h4 className="font-semibold mb-2">Key Responsibilities:</h4>
+            <ul className="list-disc list-inside space-y-1 text-sm">
+              <li>Automate ML model training and deployment</li>
+              <li>Build CI/CD pipelines for ML workflows</li>
+              <li>Monitor model performance and drift</li>
+              <li>Ensure ML system reliability and scalability</li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-semibold mb-2">Core Technologies:</h4>
+            <div className="flex flex-wrap gap-2">
+              <Badge variant="outline">Python</Badge>
+              <Badge variant="outline">Kubernetes</Badge>
+              <Badge variant="outline">Docker</Badge>
+              <Badge variant="outline">MLflow</Badge>
+              <Badge variant="outline">Kubeflow</Badge>
+            </div>
+          </div>
+          <div>
+            <h4 className="font-semibold mb-2">Salary Range:</h4>
+            <div className="text-sm">
+              <div className="flex justify-between">
+                <span>Entry (0-2yr):</span>
+                <span className="font-semibold">$95-140K</span>
+              </div>
+              <div className="flex justify-between">
+                <span>Senior (5-8yr):</span>
+                <span className="font-semibold">$200-280K</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </CardContent>
+    </Card>
+  </TabsContent>
+</Tabs>
+
+## 🗺️ Career Roadmap: Data & AI Career Paths
+
+<div className="grid md:grid-cols-4 gap-4 mb-8">
+  <Card className="border-primary">
+    <CardHeader>
+      <CardTitle className="text-lg">1. Analyst Phase</CardTitle>
+      <CardDescription>0-2 Years</CardDescription>
+    </CardHeader>
+    <CardContent>
+      <div className="space-y-2 text-sm">
+        <div className="flex items-center gap-2">
+          <TrendingUp className="h-4 w-4 text-green-500" />
+          <span>Learn SQL and basic statistics</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <TrendingUp className="h-4 w-4 text-green-500" />
+          <span>Build data visualization skills</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <TrendingUp className="h-4 w-4 text-green-500" />
+          <span>Create portfolio projects</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <TrendingUp className="h-4 w-4 text-green-500" />
+          <span>Network in data community</span>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardHeader>
+      <CardTitle className="text-lg">2. Scientist Phase</CardTitle>
+      <CardDescription>2-5 Years</CardDescription>
+    </CardHeader>
+    <CardContent>
+      <div className="space-y-2 text-sm">
+        <div className="flex items-center gap-2">
+          <TrendingUp className="h-4 w-4 text-green-500" />
+          <span>Master ML algorithms</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <TrendingUp className="h-4 w-4 text-green-500" />
+          <span>Learn production ML skills</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <TrendingUp className="h-4 w-4 text-green-500" />
+          <span>Contribute to open source</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <TrendingUp className="h-4 w-4 text-green-500" />
+          <span>Publish insights and models</span>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardHeader>
+      <CardTitle className="text-lg">3. Engineer Phase</CardTitle>
+      <CardDescription>5-8 Years</CardDescription>
+    </CardHeader>
+    <CardContent>
+      <div className="space-y-2 text-sm">
+        <div className="flex items-center gap-2">
+          <TrendingUp className="h-4 w-4 text-green-500" />
+          <span>Lead ML projects</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <TrendingUp className="h-4 w-4 text-green-500" />
+          <span>Build scalable systems</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <TrendingUp className="h-4 w-4 text-green-500" />
+          <span>Mentor junior team members</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <TrendingUp className="h-4 w-4 text-green-500" />
+          <span>Influence technical strategy</span>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardHeader>
+      <CardTitle className="text-lg">4. Leader Phase</CardTitle>
+      <CardDescription>8+ Years</CardDescription>
+    </CardHeader>
+    <CardContent>
+      <div className="space-y-2 text-sm">
+        <div className="flex items-center gap-2">
+          <TrendingUp className="h-4 w-4 text-green-500" />
+          <span>Set AI/ML vision</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <TrendingUp className="h-4 w-4 text-green-500" />
+          <span>Lead cross-functional teams</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <TrendingUp className="h-4 w-4 text-green-500" />
+          <span>Drive AI innovation</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <TrendingUp className="h-4 w-4 text-green-500" />
+          <span>Shape industry standards</span>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+</div>
+
+## 💰 2025 Salary Data by Role & Location
+
+<div className="overflow-x-auto mb-8">
+  <table className="w-full border-collapse border border-gray-300">
+    <thead>
+      <tr className="bg-gray-50">
+        <th className="border border-gray-300 px-4 py-2 text-left">Role</th>
+        <th className="border border-gray-300 px-4 py-2 text-center">Entry Level</th>
+        <th className="border border-gray-300 px-4 py-2 text-center">Mid-Level</th>
+        <th className="border border-gray-300 px-4 py-2 text-center">Senior Level</th>
+        <th className="border border-gray-300 px-4 py-2 text-center">Key Skills Premium</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td className="border border-gray-300 px-4 py-2 font-medium">Data Scientist</td>
+        <td className="border border-gray-300 px-4 py-2 text-center">$95K-145K</td>
+        <td className="border border-gray-300 px-4 py-2 text-center">$145K-205K</td>
+        <td className="border border-gray-300 px-4 py-2 text-center">$205K-285K</td>
+        <td className="border border-gray-300 px-4 py-2 text-center">+$15K-25K</td>
+      </tr>
+      <tr className="bg-gray-50">
+        <td className="border border-gray-300 px-4 py-2 font-medium">ML Engineer</td>
+        <td className="border border-gray-300 px-4 py-2 text-center">$100K-150K</td>
+        <td className="border border-gray-300 px-4 py-2 text-center">$150K-215K</td>
+        <td className="border border-gray-300 px-4 py-2 text-center">$215K-300K</td>
+        <td className="border border-gray-300 px-4 py-2 text-center">+$20K-30K</td>
+      </tr>
+      <tr>
+        <td className="border border-gray-300 px-4 py-2 font-medium">Data Engineer</td>
+        <td className="border border-gray-300 px-4 py-2 text-center">$85K-130K</td>
+        <td className="border border-gray-300 px-4 py-2 text-center">$130K-185K</td>
+        <td className="border border-gray-300 px-4 py-2 text-center">$185K-255K</td>
+        <td className="border border-gray-300 px-4 py-2 text-center">+$10K-20K</td>
+      </tr>
+      <tr className="bg-gray-50">
+        <td className="border border-gray-300 px-4 py-2 font-medium">MLOps Engineer</td>
+        <td className="border border-gray-300 px-4 py-2 text-center">$95K-140K</td>
+        <td className="border border-gray-300 px-4 py-2 text-center">$140K-200K</td>
+        <td className="border border-gray-300 px-4 py-2 text-center">$200K-280K</td>
+        <td className="border border-gray-300 px-4 py-2 text-center">+$15K-25K</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+## 🔥 2025 AI/ML Market Intelligence
+
+<div className="grid md:grid-cols-3 gap-6 mb-8">
+  <Card>
+    <CardHeader>
+      <CardTitle className="flex items-center gap-2">
+        <TrendingUp className="h-5 w-5 text-green-500" />
+        Hottest Skills 2025
+      </CardTitle>
+    </CardHeader>
+    <CardContent className="space-y-3">
+      <div className="space-y-2">
+        <div className="flex justify-between items-center">
+          <span className="text-sm">Large Language Models</span>
+          <Badge variant="secondary">95% of jobs</Badge>
+        </div>
+        <Progress value={95} className="h-2" />
+      </div>
+      <div className="space-y-2">
+        <div className="flex justify-between items-center">
+          <span className="text-sm">MLOps & Production AI</span>
+          <Badge variant="secondary">85% of jobs</Badge>
+        </div>
+        <Progress value={85} className="h-2" />
+      </div>
+      <div className="space-y-2">
+        <div className="flex justify-between items-center">
+          <span className="text-sm">Computer Vision</span>
+          <Badge variant="secondary">70% of jobs</Badge>
+        </div>
+        <Progress value={70} className="h-2" />
+      </div>
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardHeader>
+      <CardTitle className="flex items-center gap-2">
+        <DollarSign className="h-5 w-5 text-blue-500" />
+        Geographic Variations
+      </CardTitle>
+    </CardHeader>
+    <CardContent className="space-y-3">
+      <div className="flex justify-between">
+        <span className="text-sm">San Francisco</span>
+        <span className="font-semibold">$200K-300K avg</span>
+      </div>
+      <div className="flex justify-between">
+        <span className="text-sm">New York City</span>
+        <span className="font-semibold">$180K-260K avg</span>
+      </div>
+      <div className="flex justify-between">
+        <span className="text-sm">Seattle</span>
+        <span className="font-semibold">$170K-250K avg</span>
+      </div>
+      <div className="flex justify-between">
+        <span className="text-sm">Remote (US)</span>
+        <span className="font-semibold">$160K-240K avg</span>
+      </div>
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardHeader>
+      <CardTitle className="flex items-center gap-2">
+        <Users className="h-5 w-5 text-purple-500" />
+        Industry Insights
+      </CardTitle>
+    </CardHeader>
+    <CardContent className="space-y-3">
+      <div>
+        <h4 className="font-semibold text-sm mb-2">Tech Giants</h4>
+        <p className="text-xs text-muted-foreground">FAANG+ focus on AI infrastructure and research</p>
+      </div>
+      <div>
+        <h4 className="font-semibold text-sm mb-2">FinTech</h4>
+        <p className="text-xs text-muted-foreground">High demand for fraud detection and risk modeling</p>
+      </div>
+      <div>
+        <h4 className="font-semibold text-sm mb-2">HealthTech</h4>
+        <p className="text-xs text-muted-foreground">Medical imaging and drug discovery AI</p>
+      </div>
+    </CardContent>
+  </Card>
+</div>
+
+## 🎯 Which Data/AI Path Should You Choose?
+
+<div className="grid md:grid-cols-2 gap-4 mb-8">
+  <Card className="border-2 border-primary">
+    <CardHeader>
+      <CardTitle className="text-center">📊 Start with Data Science</CardTitle>
+    </CardHeader>
+    <CardContent>
+      <div className="space-y-2 text-sm">
+        <div className="flex items-center gap-2">
+          <TrendingUp className="h-4 w-4 text-green-500" />
+          <span>Love statistics and analysis</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <TrendingUp className="h-4 w-4 text-green-500" />
+          <span>Enjoy business impact</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <TrendingUp className="h-4 w-4 text-green-500" />
+          <span>Good at storytelling with data</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <TrendingUp className="h-4 w-4 text-green-500" />
+          <span>Prefer research and exploration</span>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+
+  <Card className="border-2 border-blue-500">
+    <CardHeader>
+      <CardTitle className="text-center">⚙️ Start with Data Engineering</CardTitle>
+    </CardHeader>
+    <CardContent>
+      <div className="space-y-2 text-sm">
+        <div className="flex items-center gap-2">
+          <TrendingUp className="h-4 w-4 text-green-500" />
+          <span>Enjoy building robust systems</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <TrendingUp className="h-4 w-4 text-green-500" />
+          <span>Like working with big data</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <TrendingUp className="h-4 w-4 text-green-500" />
+          <span>Prefer stable, predictable work</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <TrendingUp className="h-4 w-4 text-green-500" />
+          <span>Good at optimization and scaling</span>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+</div>
+
+<div className="grid md:grid-cols-2 gap-4 mb-8">
+  <Card className="border-2 border-green-500">
+    <CardHeader>
+      <CardTitle className="text-center">🤖 Start with ML Engineering</CardTitle>
+    </CardHeader>
+    <CardContent>
+      <div className="space-y-2 text-sm">
+        <div className="flex items-center gap-2">
+          <TrendingUp className="h-4 w-4 text-green-500" />
+          <span>Love cutting-edge AI research</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <TrendingUp className="h-4 w-4 text-green-500" />
+          <span>Enjoy algorithm development</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <TrendingUp className="h-4 w-4 text-green-500" />
+          <span>Good at mathematical thinking</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <TrendingUp className="h-4 w-4 text-green-500" />
+          <span>Want to work at top AI labs</span>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+
+  <Card className="border-2 border-purple-500">
+    <CardHeader>
+      <CardTitle className="text-center">🚀 Start with MLOps</CardTitle>
+    </CardHeader>
+    <CardContent>
+      <div className="space-y-2 text-sm">
+        <div className="flex items-center gap-2">
+          <TrendingUp className="h-4 w-4 text-green-500" />
+          <span>Enjoy DevOps and automation</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <TrendingUp className="h-4 w-4 text-green-500" />
+          <span>Like production systems</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <TrendingUp className="h-4 w-4 text-green-500" />
+          <span>Good at infrastructure and tooling</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <TrendingUp className="h-4 w-4 text-green-500" />
+          <span>Prefer reliability over novelty</span>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+</div>
+
+## 🌟 Success Stories
+
+<div className="grid gap-6 mb-8">
+  <Card>
+    <CardHeader>
+      <CardTitle>Sarah Chen: From Analyst to ML Engineering Lead</CardTitle>
+      <CardDescription>Started as business analyst → Current: ML Engineering Lead at AI startup</CardDescription>
+    </CardHeader>
+    <CardContent>
+      <div className="space-y-3">
+        <div className="flex items-center gap-2">
+          <Badge variant="outline">Self-taught ML</Badge>
+          <Badge variant="outline">Open source contributor</Badge>
+          <Badge variant="outline">$220K + equity</Badge>
+        </div>
+        <blockquote className="border-l-4 border-primary pl-4 italic text-sm">
+          "The key is understanding both the math and the engineering. Most people focus on one side."
+        </blockquote>
+      </div>
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardHeader>
+      <CardTitle>Marcus Johnson: Data Engineering to AI Infrastructure</CardTitle>
+      <CardDescription>From data engineer → Current: AI Platform Architect at Big Tech</CardDescription>
+    </CardHeader>
+    <CardContent>
+      <div className="space-y-3">
+        <div className="flex items-center gap-2">
+          <Badge variant="outline">Infrastructure focus</Badge>
+          <Badge variant="outline">Scale expert</Badge>
+          <Badge variant="outline">$280K + equity</Badge>
+        </div>
+        <blockquote className="border-l-4 border-primary pl-4 italic text-sm">
+          "AI at scale requires fundamentally different infrastructure thinking."
+        </blockquote>
+      </div>
+    </CardContent>
+  </Card>
+</div>
+
+<div className="text-center bg-gradient-to-r from-primary/10 to-secondary/10 p-8 rounded-lg mb-8">
+  <h2 className="text-2xl font-bold mb-4">🚀 Ready to Start Your Data & AI Journey?</h2>
+  <p className="text-lg mb-6">
+    The AI revolution is just beginning. Your skills will be in demand for decades to come.
+  </p>
+
+  <div className="grid md:grid-cols-3 gap-4 mb-6">
+    <Card>
+      <CardContent className="pt-6">
+        <div className="text-center">
+          <div className="text-2xl mb-2">1️⃣</div>
+          <p className="font-semibold">Learn Python and SQL fundamentals</p>
+        </div>
+      </CardContent>
+    </Card>
+    <Card>
+      <CardContent className="pt-6">
+        <div className="text-center">
+          <div className="text-2xl mb-2">2️⃣</div>
+          <p className="font-semibold">Build a portfolio of data projects</p>
+        </div>
+      </CardContent>
+    </Card>
+    <Card>
+      <CardContent className="pt-6">
+        <div className="text-center">
+          <div className="text-2xl mb-2">3️⃣</div>
+          <p className="font-semibold">Join the data science community</p>
+        </div>
+      </CardContent>
+    </Card>
+  </div>
+
+  <div className="mt-6 space-x-4">
+    <Button size="lg">
+      <Database className="mr-2 h-4 w-4" />
+      Explore Data Science Path
+    </Button>
+    <Button size="lg" variant="outline">
+      <Brain className="mr-2 h-4 w-4" />
+      Explore ML Engineering
+    </Button>
+  </div>
+</div>
+
+<div className="text-center text-sm text-muted-foreground">
+  <p>Version: 2.0 (October 2025) | Made with ❤️ for the data and AI community</p>
+</div>

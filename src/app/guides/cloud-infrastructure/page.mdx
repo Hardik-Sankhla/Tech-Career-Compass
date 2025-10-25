@@ -1,0 +1,696 @@
+---
+title: "Cloud & Infrastructure Careers: Complete Career Guide"
+description: "Master cloud computing, DevOps, SRE, and platform engineering careers. Complete roadmaps, salary data, skills requirements, and market insights for 2025-2030."
+date: "2025-10-25"
+version: "2.0"
+tags: ["cloud-computing", "infrastructure", "devops", "sre", "platform-engineering", "career-guide", "aws", "azure", "gcp", "kubernetes", "terraform"]
+---
+
+import { Badge } from "@/components/ui/badge"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
+import { Progress } from "@/components/ui/progress"
+import { Cloud, Server, Zap, Settings, DollarSign, TrendingUp, Users, Target } from "lucide-react"
+import Link from "next/link"
+
+export const metadata = {
+  title: "Cloud & Infrastructure Careers: Complete Career Guide",
+  description: "Master cloud computing, DevOps, SRE, and platform engineering careers.",
+}
+
+# ☁️ Cloud & Infrastructure Careers: The Complete Career Guide
+
+<div className="flex flex-wrap gap-2 mb-6">
+  <Badge variant="secondary">Cloud Computing</Badge>
+  <Badge variant="secondary">DevOps/SRE</Badge>
+  <Badge variant="secondary">Platform Engineering</Badge>
+  <Badge variant="secondary">Updated Oct 2025</Badge>
+</div>
+
+> **Your Complete Cloud & Infrastructure Career Navigation System** - *Roadmaps • Salaries • Technologies • Market Insights*
+
+<Alert className="mb-6">
+  <Target className="h-4 w-4" />
+  <AlertTitle>Pro Tip</AlertTitle>
+  <AlertDescription>
+    Cloud careers offer some of the highest salaries and fastest growth in tech. The global cloud market will reach $1.3 trillion by 2025.
+  </AlertDescription>
+</Alert>
+
+## 🎯 Core Cloud & Infrastructure Roles
+
+<Tabs defaultValue="cloud-engineer" className="w-full">
+  <TabsList className="grid w-full grid-cols-4">
+    <TabsTrigger value="cloud-engineer">Cloud Engineer</TabsTrigger>
+    <TabsTrigger value="devops">DevOps Engineer</TabsTrigger>
+    <TabsTrigger value="sre">SRE</TabsTrigger>
+    <TabsTrigger value="platform">Platform Engineer</TabsTrigger>
+  </TabsList>
+
+  <TabsContent value="cloud-engineer" className="space-y-4">
+    <Card>
+      <CardHeader>
+        <CardTitle className="flex items-center gap-2">
+          <Cloud className="h-5 w-5" />
+          Cloud Engineer
+        </CardTitle>
+        <CardDescription>
+          Design and manage cloud infrastructure and services
+        </CardDescription>
+      </CardHeader>
+      <CardContent>
+        <div className="space-y-4">
+          <div>
+            <h4 className="font-semibold mb-2">Key Responsibilities:</h4>
+            <ul className="list-disc list-inside space-y-1 text-sm">
+              <li>Design cloud architectures and solutions</li>
+              <li>Manage cloud resources and cost optimization</li>
+              <li>Implement security and compliance</li>
+              <li>Automate infrastructure deployment</li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-semibold mb-2">Core Technologies:</h4>
+            <div className="flex flex-wrap gap-2">
+              <Badge variant="outline">AWS</Badge>
+              <Badge variant="outline">Azure</Badge>
+              <Badge variant="outline">GCP</Badge>
+              <Badge variant="outline">Terraform</Badge>
+              <Badge variant="outline">CloudFormation</Badge>
+            </div>
+          </div>
+          <div>
+            <h4 className="font-semibold mb-2">Salary Range:</h4>
+            <div className="text-sm">
+              <div className="flex justify-between">
+                <span>Entry (0-2yr):</span>
+                <span className="font-semibold">$95K-135K</span>
+              </div>
+              <div className="flex justify-between">
+                <span>Senior (5-8yr):</span>
+                <span className="font-semibold">$170K-240K</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </CardContent>
+    </Card>
+  </TabsContent>
+
+  <TabsContent value="devops" className="space-y-4">
+    <Card>
+      <CardHeader>
+        <CardTitle className="flex items-center gap-2">
+          <Settings className="h-5 w-5" />
+          DevOps Engineer
+        </CardTitle>
+        <CardDescription>
+          Bridge development and operations with automation and tooling
+        </CardDescription>
+      </CardHeader>
+      <CardContent>
+        <div className="space-y-4">
+          <div>
+            <h4 className="font-semibold mb-2">Key Responsibilities:</h4>
+            <ul className="list-disc list-inside space-y-1 text-sm">
+              <li>Build and maintain CI/CD pipelines</li>
+              <li>Automate deployment and infrastructure</li>
+              <li>Monitor system performance and reliability</li>
+              <li>Collaborate with development and operations teams</li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-semibold mb-2">Core Technologies:</h4>
+            <div className="flex flex-wrap gap-2">
+              <Badge variant="outline">Jenkins</Badge>
+              <Badge variant="outline">GitLab CI</Badge>
+              <Badge variant="outline">Docker</Badge>
+              <Badge variant="outline">Kubernetes</Badge>
+              <Badge variant="outline">Ansible</Badge>
+            </div>
+          </div>
+          <div>
+            <h4 className="font-semibold mb-2">Salary Range:</h4>
+            <div className="text-sm">
+              <div className="flex justify-between">
+                <span>Entry (0-2yr):</span>
+                <span className="font-semibold">$100K-140K</span>
+              </div>
+              <div className="flex justify-between">
+                <span>Senior (5-8yr):</span>
+                <span className="font-semibold">$180K-250K</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </CardContent>
+    </Card>
+  </TabsContent>
+
+  <TabsContent value="sre" className="space-y-4">
+    <Card>
+      <CardHeader>
+        <CardTitle className="flex items-center gap-2">
+          <Server className="h-5 w-5" />
+          Site Reliability Engineer
+        </CardTitle>
+        <CardDescription>
+          Ensure system reliability, scalability, and performance
+        </CardDescription>
+      </CardHeader>
+      <CardContent>
+        <div className="space-y-4">
+          <div>
+            <h4 className="font-semibold mb-2">Key Responsibilities:</h4>
+            <ul className="list-disc list-inside space-y-1 text-sm">
+              <li>Design for reliability and fault tolerance</li>
+              <li>Implement monitoring and alerting systems</li>
+              <li>Conduct incident response and postmortems</li>
+              <li>Optimize system performance and capacity</li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-semibold mb-2">Core Technologies:</h4>
+            <div className="flex flex-wrap gap-2">
+              <Badge variant="outline">Prometheus</Badge>
+              <Badge variant="outline">Grafana</Badge>
+              <Badge variant="outline">ELK Stack</Badge>
+              <Badge variant="outline">Istio</Badge>
+              <Badge variant="outline">Chaos Engineering</Badge>
+            </div>
+          </div>
+          <div>
+            <h4 className="font-semibold mb-2">Salary Range:</h4>
+            <div className="text-sm">
+              <div className="flex justify-between">
+                <span>Entry (0-2yr):</span>
+                <span className="font-semibold">$110K-150K</span>
+              </div>
+              <div className="flex justify-between">
+                <span>Senior (5-8yr):</span>
+                <span className="font-semibold">$190K-270K</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </CardContent>
+    </Card>
+  </TabsContent>
+
+  <TabsContent value="platform" className="space-y-4">
+    <Card>
+      <CardHeader>
+        <CardTitle className="flex items-center gap-2">
+          <Zap className="h-5 w-5" />
+          Platform Engineer
+        </CardTitle>
+        <CardDescription>
+          Build internal platforms and tools for developer productivity
+        </CardDescription>
+      </CardHeader>
+      <CardContent>
+        <div className="space-y-4">
+          <div>
+            <h4 className="font-semibold mb-2">Key Responsibilities:</h4>
+            <ul className="list-disc list-inside space-y-1 text-sm">
+              <li>Design and build internal developer platforms</li>
+              <li>Create self-service infrastructure tools</li>
+              <li>Implement platform as a product mindset</li>
+              <li>Enable developer autonomy and velocity</li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-semibold mb-2">Core Technologies:</h4>
+            <div className="flex flex-wrap gap-2">
+              <Badge variant="outline">Kubernetes</Badge>
+              <Badge variant="outline">Crossplane</Badge>
+              <Badge variant="outline">Backstage</Badge>
+              <Badge variant="outline">ArgoCD</Badge>
+              <Badge variant="outline">Platform APIs</Badge>
+            </div>
+          </div>
+          <div>
+            <h4 className="font-semibold mb-2">Salary Range:</h4>
+            <div className="text-sm">
+              <div className="flex justify-between">
+                <span>Entry (0-2yr):</span>
+                <span className="font-semibold">$115K-155K</span>
+              </div>
+              <div className="flex justify-between">
+                <span>Senior (5-8yr):</span>
+                <span className="font-semibold">$200K-285K</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </CardContent>
+    </Card>
+  </TabsContent>
+</Tabs>
+
+## 🗺️ Career Roadmap: Cloud & Infrastructure Paths
+
+<div className="grid md:grid-cols-4 gap-4 mb-8">
+  <Card className="border-primary">
+    <CardHeader>
+      <CardTitle className="text-lg">1. Foundation Phase</CardTitle>
+      <CardDescription>0-2 Years</CardDescription>
+    </CardHeader>
+    <CardContent>
+      <div className="space-y-2 text-sm">
+        <div className="flex items-center gap-2">
+          <Cloud className="h-4 w-4 text-green-500" />
+          <span>Get cloud certifications</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Cloud className="h-4 w-4 text-green-500" />
+          <span>Learn infrastructure basics</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Cloud className="h-4 w-4 text-green-500" />
+          <span>Build cloud projects</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Cloud className="h-4 w-4 text-green-500" />
+          <span>Join cloud communities</span>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardHeader>
+      <CardTitle className="text-lg">2. Implementation Phase</CardTitle>
+      <CardDescription>2-5 Years</CardDescription>
+    </CardHeader>
+    <CardContent>
+      <div className="space-y-2 text-sm">
+        <div className="flex items-center gap-2">
+          <Cloud className="h-4 w-4 text-green-500" />
+          <span>Master automation tools</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Cloud className="h-4 w-4 text-green-500" />
+          <span>Learn container orchestration</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Cloud className="h-4 w-4 text-green-500" />
+          <span>Implement monitoring systems</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Cloud className="h-4 w-4 text-green-500" />
+          <span>Contribute to infrastructure projects</span>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardHeader>
+      <CardTitle className="text-lg">3. Architecture Phase</CardTitle>
+      <CardDescription>5-8 Years</CardDescription>
+    </CardHeader>
+    <CardContent>
+      <div className="space-y-2 text-sm">
+        <div className="flex items-center gap-2">
+          <Cloud className="h-4 w-4 text-green-500" />
+          <span>Design scalable systems</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Cloud className="h-4 w-4 text-green-500" />
+          <span>Lead infrastructure teams</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Cloud className="h-4 w-4 text-green-500" />
+          <span>Implement SRE practices</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Cloud className="h-4 w-4 text-green-500" />
+          <span>Mentor junior engineers</span>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardHeader>
+      <CardTitle className="text-lg">4. Leadership Phase</CardTitle>
+      <CardDescription>8+ Years</CardDescription>
+    </CardHeader>
+    <CardContent>
+      <div className="space-y-2 text-sm">
+        <div className="flex items-center gap-2">
+          <Cloud className="h-4 w-4 text-green-500" />
+          <span>Set infrastructure vision</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Cloud className="h-4 w-4 text-green-500" />
+          <span>Lead cross-functional initiatives</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Cloud className="h-4 w-4 text-green-500" />
+          <span>Drive innovation in cloud practices</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Cloud className="h-4 w-4 text-green-500" />
+          <span>Shape industry standards</span>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+</div>
+
+## 💰 2025 Salary Data by Role & Location
+
+<div className="overflow-x-auto mb-8">
+  <table className="w-full border-collapse border border-gray-300">
+    <thead>
+      <tr className="bg-gray-50">
+        <th className="border border-gray-300 px-4 py-2 text-left">Role</th>
+        <th className="border border-gray-300 px-4 py-2 text-center">Entry Level</th>
+        <th className="border border-gray-300 px-4 py-2 text-center">Mid-Level</th>
+        <th className="border border-gray-300 px-4 py-2 text-center">Senior Level</th>
+        <th className="border border-gray-300 px-4 py-2 text-center">Key Skills Premium</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td className="border border-gray-300 px-4 py-2 font-medium">Cloud Engineer</td>
+        <td className="border border-gray-300 px-4 py-2 text-center">$95K-135K</td>
+        <td className="border border-gray-300 px-4 py-2 text-center">$135K-185K</td>
+        <td className="border border-gray-300 px-4 py-2 text-center">$185K-255K</td>
+        <td className="border border-gray-300 px-4 py-2 text-center">+$10K-20K</td>
+      </tr>
+      <tr className="bg-gray-50">
+        <td className="border border-gray-300 px-4 py-2 font-medium">DevOps Engineer</td>
+        <td className="border border-gray-300 px-4 py-2 text-center">$100K-140K</td>
+        <td className="border border-gray-300 px-4 py-2 text-center">$140K-195K</td>
+        <td className="border border-gray-300 px-4 py-2 text-center">$195K-270K</td>
+        <td className="border border-gray-300 px-4 py-2 text-center">+$15K-25K</td>
+      </tr>
+      <tr>
+        <td className="border border-gray-300 px-4 py-2 font-medium">SRE</td>
+        <td className="border border-gray-300 px-4 py-2 text-center">$110K-150K</td>
+        <td className="border border-gray-300 px-4 py-2 text-center">$150K-210K</td>
+        <td className="border border-gray-300 px-4 py-2 text-center">$210K-290K</td>
+        <td className="border border-gray-300 px-4 py-2 text-center">+$20K-30K</td>
+      </tr>
+      <tr className="bg-gray-50">
+        <td className="border border-gray-300 px-4 py-2 font-medium">Platform Engineer</td>
+        <td className="border border-gray-300 px-4 py-2 text-center">$115K-155K</td>
+        <td className="border border-gray-300 px-4 py-2 text-center">$155K-215K</td>
+        <td className="border border-gray-300 px-4 py-2 text-center">$215K-300K</td>
+        <td className="border border-gray-300 px-4 py-2 text-center">+$25K-35K</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+## 🔥 2025 Cloud & Infrastructure Market Intelligence
+
+<div className="grid md:grid-cols-3 gap-6 mb-8">
+  <Card>
+    <CardHeader>
+      <CardTitle className="flex items-center gap-2">
+        <TrendingUp className="h-5 w-5 text-green-500" />
+        Hottest Skills 2025
+      </CardTitle>
+    </CardHeader>
+    <CardContent className="space-y-3">
+      <div className="space-y-2">
+        <div className="flex justify-between items-center">
+          <span className="text-sm">Multi-Cloud & Hybrid</span>
+          <Badge variant="secondary">85% of jobs</Badge>
+        </div>
+        <Progress value={85} className="h-2" />
+      </div>
+      <div className="space-y-2">
+        <div className="flex justify-between items-center">
+          <span className="text-sm">Kubernetes & Containers</span>
+          <Badge variant="secondary">80% of jobs</Badge>
+        </div>
+        <Progress value={80} className="h-2" />
+      </div>
+      <div className="space-y-2">
+        <div className="flex justify-between items-center">
+          <span className="text-sm">Infrastructure as Code</span>
+          <Badge variant="secondary">75% of jobs</Badge>
+        </div>
+        <Progress value={75} className="h-2" />
+      </div>
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardHeader>
+      <CardTitle className="flex items-center gap-2">
+        <DollarSign className="h-5 w-5 text-blue-500" />
+        Geographic Variations
+      </CardTitle>
+    </CardHeader>
+    <CardContent className="space-y-3">
+      <div className="flex justify-between">
+        <span className="text-sm">Seattle</span>
+        <span className="font-semibold">$170K-250K avg</span>
+      </div>
+      <div className="flex justify-between">
+        <span className="text-sm">San Francisco</span>
+        <span className="font-semibold">$180K-260K avg</span>
+      </div>
+      <div className="flex justify-between">
+        <span className="text-sm">New York City</span>
+        <span className="font-semibold">$160K-230K avg</span>
+      </div>
+      <div className="flex justify-between">
+        <span className="text-sm">Austin, TX</span>
+        <span className="font-semibold">$140K-200K avg</span>
+      </div>
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardHeader>
+      <CardTitle className="flex items-center gap-2">
+        <Users className="h-5 w-5 text-purple-500" />
+        Industry Insights
+      </CardTitle>
+    </CardHeader>
+    <CardContent className="space-y-3">
+      <div>
+        <h4 className="font-semibold text-sm mb-2">FinTech</h4>
+        <p className="text-xs text-muted-foreground">High demand for secure, scalable infrastructure</p>
+      </div>
+      <div>
+        <h4 className="font-semibold text-sm mb-2">E-commerce</h4>
+        <p className="text-xs text-muted-foreground">Peak traffic handling and global scale</p>
+      </div>
+      <div>
+        <h4 className="font-semibold text-sm mb-2">SaaS Companies</h4>
+        <p className="text-xs text-muted-foreground">Platform engineering and multi-tenant systems</p>
+      </div>
+    </CardContent>
+  </Card>
+</div>
+
+## 🎯 Which Cloud Path Should You Choose?
+
+<div className="grid md:grid-cols-2 gap-4 mb-8">
+  <Card className="border-2 border-primary">
+    <CardHeader>
+      <CardTitle className="text-center">☁️ Start with Cloud Engineering</CardTitle>
+    </CardHeader>
+    <CardContent>
+      <div className="space-y-2 text-sm">
+        <div className="flex items-center gap-2">
+          <Cloud className="h-4 w-4 text-green-500" />
+          <span>Love cloud platforms and architecture</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Cloud className="h-4 w-4 text-green-500" />
+          <span>Enjoy designing scalable solutions</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Cloud className="h-4 w-4 text-green-500" />
+          <span>Good at cost optimization</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Cloud className="h-4 w-4 text-green-500" />
+          <span>Prefer platform-specific expertise</span>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+
+  <Card className="border-2 border-blue-500">
+    <CardHeader>
+      <CardTitle className="text-center">🔄 Start with DevOps</CardTitle>
+    </CardHeader>
+    <CardContent>
+      <div className="space-y-2 text-sm">
+        <div className="flex items-center gap-2">
+          <Settings className="h-4 w-4 text-green-500" />
+          <span>Love automation and tooling</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Settings className="h-4 w-4 text-green-500" />
+          <span>Enjoy bridging dev and ops</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Settings className="h-4 w-4 text-green-500" />
+          <span>Good at CI/CD pipelines</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Settings className="h-4 w-4 text-green-500" />
+          <span>Prefer practical, hands-on work</span>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+</div>
+
+<div className="grid md:grid-cols-2 gap-4 mb-8">
+  <Card className="border-2 border-green-500">
+    <CardHeader>
+      <CardTitle className="text-center">⚙️ Start with SRE</CardTitle>
+    </CardHeader>
+    <CardContent>
+      <div className="space-y-2 text-sm">
+        <div className="flex items-center gap-2">
+          <Server className="h-4 w-4 text-green-500" />
+          <span>Love system reliability challenges</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Server className="h-4 w-4 text-green-500" />
+          <span>Enjoy incident response</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Server className="h-4 w-4 text-green-500" />
+          <span>Good at monitoring and alerting</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Server className="h-4 w-4 text-green-500" />
+          <span>Prefer stability over novelty</span>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+
+  <Card className="border-2 border-purple-500">
+    <CardHeader>
+      <CardTitle className="text-center">🚀 Start with Platform Engineering</CardTitle>
+    </CardHeader>
+    <CardContent>
+      <div className="space-y-2 text-sm">
+        <div className="flex items-center gap-2">
+          <Zap className="h-4 w-4 text-green-500" />
+          <span>Love building developer tools</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Zap className="h-4 w-4 text-green-500" />
+          <span>Enjoy platform as product thinking</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Zap className="h-4 w-4 text-green-500" />
+          <span>Good at user experience design</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Zap className="h-4 w-4 text-green-500" />
+          <span>Prefer enabling others to succeed</span>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+</div>
+
+## 🌟 Success Stories
+
+<div className="grid gap-6 mb-8">
+  <Card>
+    <CardHeader>
+      <CardTitle>Alex Rodriguez: From SysAdmin to Cloud Architect</CardTitle>
+      <CardDescription>Started as systems administrator → Current: Cloud Architect at Fortune 500 company</CardDescription>
+    </CardHeader>
+    <CardContent>
+      <div className="space-y-3">
+        <div className="flex items-center gap-2">
+          <Badge variant="outline">AWS Certified</Badge>
+          <Badge variant="outline">Multi-cloud expert</Badge>
+          <Badge variant="outline">$220K + equity</Badge>
+        </div>
+        <blockquote className="border-l-4 border-primary pl-4 italic text-sm">
+          "The cloud changed everything. What took months of planning now takes hours of configuration."
+        </blockquote>
+      </div>
+    </CardContent>
+  </Card>
+
+  <Card>
+    <CardHeader>
+      <CardTitle>Sarah Chen: DevOps to Platform Engineering Lead</CardTitle>
+      <CardDescription>From DevOps engineer → Current: Platform Engineering Lead at unicorn startup</CardDescription>
+    </CardHeader>
+    <CardContent>
+      <div className="space-y-3">
+        <div className="flex items-center gap-2">
+          <Badge variant="outline">Kubernetes expert</Badge>
+          <Badge variant="outline">Platform builder</Badge>
+          <Badge variant="outline">$250K + equity</Badge>
+        </div>
+        <blockquote className="border-l-4 border-primary pl-4 italic text-sm">
+          "Platform engineering is about empowering developers. The better our tools, the faster they ship."
+        </blockquote>
+      </div>
+    </CardContent>
+  </Card>
+</div>
+
+<div className="text-center bg-gradient-to-r from-primary/10 to-secondary/10 p-8 rounded-lg mb-8">
+  <h2 className="text-2xl font-bold mb-4">🚀 Ready to Start Your Cloud Journey?</h2>
+  <p className="text-lg mb-6">
+    The cloud infrastructure revolution is just beginning. Your skills will power the digital world.
+  </p>
+
+  <div className="grid md:grid-cols-3 gap-4 mb-6">
+    <Card>
+      <CardContent className="pt-6">
+        <div className="text-center">
+          <div className="text-2xl mb-2">1️⃣</div>
+          <p className="font-semibold">Get AWS Certified Cloud Practitioner</p>
+        </div>
+      </CardContent>
+    </Card>
+    <Card>
+      <CardContent className="pt-6">
+        <div className="text-center">
+          <div className="text-2xl mb-2">2️⃣</div>
+          <p className="font-semibold">Build cloud infrastructure projects</p>
+        </div>
+      </CardContent>
+    </Card>
+    <Card>
+      <CardContent className="pt-6">
+        <div className="text-center">
+          <div className="text-2xl mb-2">3️⃣</div>
+          <p className="font-semibold">Join cloud engineering communities</p>
+        </div>
+      </CardContent>
+    </Card>
+  </div>
+
+  <div className="mt-6 space-x-4">
+    <Button size="lg">
+      <Cloud className="mr-2 h-4 w-4" />
+      Explore Cloud Engineering
+    </Button>
+    <Button size="lg" variant="outline">
+      <Settings className="mr-2 h-4 w-4" />
+      Explore DevOps Path
+    </Button>
+  </div>
+</div>
+
+<div className="text-center text-sm text-muted-foreground">
+  <p>Version: 2.0 (October 2025) | Made with ❤️ for the cloud and infrastructure community</p>
+</div>
