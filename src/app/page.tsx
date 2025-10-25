@@ -1,133 +1,69 @@
-"use client";import Image from "next/image";
-
-
-
-import Link from "next/link";export default function Home() {
-
-import { useEffect, useState } from "react";  return (
-
-import { motion } from "framer-motion";    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-
-import { Button } from "@/components/ui/button";      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";        <Image
-
-import { Badge } from "@/components/ui/badge";          className="dark:invert"
-
-import { Header } from "@/components/header";          src="/next.svg"
-
-import {          alt="Next.js logo"
-
-  TrendingUp,          width={100}
-
-  Users,          height={20}
-
-  BookOpen,          priority
-
-  Award,        />
-
-  ArrowRight,        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-
-  CheckCircle,          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-
-  Code,            To get started, edit the page.tsx file.
-
-  Database,          </h1>
-
-  Cloud,          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-
-  Shield,            Looking for a starting point or more instructions? Head over to{" "}
-
-  Zap            <a
-
-} from "lucide-react";              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-
-import { OWNER_INFO } from "@/lib/owner-info";              className="font-medium text-zinc-950 dark:text-zinc-50"
-
-            >
-
-const stats = [              Templates
-
-  { label: "Career Guides", value: 6, suffix: "+", icon: BookOpen },            </a>{" "}
-
-  { label: "Tech Professionals Helped", value: 1000, suffix: "+", icon: Users },            or the{" "}
-
-  { label: "Salary Data Points", value: 5000, suffix: "+", icon: TrendingUp },            <a
-
-  { label: "Success Rate", value: 95, suffix: "%", icon: Award },              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-
-];              className="font-medium text-zinc-950 dark:text-zinc-50"
-
-            >
-
-const careerPaths = [              Learning
-
-  {            </a>{" "}
-
-    title: "Software Engineering",            center.
-
-    description: "Master frontend, backend, and full-stack development",          </p>
-
-    icon: Code,        </div>
-
-    color: "bg-blue-500",        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-
-    href: "/guides/software-engineering"          <a
-
-  },            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-
-  {            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-
-    title: "Data & AI/ML",            target="_blank"
-
-    description: "Navigate data science and machine learning careers",            rel="noopener noreferrer"
-
-    icon: Database,          >
-
-    color: "bg-green-500",            <Image
-
-    href: "/guides/data-ai-ml"              className="dark:invert"
-
-  },              src="/vercel.svg"
-
-  {              alt="Vercel logomark"
-
-    title: "Cloud & Infrastructure",              width={16}
-
-    description: "Master cloud platforms and DevOps practices",              height={16}
-
-    icon: Cloud,            />
-
-    color: "bg-purple-500",            Deploy Now
-
-    href: "/guides/cloud-infrastructure"          </a>
-
-  },          <a
-
-  {            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-
-    title: "Cybersecurity",            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-
-    description: "Protect systems and advance your security career",            target="_blank"
-
-    icon: Shield,            rel="noopener noreferrer"
-
-    color: "bg-red-500",          >
-
-    href: "/guides/cybersecurity"            Documentation
-
-  },          </a>
-
-  {        </div>
-
-    title: "DevOps & SRE",      </main>
-
-    description: "Automate deployments and ensure reliability",    </div>
-
-    icon: Zap,  );
-
-    color: "bg-orange-500",}
-
+"use client";
+
+import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
+import Image from "next/image";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Header } from "@/components/header";
+import {
+  TrendingUp,
+  Users,
+  BookOpen,
+  Award,
+  ArrowRight,
+  CheckCircle,
+  Code,
+  Database,
+  Cloud,
+  Shield,
+  Zap
+} from "lucide-react";
+import { OWNER_INFO } from "@/lib/owner-info";
+
+const stats = [
+  { label: "Career Guides", value: 6, suffix: "+", icon: BookOpen },
+  { label: "Tech Professionals Helped", value: 1000, suffix: "+", icon: Users },
+  { label: "Salary Data Points", value: 5000, suffix: "+", icon: TrendingUp },
+  { label: "Success Rate", value: 95, suffix: "%", icon: Award },
+];
+
+const careerPaths = [
+  {
+    title: "Software Engineering",
+    description: "Master frontend, backend, and full-stack development",
+    icon: Code,
+    color: "bg-blue-500",
+    href: "/guides/software-engineering"
+  },
+  {
+    title: "Data & AI/ML",
+    description: "Navigate data science and machine learning careers",
+    icon: Database,
+    color: "bg-green-500",
+    href: "/guides/data-ai-ml"
+  },
+  {
+    title: "Cloud & Infrastructure",
+    description: "Master cloud platforms and DevOps practices",
+    icon: Cloud,
+    color: "bg-purple-500",
+    href: "/guides/cloud-infrastructure"
+  },
+  {
+    title: "Cybersecurity",
+    description: "Protect systems and advance your security career",
+    icon: Shield,
+    color: "bg-red-500",
+    href: "/guides/cybersecurity"
+  },
+  {
+    title: "DevOps & SRE",
+    description: "Automate deployments and ensure reliability",
+    icon: Zap,
+    color: "bg-orange-500",
     href: "/guides/devops-sre"
   },
 ];
@@ -249,30 +185,30 @@ export default function Home() {
             {careerPaths.map((path, index) => (
               <motion.div
                 key={path.title}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : 20 }}
-              transition={{ duration: 0.6, delay: index * 0.1 }}
-            >
-              <Card className="h-full hover:shadow-lg transition-shadow cursor-pointer group">
-                <CardHeader>
-                  <div className={`w-12 h-12 rounded-lg ${path.color} flex items-center justify-center mb-4`}>
-                    <path.icon className="h-6 w-6 text-white" />
-                  </div>
-                  <CardTitle className="group-hover:text-primary transition-colors">
-                    {path.title}
-                  </CardTitle>
-                  <CardDescription>{path.description}</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <Link href={path.href}>
-                    <Button className="w-full group-hover:bg-primary/90">
-                      View Guide
-                      <ArrowRight className="ml-2 h-4 w-4" />
-                    </Button>
-                  </Link>
-                </CardContent>
-              </Card>
-            </motion.div>
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : 20 }}
+                transition={{ duration: 0.6, delay: index * 0.1 }}
+              >
+                <Card className="h-full hover:shadow-lg transition-shadow cursor-pointer group">
+                  <CardHeader>
+                    <div className={`w-12 h-12 rounded-lg ${path.color} flex items-center justify-center mb-4`}>
+                      <path.icon className="h-6 w-6 text-white" />
+                    </div>
+                    <CardTitle className="group-hover:text-primary transition-colors">
+                      {path.title}
+                    </CardTitle>
+                    <CardDescription>{path.description}</CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <Link href={path.href}>
+                      <Button className="w-full group-hover:bg-primary/90">
+                        View Guide
+                        <ArrowRight className="ml-2 h-4 w-4" />
+                      </Button>
+                    </Link>
+                  </CardContent>
+                </Card>
+              </motion.div>
             ))}
           </div>
         </div>

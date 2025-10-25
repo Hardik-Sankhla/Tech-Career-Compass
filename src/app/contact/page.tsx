@@ -21,7 +21,8 @@ import {
   CheckCircle,
   Users,
   HelpCircle,
-  Lightbulb
+  Lightbulb,
+  BookOpen
 } from "lucide-react";
 
 const contactMethods = [

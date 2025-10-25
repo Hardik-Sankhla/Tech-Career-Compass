@@ -95,7 +95,7 @@ export default function AuthPage() {
                 },
               }}
               providers={['github', 'google']}
-              redirectTo={`${window.location.origin}/auth/callback`}
+              redirectTo={typeof window !== 'undefined' ? `${window.location.origin}/auth/callback` : ''}
               onlyThirdPartyProviders={false}
               magicLink={true}
               showLinks={false}
