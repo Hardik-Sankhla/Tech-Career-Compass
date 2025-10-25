@@ -1,210 +1,844 @@
-# Tech Career Compass# Tech Career Compass# Tech Career Guides
+# Tech Career Compass
 
+<p align="center">
+  <a href="https://hardik-sankhla.github.io/Tech-Career-Compass/"><img src="https://img.shields.io/badge/Live_Site-Visit-blue?style=for-the-badge&logo=github" alt="GitHub Pages"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-CC_BY--SA_4.0-green?style=for-the-badge" alt="License"></a>
+  <a href="https://github.com/Hardik-Sankhla/Tech-Career-Compass"><img src="https://img.shields.io/badge/Version-2.0-orange?style=for-the-badge" alt="Version"></a>
+</p>
 
+<p align="center">
+  <strong>Your comprehensive guide to navigating modern tech careers</strong>
+</p>
 
-<div align="center">
-
-
-
-[![GitHub Pages](https://img.shields.io/badge/Live_Site-Visit-blue?style=for-the-badge&logo=github)](https://hardik-sankhla.github.io/Tech-Career-Compass/)<div align="center">[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue?style=for-the-badge&logo=github)](https://hardik-sankhla.github.io/Tech-Career-Compass/)
-
-[![License](https://img.shields.io/badge/License-CC_BY--SA_4.0-green?style=for-the-badge)](LICENSE)
-
-[![Version](https://img.shields.io/badge/Version-2.0-orange?style=for-the-badge)](https://github.com/Hardik-Sankhla/Tech-Career-Compass)[![License](https://img.shields.io/badge/License-CC%20BY--SA%204.0-green?style=for-the-badge)](https://creativecommons.org/licenses/by-sa/4.0/)
-
-
-
-**Your comprehensive guide to navigating modern tech careers**[![GitHub Pages](https://img.shields.io/badge/Live_Site-Visit-blue?style=for-the-badge&logo=github)](https://hardik-sankhla.github.io/Tech-Career-Compass/)[![Version](https://img.shields.io/badge/Version-2.0-orange?style=for-the-badge)](https://github.com/Hardik-Sankhla/Tech-Career-Compass/releases)
-
-
-
-[🌐 Live Website](https://hardik-sankhla.github.io/Tech-Career-Compass/) • [📚 Browse Guides](#-career-guides) • [🤝 Contribute](#-contributing) • [📞 Contact](#-contact)[![License](https://img.shields.io/badge/License-CC_BY--SA_4.0-green?style=for-the-badge)](LICENSE)
-
-
-
-</div>[![Version](https://img.shields.io/badge/Version-2.0-orange?style=for-the-badge)](https://github.com/Hardik-Sankhla/Tech-Career-Compass)> 🚀 **Comprehensive career guides for software engineering, data science, cloud computing, cybersecurity, and DevOps. Complete roadmaps, salary data, and market insights for 2025-2030.**
-
-
+<p align="center">
+  <a href="https://hardik-sankhla.github.io/Tech-Career-Compass/">🌐 Live Website</a> •
+  <a href="#career-guides">📚 Browse Guides</a> •
+  <a href="#contributing">🤝 Contribute</a> •
+  <a href="#contact">📞 Contact</a>
+</p>
 
 ---
 
-
-
-## 🎯 About**Your comprehensive guide to navigating modern tech careers**## 📋 Quick Start
-
-
+## 🎯 About
 
 Tech Career Compass provides **comprehensive, practical career guidance** for aspiring and current technology professionals. Our guides cover complete career roadmaps, real salary data, skill development paths, and market insights for 2025-2030.
 
-
-
-### What Makes Us Different[🌐 Live Website](https://hardik-sankhla.github.io/Tech-Career-Compass/) • [📚 Browse Guides](#-career-guides) • [🤝 Contribute](#-contributing) • [📞 Contact](#-contact)Choose your career path and dive deep into detailed roadmaps, salary data, and market insights:
-
-
+### What Makes Us Different
 
 ✅ **Real Data** - Actual salary ranges, market trends, and job statistics  
-
 ✅ **Complete Roadmaps** - Step-by-step learning paths with timeframes  
-
-✅ **Practical Advice** - Real challenges, mistakes to avoid, and success strategies  </div>| Career Path | Salary Range | Time to Senior | Key Skills |
-
+✅ **Practical Advice** - Real challenges, mistakes to avoid, and success strategies  
 ✅ **Production-Ready** - Code examples and architecture patterns from industry  
+✅ **Always Updated** - Quarterly updates with latest technologies and trends
 
-✅ **Always Updated** - Quarterly updates with latest technologies and trends  |-------------|--------------|----------------|------------|
+---
 
+## 📚 Career Guides
 
+| Career Path | Salary Range | Time to Senior | Key Skills |
+|-------------|--------------|----------------|------------|
+| **Software Engineering** | $95K-$250K | 2-5 years | Frontend, Backend, Full Stack |
+| **Data & AI/ML** | $100K-$280K | 2-6 years | Data Science, AI/ML, MLOps |
+| **Cloud & Infrastructure** | $110K-$350K | 2-7 years | Cloud Eng, DevOps, SRE |
+| **Cybersecurity** | $85K-$300K | 2-8 years | Security Analysis, Pen Testing |
+| **DevOps & SRE** | $110K-$400K | 2-8 years | DevOps, SRE, Platform Eng |
 
-------| **Software Engineering** | $95K-$250K | 2-5 years | Frontend, Backend, Full Stack |
-
-
-
-## 📚 Career Guides| **Data & AI/ML** | $100K-$280K | 2-6 years | Data Science, AI/ML, MLOps |
-
-
-
-<table>## 🎯 About| **Cloud & Infrastructure** | $110K-$350K | 2-7 years | Cloud Eng, DevOps, SRE |
-
-<tr>
-
-<td width="50%">| **Cybersecurity** | $85K-$300K | 2-8 years | Security Analysis, Pen Testing |
-
-
-
-### 🏠 [Master Index](https://hardik-sankhla.github.io/Tech-Career-Compass/00_Master_Index_Tech_Careers)Tech Career Compass provides **comprehensive, practical career guidance** for aspiring and current technology professionals. Our guides cover complete career roadmaps, real salary data, skill development paths, and market insights for 2025-2030.| **DevOps & SRE** | $110K-$400K | 2-8 years | DevOps, SRE, Platform Eng |
-
+### 🏠 [Master Index](https://hardik-sankhla.github.io/Tech-Career-Compass/00_Master_Index_Tech_Careers)
 Complete navigation hub for all tech career paths with comprehensive overview and comparison
 
-
-
-### 💻 [Software Engineering](https://hardik-sankhla.github.io/Tech-Career-Compass/01_Software_Engineering_Careers)
-
-Frontend, Backend, Full-Stack, Mobile Development  ### What Makes Us Different## 🎯 Career Guides
-
+### 💻 [Software Engineering Careers](https://hardik-sankhla.github.io/Tech-Career-Compass/01_Software_Engineering_Careers)
+Master frontend, backend, full-stack, mobile, and DevOps engineering careers with complete roadmaps and salary data.  
 **Salary:** $95K-$250K | **Timeline:** 2-5 years to Senior
 
-
-
-### 🧠 [Data, AI & ML](https://hardik-sankhla.github.io/Tech-Career-Compass/02_Data_AI_ML_Careers)
-
-Data Science, AI/ML Engineering, MLOps  ✅ **Real Data** - Actual salary ranges, market trends, and job statistics  ### [🏠 Master Index](https://hardik-sankhla.github.io/Tech-Career-Compass/00_Master_Index_Tech_Careers)
-
+### 🧠 [Data, AI & ML Careers](https://hardik-sankhla.github.io/Tech-Career-Compass/02_Data_AI_ML_Careers)
+Navigate data science, AI/ML engineering, and MLOps careers with comprehensive roadmaps and market insights.  
 **Salary:** $100K-$280K | **Timeline:** 2-6 years to Senior
 
-✅ **Complete Roadmaps** - Step-by-step learning paths with timeframes  
+### ☁️ [Cloud & Infrastructure Careers](https://hardik-sankhla.github.io/Tech-Career-Compass/03_Cloud_Infrastructure_Careers)
+Master cloud engineering, DevOps, SRE, and platform engineering with salary data and career strategies.  
+**Salary:** $110K-$350K | **Timeline:** 2-7 years to Senior
 
-</td>
+### 🔒 [Cybersecurity Careers](https://hardik-sankhla.github.io/Tech-Career-Compass/04_Cybersecurity_Careers)
+Complete guide to security analysis, penetration testing, SOC operations, and security architecture careers.  
+**Salary:** $85K-$300K | **Timeline:** 2-8 years to Senior
 
-<td width="50%">✅ **Practical Advice** - Real challenges, mistakes to avoid, and success strategies  Complete navigation hub for all tech career paths with salary data, market insights, and career roadmaps.
+### ⚙️ [DevOps & SRE Careers](https://hardik-sankhla.github.io/Tech-Career-Compass/05_DevOps_SRE_Careers)
+Master DevOps engineering, site reliability engineering, and platform engineering with automation and reliability focus.  
+**Salary:** $110K-$400K | **Timeline:** 2-8 years to Senior
 
+---
 
-
-### ☁️ [Cloud & Infrastructure](https://hardik-sankhla.github.io/Tech-Career-Compass/03_Cloud_Infrastructure_Careers)✅ **Production-Ready** - Code examples and architecture patterns from industry  
-
-Cloud Engineering, Platform Engineering, Infrastructure  
-
-**Salary:** $110K-$350K | **Timeline:** 2-7 years to Senior✅ **Always Updated** - Quarterly updates with latest technologies and trends  ### [💻 Software Engineering Careers](https://hardik-sankhla.github.io/Tech-Career-Compass/01_Software_Engineering_Careers)
-
-
-
-### 🔒 [Cybersecurity](https://hardik-sankhla.github.io/Tech-Career-Compass/04_Cybersecurity_Careers)
-
-Security Analysis, Penetration Testing, SOC Operations  
-
-**Salary:** $85K-$300K | **Timeline:** 2-8 years to Senior---Master frontend, backend, full-stack, mobile, and DevOps engineering careers with complete roadmaps and salary data.
-
-
-
-### ⚙️ [DevOps & SRE](https://hardik-sankhla.github.io/Tech-Career-Compass/05_DevOps_SRE_Careers)
-
-DevOps Engineering, Site Reliability, Automation  
-
-**Salary:** $110K-$400K | **Timeline:** 2-8 years to Senior## 📚 Career Guides### [🧠 Data, AI & ML Careers](https://hardik-sankhla.github.io/Tech-Career-Compass/02_Data_AI_ML_Careers)
-
-
-
-</td>
-
-</tr>
-
-</table><table>Navigate data science, AI/ML engineering, and MLOps careers with comprehensive roadmaps and market insights.
-
-
-
----<tr>
-
-
-
-## 🚀 Quick Start<td width="50%">### [☁️ Cloud & Infrastructure Careers](https://hardik-sankhla.github.io/Tech-Career-Compass/03_Cloud_Infrastructure_Careers)
-
-
+## 🚀 Quick Start
 
 1. **🎯 Choose Your Path** - Visit the [Master Index](https://hardik-sankhla.github.io/Tech-Career-Compass/00_Master_Index_Tech_Careers) to explore all career options
-
 2. **📊 Assess Your Level** - Each guide includes entry, mid, and senior level paths
-
-3. **🗺️ Follow the Roadmap** - Use our detailed learning paths with timeframes and resources### 🏠 [Master Index](https://hardik-sankhla.github.io/Tech-Career-Compass/00_Master_Index_Tech_Careers)Master cloud engineering, DevOps, SRE, and platform engineering with salary data and career strategies.
-
+3. **🗺️ Follow the Roadmap** - Use our detailed learning paths with timeframes and resources
 4. **💻 Build Projects** - Apply concepts with included project ideas and examples
+5. **🌐 Connect & Learn** - Join communities and leverage resources in each guide
 
-5. **🌐 Connect & Learn** - Join communities and leverage resources in each guideComplete navigation hub for all tech career paths with comprehensive overview and comparison
+---
 
-
-
----### [🔒 Cybersecurity Careers](https://hardik-sankhla.github.io/Tech-Career-Compass/04_Cybersecurity_Careers)
-
-
-
-## 📈 Career Progression Overview### 💻 [Software Engineering](https://hardik-sankhla.github.io/Tech-Career-Compass/01_Software_Engineering_Careers)
-
-
-
-```Frontend, Backend, Full-Stack, Mobile Development  Complete guide to security analysis, penetration testing, SOC operations, and security architecture careers.
-
-Entry Level          Junior              Senior              Lead/Principal
-
-(0-2 years)      →   (2-4 years)     →   (4-7 years)     →   (7+ years)**Salary:** $95K-$250K | **Timeline:** 2-5 years to Senior
-
-
-
-$70K-110K            $110K-160K          $160K-240K          $240K-400K+### [⚙️ DevOps & SRE Careers](https://hardik-sankhla.github.io/Tech-Career-Compass/05_DevOps_SRE_Careers)
-
-
-
-• Learn basics       • Work independently  • Lead teams        • Strategic impact### 🧠 [Data, AI & ML](https://hardik-sankhla.github.io/Tech-Career-Compass/02_Data_AI_ML_Careers)
-
-• First projects     • Mid-complexity      • Architecture      • Company-wide
-
-• Mentorship         • Code reviews        • Mentoring         • LeadershipData Science, AI/ML Engineering, MLOps  Master DevOps engineering, site reliability engineering, and platform engineering with automation and reliability focus.
+## 📈 Career Progression Overview
 
 ```
+Entry Level          Junior              Senior              Lead/Principal
+(0-2 years)      →   (2-4 years)     →   (4-7 years)     →   (7+ years)
+$70K-110K            $110K-160K          $160K-240K          $240K-400K+
 
-**Salary:** $100K-$280K | **Timeline:** 2-6 years to Senior
+• Learn basics       • Work independently  • Lead teams        • Strategic impact
+• First projects     • Mid-complexity      • Architecture      • Company-wide
+• Mentorship         • Code reviews        • Mentoring         • Leadership
+```
+
+### Key Milestones
+- **6 months:** First job offer, basic skills mastered
+- **2 years:** Junior role, independent contributor
+- **4 years:** Senior role, team leadership
+- **7 years:** Principal/Lead role, organizational impact
 
 ---
 
 ## ✨ Features
 
-## 🛠️ Technology Stack
+- **📊 2025 Market Data** - Real salary ranges, job market trends, and demand analysis
+- **💻 Technical Depth** - Production-ready code examples, architecture diagrams, and real-world patterns
+- **🎯 Success Stories** - Real career journeys from industry professionals with actionable lessons
+- **🛣️ Actionable Roadmaps** - Step-by-step learning paths with timeframes, resources, and milestones
+- **💡 Honest Advice** - Real challenges, common mistakes, and practical solutions
+- **🔄 Regularly Updated** - Continuous updates with latest technologies and market changes
 
-</td>
+---
+
+## 🛠️ Technology Stack
 
 This site is built with modern, reliable technologies:
 
-<td width="50%">- **📊 2025 Market Data** - Real salary ranges, job market trends, and demand analysis
-
-- **Jekyll 4.3+** - Static site generator
-
-- **GitHub Pages** - Free hosting with automatic deployments- **💻 Technical Depth** - Production-ready code examples, architecture diagrams, and real-world patterns
-
-- **Markdown** - Simple, maintainable content
-
-- **CSS3 & JavaScript** - Responsive design and interactive features### ☁️ [Cloud & Infrastructure](https://hardik-sankhla.github.io/Tech-Career-Compass/03_Cloud_Infrastructure_Careers)- **🎯 Success Stories** - Real career journeys from industry professionals with actionable lessons
-
+- **Jekyll 4.3+** - Static site generator optimized for GitHub Pages
+- **GitHub Pages** - Free, reliable hosting with automatic deployments
+- **Markdown** - Simple, readable content format
+- **Liquid Templates** - Dynamic content rendering
+- **CSS3** - Modern, responsive styling with animations
+- **JavaScript** - Interactive features (TOC, smooth scroll, search)
 - **GitHub Actions** - Automated CI/CD pipeline
 
-Cloud Engineering, Platform Engineering, Infrastructure  - **🛣️ Actionable Roadmaps** - Step-by-step learning paths with timeframes, resources, and milestones
+---
+
+## 🔧 Local Development
+
+Want to run the site locally or contribute? Here's how:
+
+### Prerequisites
+```bash
+# Install Ruby (2.7+) and Bundler
+gem install bundler
+```
+
+### Setup & Run
+```bash
+# Clone repository
+git clone https://github.com/Hardik-Sankhla/Tech-Career-Compass.git
+cd Tech-Career-Compass
+
+# Install dependencies
+bundle install
+
+# Run local server
+bundle exec jekyll serve
+
+# Open http://localhost:4000/Tech-Career-Compass/
+```
+
+### Making Changes
+1. Edit markdown files in the root directory
+2. Customize layouts in `_layouts/`
+3. Modify styles in `assets/css/`
+4. Update configuration in `_config.yml`
+5. Test locally before pushing
 
 ---
+
+## 📦 Deployment
+
+This site automatically deploys to GitHub Pages when you push to the `main` branch.
+
+### Manual Deployment
+1. Push changes to GitHub: `git push origin main`
+2. GitHub Actions will build and deploy automatically
+3. Site updates within 2-3 minutes at https://hardik-sankhla.github.io/Tech-Career-Compass/
+
+### Custom Domain (Optional)
+Add a `CNAME` file with your domain or configure in repository Settings → Pages.
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions from the community! Here's how you can help:
+
+### Ways to Contribute
+- **📝 Content Updates** - Add new career paths, update salary data, or improve existing guides
+- **🐛 Bug Fixes** - Report and fix technical issues with the website
+- **🎨 Design Improvements** - Enhance the user interface and experience
+- **📊 Data Updates** - Provide updated market data, salary information, or job trends
+- **🌐 Translations** - Help translate guides into other languages
+
+### How to Contribute
+1. Fork this repository
+2. Create a feature branch (`git checkout -b feature/amazing-improvement`)
+3. Commit your changes (`git commit -m 'Add amazing improvement'`)
+4. Push to the branch (`git push origin feature/amazing-improvement`)
+5. Open a Pull Request
+
+### Content Guidelines
+✅ Use clear, accessible language  
+✅ Include real-world examples and code snippets  
+✅ Provide actionable, specific advice  
+✅ Cite sources for salary and market data  
+✅ Keep content current and relevant
+
+---
+
+## 📊 Project Statistics
+
+| Metric | Value |
+|--------|-------|
+| **Career Guides** | 5 comprehensive guides |
+| **Content Size** | 15,000+ lines of detailed guidance |
+| **Career Paths** | 50+ distinct tech roles covered |
+| **Last Updated** | October 2025 |
+| **Update Frequency** | Quarterly |
+
+---
+
+## 📜 License
+
+This work is licensed under [Creative Commons Attribution-ShareAlike 4.0 International License](LICENSE).
+
+**You are free to:**
+- ✅ **Share** - Copy and redistribute in any medium or format
+- ✅ **Adapt** - Remix, transform, and build upon the material
+
+**Under these terms:**
+- 📝 **Attribution** - Give appropriate credit and link to license
+- 🔄 **ShareAlike** - Distribute contributions under the same license
+
+See the [LICENSE](LICENSE) file for full license text.
+
+---
+
+## 🙏 Acknowledgments
+
+**Contributors** - Content creators, industry professionals, and community members  
+**Tech Community** - For sharing knowledge, experiences, and insights  
+**Career Changers** - For sharing transition stories and lessons learned
+
+### Special Thanks
+- **Tech Career Guides Team** - Content creation and curation
+- **Industry Professionals** - Real-world insights and success stories
+- **Open Source Community** - Tools, frameworks, and inspiration
+- **Mentors & Coaches** - For providing guidance and support
+
+---
+
+## 📞 Contact
+
+<p align="center">
+  <strong>🌐 Website:</strong> <a href="https://hardik-sankhla.github.io/Tech-Career-Compass/">hardik-sankhla.github.io/Tech-Career-Compass</a><br>
+  <strong>� Email:</strong> careers@techcareers.guide<br>
+  <strong>🐛 Issues:</strong> <a href="https://github.com/Hardik-Sankhla/Tech-Career-Compass/issues">Report Bugs</a> • <strong>💡 Ideas:</strong> <a href="https://github.com/Hardik-Sankhla/Tech-Career-Compass/discussions">Discussions</a>
+</p>
+
+---
+
+## 🔄 Version History
+
+### Version 2.0 (October 25, 2025)
+- Complete Jekyll website transformation
+- Professional responsive design
+- Enhanced navigation and user experience
+- GitHub Pages deployment ready
+- SEO optimization and metadata
+- Interactive features and accessibility
+- Repository setup with .gitignore and LICENSE
+
+### Version 1.0 (Earlier)
+- Initial career guide collection
+- Basic markdown documentation
+- Fundamental career roadmaps
+- Salary data and market insights
+
+---
+
+## 🎯 Mission
+
+**To empower aspiring technologists with comprehensive, practical, and accessible career guidance that bridges the gap between education and successful tech careers.**
+
+**Our vision:** Become the most trusted, comprehensive resource for tech career development worldwide.
+
+---
+
+<p align="center">
+  <em>Made with ❤️ for the tech community</em><br>
+  <strong>Version 2.0 | October 2025</strong><br><br>
+  <a href="https://hardik-sankhla.github.io/Tech-Career-Compass/"><img src="https://img.shields.io/badge/Explore_Guides-Start_Now-blue?style=for-the-badge" alt="Explore Guides"></a>
+</p>
+
+<p align="center">
+  <strong>Ready to start your tech career journey?</strong><br>
+  � <a href="https://hardik-sankhla.github.io/Tech-Career-Compass/">Explore the guides now →</a>
+</p>
+
+
+
+------
+
+
+
+## 🎯 About## 🎯 About
+
+
+
+Tech Career Compass provides **comprehensive, practical career guidance** for aspiring and current technology professionals. Our guides cover complete career roadmaps, real salary data, skill development paths, and market insights for 2025-2030.Tech Career Compass provides **comprehensive, practical career guidance** for aspiring and current technology professionals. Our guides cover complete career roadmaps, real salary data, skill development paths, and market insights for 2025-2030.
+
+
+
+### What Makes Us Different### What Makes Us Different
+
+
+
+✅ **Real Data** - Actual salary ranges, market trends, and job statistics  ✅ **Real Data** - Actual salary ranges, market trends, and job statistics  
+
+✅ **Complete Roadmaps** - Step-by-step learning paths with timeframes  ✅ **Complete Roadmaps** - Step-by-step learning paths with timeframes  
+
+✅ **Practical Advice** - Real challenges, mistakes to avoid, and success strategies  ✅ **Practical Advice** - Real challenges, mistakes to avoid, and success strategies  
+
+✅ **Production-Ready** - Code examples and architecture patterns from industry  ✅ **Production-Ready** - Code examples and architecture patterns from industry  
+
+✅ **Always Updated** - Quarterly updates with latest technologies and trends✅ **Always Updated** - Quarterly updates with latest technologies and trends
+
+
+
+------
+
+
+
+## 📚 Career Guides## 📚 Career Guides
+
+
+
+| Career Path | Salary Range | Time to Senior | Key Skills || Career Path | Salary Range | Time to Senior | Key Skills |
+
+|-------------|--------------|----------------|------------||-------------|--------------|----------------|------------|
+
+| **Software Engineering** | $95K-$250K | 2-5 years | Frontend, Backend, Full Stack || **Software Engineering** | $95K-$250K | 2-5 years | Frontend, Backend, Full Stack |
+
+| **Data & AI/ML** | $100K-$280K | 2-6 years | Data Science, AI/ML, MLOps || **Data & AI/ML** | $100K-$280K | 2-6 years | Data Science, AI/ML, MLOps |
+
+| **Cloud & Infrastructure** | $110K-$350K | 2-7 years | Cloud Eng, DevOps, SRE || **Cloud & Infrastructure** | $110K-$350K | 2-7 years | Cloud Eng, DevOps, SRE |
+
+| **Cybersecurity** | $85K-$300K | 2-8 years | Security Analysis, Pen Testing || **Cybersecurity** | $85K-$300K | 2-8 years | Security Analysis, Pen Testing |
+
+| **DevOps & SRE** | $110K-$400K | 2-8 years | DevOps, SRE, Platform Eng || **DevOps & SRE** | $110K-$400K | 2-8 years | DevOps, SRE, Platform Eng |
+
+
+
+### 🏠 [Master Index](https://hardik-sankhla.github.io/Tech-Career-Compass/00_Master_Index_Tech_Careers)### 🏠 [Master Index](https://hardik-sankhla.github.io/Tech-Career-Compass/00_Master_Index_Tech_Careers)
+
+Complete navigation hub for all tech career paths with comprehensive overview and comparisonComplete navigation hub for all tech career paths with comprehensive overview and comparison
+
+
+
+### 💻 [Software Engineering Careers](https://hardik-sankhla.github.io/Tech-Career-Compass/01_Software_Engineering_Careers)### 💻 [Software Engineering Careers](https://hardik-sankhla.github.io/Tech-Career-Compass/01_Software_Engineering_Careers)
+
+Master frontend, backend, full-stack, mobile, and DevOps engineering careers with complete roadmaps and salary data.  Master frontend, backend, full-stack, mobile, and DevOps engineering careers with complete roadmaps and salary data.  
+
+**Salary:** $95K-$250K | **Timeline:** 2-5 years to Senior**Salary:** $95K-$250K | **Timeline:** 2-5 years to Senior
+
+
+
+### 🧠 [Data, AI & ML Careers](https://hardik-sankhla.github.io/Tech-Career-Compass/02_Data_AI_ML_Careers)### 🧠 [Data, AI & ML Careers](https://hardik-sankhla.github.io/Tech-Career-Compass/02_Data_AI_ML_Careers)
+
+Navigate data science, AI/ML engineering, and MLOps careers with comprehensive roadmaps and market insights.  Navigate data science, AI/ML engineering, and MLOps careers with comprehensive roadmaps and market insights.  
+
+**Salary:** $100K-$280K | **Timeline:** 2-6 years to Senior**Salary:** $100K-$280K | **Timeline:** 2-6 years to Senior
+
+
+
+### ☁️ [Cloud & Infrastructure Careers](https://hardik-sankhla.github.io/Tech-Career-Compass/03_Cloud_Infrastructure_Careers)### ☁️ [Cloud & Infrastructure Careers](https://hardik-sankhla.github.io/Tech-Career-Compass/03_Cloud_Infrastructure_Careers)
+
+Master cloud engineering, DevOps, SRE, and platform engineering with salary data and career strategies.  Master cloud engineering, DevOps, SRE, and platform engineering with salary data and career strategies.  
+
+**Salary:** $110K-$350K | **Timeline:** 2-7 years to Senior**Salary:** $110K-$350K | **Timeline:** 2-7 years to Senior
+
+
+
+### 🔒 [Cybersecurity Careers](https://hardik-sankhla.github.io/Tech-Career-Compass/04_Cybersecurity_Careers)### 🔒 [Cybersecurity Careers](https://hardik-sankhla.github.io/Tech-Career-Compass/04_Cybersecurity_Careers)
+
+Complete guide to security analysis, penetration testing, SOC operations, and security architecture careers.  Complete guide to security analysis, penetration testing, SOC operations, and security architecture careers.  
+
+**Salary:** $85K-$300K | **Timeline:** 2-8 years to Senior**Salary:** $85K-$300K | **Timeline:** 2-8 years to Senior
+
+
+
+### ⚙️ [DevOps & SRE Careers](https://hardik-sankhla.github.io/Tech-Career-Compass/05_DevOps_SRE_Careers)### ⚙️ [DevOps & SRE Careers](https://hardik-sankhla.github.io/Tech-Career-Compass/05_DevOps_SRE_Careers)
+
+Master DevOps engineering, site reliability engineering, and platform engineering with automation and reliability focus.  Master DevOps engineering, site reliability engineering, and platform engineering with automation and reliability focus.  
+
+**Salary:** $110K-$400K | **Timeline:** 2-8 years to Senior**Salary:** $110K-$400K | **Timeline:** 2-8 years to Senior
+
+
+
+------
+
+
+
+## 🚀 Quick Start## 🚀 Quick Start
+
+
+
+1. **🎯 Choose Your Path** - Visit the [Master Index](https://hardik-sankhla.github.io/Tech-Career-Compass/00_Master_Index_Tech_Careers) to explore all career options1. **🎯 Choose Your Path** - Visit the [Master Index](https://hardik-sankhla.github.io/Tech-Career-Compass/00_Master_Index_Tech_Careers) to explore all career options
+
+2. **📊 Assess Your Level** - Each guide includes entry, mid, and senior level paths2. **📊 Assess Your Level** - Each guide includes entry, mid, and senior level paths
+
+3. **🗺️ Follow the Roadmap** - Use our detailed learning paths with timeframes and resources3. **🗺️ Follow the Roadmap** - Use our detailed learning paths with timeframes and resources
+
+4. **💻 Build Projects** - Apply concepts with included project ideas and examples4. **💻 Build Projects** - Apply concepts with included project ideas and examples
+
+5. **🌐 Connect & Learn** - Join communities and leverage resources in each guide5. **🌐 Connect & Learn** - Join communities and leverage resources in each guide
+
+
+
+------
+
+
+
+## 📈 Career Progression Overview## 📈 Career Progression Overview
+
+
+
+``````
+
+Entry Level          Junior              Senior              Lead/PrincipalEntry Level          Junior              Senior              Lead/Principal
+
+(0-2 years)      →   (2-4 years)     →   (4-7 years)     →   (7+ years)(0-2 years)      →   (2-4 years)     →   (4-7 years)     →   (7+ years)
+
+$70K-110K            $110K-160K          $160K-240K          $240K-400K+$70K-110K            $110K-160K          $160K-240K          $240K-400K+
+
+
+
+• Learn basics       • Work independently  • Lead teams        • Strategic impact• Learn basics       • Work independently  • Lead teams        • Strategic impact
+
+• First projects     • Mid-complexity      • Architecture      • Company-wide• First projects     • Mid-complexity      • Architecture      • Company-wide
+
+• Mentorship         • Code reviews        • Mentoring         • Leadership• Mentorship         • Code reviews        • Mentoring         • Leadership
+
+``````
+
+
+
+### Key Milestones### Key Milestones
+
+- **6 months:** First job offer, basic skills mastered- **6 months:** First job offer, basic skills mastered
+
+- **2 years:** Junior role, independent contributor- **2 years:** Junior role, independent contributor
+
+- **4 years:** Senior role, team leadership- **4 years:** Senior role, team leadership
+
+- **7 years:** Principal/Lead role, organizational impact- **7 years:** Principal/Lead role, organizational impact
+
+
+
+------
+
+
+
+## ✨ Features## ✨ Features
+
+
+
+- **📊 2025 Market Data** - Real salary ranges, job market trends, and demand analysis- **📊 2025 Market Data** - Real salary ranges, job market trends, and demand analysis
+
+- **💻 Technical Depth** - Production-ready code examples, architecture diagrams, and real-world patterns- **💻 Technical Depth** - Production-ready code examples, architecture diagrams, and real-world patterns
+
+- **🎯 Success Stories** - Real career journeys from industry professionals with actionable lessons- **🎯 Success Stories** - Real career journeys from industry professionals with actionable lessons
+
+- **🛣️ Actionable Roadmaps** - Step-by-step learning paths with timeframes, resources, and milestones- **🛣️ Actionable Roadmaps** - Step-by-step learning paths with timeframes, resources, and milestones
+
+- **💡 Honest Advice** - Real challenges, common mistakes, and practical solutions- **💡 Honest Advice** - Real challenges, common mistakes, and practical solutions
+
+- **🔄 Regularly Updated** - Continuous updates with latest technologies and market changes- **🔄 Regularly Updated** - Continuous updates with latest technologies and market changes
+
+
+
+------
+
+
+
+## 🛠️ Technology Stack## 🛠️ Technology Stack
+
+
+
+This site is built with modern, reliable technologies:This site is built with modern, reliable technologies:
+
+
+
+- **Jekyll 4.3+** - Static site generator optimized for GitHub Pages- **Jekyll 4.3+** - Static site generator optimized for GitHub Pages
+
+- **GitHub Pages** - Free, reliable hosting with automatic deployments- **GitHub Pages** - Free, reliable hosting with automatic deployments
+
+- **Markdown** - Simple, readable content format- **Markdown** - Simple, readable content format
+
+- **Liquid Templates** - Dynamic content rendering- **Liquid Templates** - Dynamic content rendering
+
+- **CSS3** - Modern, responsive styling with animations- **CSS3** - Modern, responsive styling with animations
+
+- **JavaScript** - Interactive features (TOC, smooth scroll, search)- **JavaScript** - Interactive features (TOC, smooth scroll, search)
+
+- **GitHub Actions** - Automated CI/CD pipeline- **GitHub Actions** - Automated CI/CD pipeline
+
+
+
+------
+
+
+
+## 🔧 Local Development## 🔧 Local Development
+
+
+
+Want to run the site locally or contribute? Here's how:Want to run the site locally or contribute? Here's how:
+
+
+
+### Prerequisites### Prerequisites
+
+```bash```bash
+
+# Install Ruby (2.7+) and Bundler# Install Ruby (2.7+) and Bundler
+
+gem install bundlergem install bundler
+
+``````
+
+
+
+### Setup & Run### Setup & Run
+
+```bash```bash
+
+# Clone repository# Clone repository
+
+git clone https://github.com/Hardik-Sankhla/Tech-Career-Compass.gitgit clone https://github.com/Hardik-Sankhla/Tech-Career-Compass.git
+
+cd Tech-Career-Compasscd Tech-Career-Compass
+
+
+
+# Install dependencies# Install dependencies
+
+bundle installbundle install
+
+
+
+# Run local server# Run local server
+
+bundle exec jekyll servebundle exec jekyll serve
+
+
+
+# Open http://localhost:4000/Tech-Career-Compass/# Open http://localhost:4000/Tech-Career-Compass/
+
+``````
+
+
+
+### Making Changes### Making Changes
+
+1. Edit markdown files in the root directory1. Edit markdown files in the root directory
+
+2. Customize layouts in `_layouts/`2. Customize layouts in `_layouts/`
+
+3. Modify styles in `assets/css/`3. Modify styles in `assets/css/`
+
+4. Update configuration in `_config.yml`4. Update configuration in `_config.yml`
+
+5. Test locally before pushing5. Test locally before pushing
+
+
+
+------
+
+
+
+## 📦 Deployment## 📦 Deployment
+
+
+
+This site automatically deploys to GitHub Pages when you push to the `main` branch.This site automatically deploys to GitHub Pages when you push to the `main` branch.
+
+
+
+### Manual Deployment### Manual Deployment
+
+1. Push changes to GitHub: `git push origin main`1. Push changes to GitHub: `git push origin main`
+
+2. GitHub Actions will build and deploy automatically2. GitHub Actions will build and deploy automatically
+
+3. Site updates within 2-3 minutes at https://hardik-sankhla.github.io/Tech-Career-Compass/3. Site updates within 2-3 minutes at https://hardik-sankhla.github.io/Tech-Career-Compass/
+
+
+
+### Custom Domain (Optional)### Custom Domain (Optional)
+
+Add a `CNAME` file with your domain or configure in repository Settings → Pages.Add a `CNAME` file with your domain or configure in repository Settings → Pages.
+
+
+
+------
+
+
+
+## 🤝 Contributing## 🤝 Contributing
+
+
+
+We welcome contributions from the community! Here's how you can help:We welcome contributions from the community! Here's how you can help:
+
+
+
+### Ways to Contribute### Ways to Contribute
+
+- **📝 Content Updates** - Add new career paths, update salary data, or improve existing guides- **📝 Content Updates** - Add new career paths, update salary data, or improve existing guides
+
+- **🐛 Bug Fixes** - Report and fix technical issues with the website- **🐛 Bug Fixes** - Report and fix technical issues with the website
+
+- **🎨 Design Improvements** - Enhance the user interface and experience- **🎨 Design Improvements** - Enhance the user interface and experience
+
+- **📊 Data Updates** - Provide updated market data, salary information, or job trends- **📊 Data Updates** - Provide updated market data, salary information, or job trends
+
+- **🌐 Translations** - Help translate guides into other languages- **🌐 Translations** - Help translate guides into other languages
+
+
+
+### How to Contribute### How to Contribute
+
+1. Fork this repository1. Fork this repository
+
+2. Create a feature branch (`git checkout -b feature/amazing-improvement`)2. Create a feature branch (`git checkout -b feature/amazing-improvement`)
+
+3. Commit your changes (`git commit -m 'Add amazing improvement'`)3. Commit your changes (`git commit -m 'Add amazing improvement'`)
+
+4. Push to the branch (`git push origin feature/amazing-improvement`)4. Push to the branch (`git push origin feature/amazing-improvement`)
+
+5. Open a Pull Request5. Open a Pull Request
+
+
+
+### Content Guidelines### Content Guidelines
+
+✅ Use clear, accessible language  ✅ Use clear, accessible language  
+
+✅ Include real-world examples and code snippets  ✅ Include real-world examples and code snippets  
+
+✅ Provide actionable, specific advice  ✅ Provide actionable, specific advice  
+
+✅ Cite sources for salary and market data  ✅ Cite sources for salary and market data  
+
+✅ Keep content current and relevant✅ Keep content current and relevant
+
+
+
+------
+
+
+
+## 📊 Project Statistics## 📊 Project Statistics
+
+
+
+| Metric | Value || Metric | Value |
+
+|--------|-------||--------|-------|
+
+| **Career Guides** | 5 comprehensive guides || **Career Guides** | 5 comprehensive guides |
+
+| **Content Size** | 15,000+ lines of detailed guidance || **Content Size** | 15,000+ lines of detailed guidance |
+
+| **Career Paths** | 50+ distinct tech roles covered || **Career Paths** | 50+ distinct tech roles covered |
+
+| **Last Updated** | October 2025 || **Last Updated** | October 2025 |
+
+| **Update Frequency** | Quarterly || **Update Frequency** | Quarterly |
+
+
+
+------
+
+
+
+## 📜 License## 📜 License
+
+
+
+This work is licensed under [Creative Commons Attribution-ShareAlike 4.0 International License](LICENSE).This work is licensed under [Creative Commons Attribution-ShareAlike 4.0 International License](LICENSE).
+
+
+
+**You are free to:****You are free to:**
+
+- ✅ **Share** - Copy and redistribute in any medium or format- ✅ **Share** - Copy and redistribute in any medium or format
+
+- ✅ **Adapt** - Remix, transform, and build upon the material- ✅ **Adapt** - Remix, transform, and build upon the material
+
+
+
+**Under these terms:****Under these terms:**
+
+- 📝 **Attribution** - Give appropriate credit and link to license- 📝 **Attribution** - Give appropriate credit and link to license
+
+- 🔄 **ShareAlike** - Distribute contributions under the same license- 🔄 **ShareAlike** - Distribute contributions under the same license
+
+
+
+See the [LICENSE](LICENSE) file for full license text.See the [LICENSE](LICENSE) file for full license text.
+
+
+
+------
+
+
+
+## 🙏 Acknowledgments## 🙏 Acknowledgments
+
+
+
+**Contributors** - Content creators, industry professionals, and community members  **Contributors** - Content creators, industry professionals, and community members  
+
+**Tech Community** - For sharing knowledge, experiences, and insights  **Tech Community** - For sharing knowledge, experiences, and insights  
+
+**Career Changers** - For sharing transition stories and lessons learned**Career Changers** - For sharing transition stories and lessons learned
+
+
+
+### Special Thanks### Special Thanks
+
+- **Tech Career Guides Team** - Content creation and curation- **Tech Career Guides Team** - Content creation and curation
+
+- **Industry Professionals** - Real-world insights and success stories- **Industry Professionals** - Real-world insights and success stories
+
+- **Open Source Community** - Tools, frameworks, and inspiration- **Open Source Community** - Tools, frameworks, and inspiration
+
+- **Mentors & Coaches** - For providing guidance and support- **Mentors & Coaches** - For providing guidance and support
+
+
+
+------
+
+
+
+## 📞 Contact## 📞 Contact
+
+
+
+<div align="center"><div align="center">
+
+
+
+**🌐 Website:** [hardik-sankhla.github.io/Tech-Career-Compass](https://hardik-sankhla.github.io/Tech-Career-Compass/)  **🌐 Website:** [hardik-sankhla.github.io/Tech-Career-Compass](https://hardik-sankhla.github.io/Tech-Career-Compass/)  
+
+**📧 Email:** careers@techcareers.guide  **📧 Email:** careers@techcareers.guide  
+
+**🐛 Issues:** [Report Bugs](https://github.com/Hardik-Sankhla/Tech-Career-Compass/issues) • **💡 Ideas:** [Discussions](https://github.com/Hardik-Sankhla/Tech-Career-Compass/discussions)**🐛 Issues:** [Report Bugs](https://github.com/Hardik-Sankhla/Tech-Career-Compass/issues) • **💡 Ideas:** [Discussions](https://github.com/Hardik-Sankhla/Tech-Career-Compass/discussions)
+
+
+
+</div></div>
+
+
+
+------
+
+
+
+## 🔄 Version History## 🔄 Version History
+
+
+
+### Version 2.0 (October 25, 2025)### Version 2.0 (October 25, 2025)
+
+- Complete Jekyll website transformation- Complete Jekyll website transformation
+
+- Professional responsive design- Professional responsive design
+
+- Enhanced navigation and user experience- Enhanced navigation and user experience
+
+- GitHub Pages deployment ready- GitHub Pages deployment ready
+
+- SEO optimization and metadata- SEO optimization and metadata
+
+- Interactive features and accessibility- Interactive features and accessibility
+
+- Repository setup with .gitignore and LICENSE- Repository setup with .gitignore and LICENSE
+
+
+
+### Version 1.0 (Earlier)### Version 1.0 (Earlier)
+
+- Initial career guide collection- Initial career guide collection
+
+- Basic markdown documentation- Basic markdown documentation
+
+- Fundamental career roadmaps- Fundamental career roadmaps
+
+- Salary data and market insights- Salary data and market insights
+
+
+
+------
+
+
+
+## 🎯 Mission## 🎯 Mission
+
+
+
+**To empower aspiring technologists with comprehensive, practical, and accessible career guidance that bridges the gap between education and successful tech careers.****To empower aspiring technologists with comprehensive, practical, and accessible career guidance that bridges the gap between education and successful tech careers.**
+
+
+
+**Our vision:** Become the most trusted, comprehensive resource for tech career development worldwide.**Our vision:** Become the most trusted, comprehensive resource for tech career development worldwide.
+
+
+
+------
+
+
+
+<div align="center"><div align="center">
+
+
+
+*Made with ❤️ for the tech community**Made with ❤️ for the tech community*
+
+
+
+**Version 2.0** | October 2025**Version 2.0** | October 2025
+
+
+
+[![Explore Guides](https://img.shields.io/badge/Explore_Guides-Start_Now-blue?style=for-the-badge)](https://hardik-sankhla.github.io/Tech-Career-Compass/)[![Explore Guides](https://img.shields.io/badge/Explore_Guides-Start_Now-blue?style=for-the-badge)](https://hardik-sankhla.github.io/Tech-Career-Compass/)
+
+
+
+**Ready to start your tech career journey?****Ready to start your tech career journey?**
+
+
+
+👉 **[Explore the guides now →](https://hardik-sankhla.github.io/Tech-Career-Compass/)**👉 **[Explore the guides now →](https://hardik-sankhla.github.io/Tech-Career-Compass/)**
+
+
+
+</div></div>
 
 **Salary:** $110K-$350K | **Timeline:** 2-7 years to Senior- **💡 Honest Advice** - Real challenges, common mistakes, and practical solutions
 
