@@ -628,11 +628,9 @@
 
                 <!-- Desktop Navigation -->
                 <ul class="nav-links">
-                    <li><a href="{{ site.baseurl }}/">Home</a></li>
-                    <li><a href="{{ site.baseurl }}/00_Master_Index_Tech_Careers">Master Index</a></li>
-                    <li><a href="{{ site.baseurl }}/about">About</a></li>
-                    <li><a href="{{ site.baseurl }}/resources">Resources</a></li>
-                    <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
+                    {% for item in site.navigation %}
+                    <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+                    {% endfor %}
                     <li><a href="https://github.com/Hardik-Sankhla/Tech-Career-Compass" target="_blank">GitHub</a></li>
                 </ul>
 
@@ -648,11 +646,9 @@
         <!-- Mobile Menu -->
         <div id="mobileMenu" style="display: none; background: rgba(0,0,0,0.9); padding: 1rem; position: absolute; top: 100%; left: 0; right: 0;">
             <ul style="list-style: none; text-align: center;">
-                <li><a href="{{ site.baseurl }}/" style="color: white; text-decoration: none; display: block; padding: 0.5rem;">Home</a></li>
-                <li><a href="{{ site.baseurl }}/00_Master_Index_Tech_Careers" style="color: white; text-decoration: none; display: block; padding: 0.5rem;">Master Index</a></li>
-                <li><a href="{{ site.baseurl }}/about" style="color: white; text-decoration: none; display: block; padding: 0.5rem;">About</a></li>
-                <li><a href="{{ site.baseurl }}/resources" style="color: white; text-decoration: none; display: block; padding: 0.5rem;">Resources</a></li>
-                <li><a href="{{ site.baseurl }}/contact" style="color: white; text-decoration: none; display: block; padding: 0.5rem;">Contact</a></li>
+                {% for item in site.navigation %}
+                <li><a href="{{ site.baseurl }}{{ item.url }}" style="color: white; text-decoration: none; display: block; padding: 0.5rem;">{{ item.title }}</a></li>
+                {% endfor %}
                 <li><a href="https://github.com/Hardik-Sankhla/Tech-Career-Compass" target="_blank" style="color: white; text-decoration: none; display: block; padding: 0.5rem;">GitHub</a></li>
             </ul>
         </div>
