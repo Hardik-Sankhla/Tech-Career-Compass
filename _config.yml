@@ -4,8 +4,8 @@
 # Site settings
 title: "Tech Career Guides"
 description: "Comprehensive career guides for software engineering, data science, cloud computing, cybersecurity, and DevOps. Complete roadmaps, salary data, and market insights for 2025-2030."
-url: "https://hardik-sankhla.github.io/Tech-Career-Compass"
-baseurl: ""
+url: "https://hardik-sankhla.github.io"
+baseurl: "/Tech-Career-Compass"
 repository: "Hardik-Sankhla/Tech-Career-Compass"
 
 # Author information
@@ -63,17 +63,17 @@ navigation:
   - title: "Home"
     url: "/"
   - title: "Master Index"
-    url: "/00_Master_Index_Tech_Careers.html"
+    url: "/00_Master_Index_Tech_Careers"
   - title: "Software Engineering"
-    url: "/01_Software_Engineering_Careers.html"
+    url: "/01_Software_Engineering_Careers"
   - title: "Data & AI/ML"
-    url: "/02_Data_AI_ML_Careers.html"
+    url: "/02_Data_AI_ML_Careers"
   - title: "Cloud & Infrastructure"
-    url: "/03_Cloud_Infrastructure_Careers.html"
+    url: "/03_Cloud_Infrastructure_Careers"
   - title: "Cybersecurity"
-    url: "/04_Cybersecurity_Careers.html"
+    url: "/04_Cybersecurity_Careers"
   - title: "DevOps & SRE"
-    url: "/05_DevOps_SRE_Careers.html"
+    url: "/05_DevOps_SRE_Careers"
 
 # Career guides metadata
 guides:
