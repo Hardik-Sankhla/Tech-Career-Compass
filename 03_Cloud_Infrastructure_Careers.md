@@ -7,7 +7,6 @@ last_modified: "2025-10-25"
 tags: ["cloud-computing", "infrastructure", "devops", "sre", "platform-engineering", "career-guide", "aws", "azure", "gcp", "kubernetes", "terraform", "multi-cloud", "site-reliability", "infrastructure-as-code"]
 categories: ["career-guides", "cloud-computing", "infrastructure", "devops"]
 layout: default
-permalink: /cloud-infrastructure-careers/
 author: "Tech Career Guides"
 contributors: ["Cloud Architects", "DevOps Leaders", "SRE Practitioners", "Platform Engineers"]
 seo:

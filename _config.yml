@@ -4,13 +4,13 @@
 # Site settings
 title: "Tech Career Guides - Complete Career Roadmaps & Salary Data"
 description: "Comprehensive career guides for software engineering, data science, cloud computing, cybersecurity, and DevOps. Complete roadmaps, salary data, and market insights for 2025-2030."
-url: "https://hardik-sankhla.github.io"
+url: "https://tech-career-compass.github.io"
 baseurl: "/Tech-Career-Compass"
-repository: "Hardik-Sankhla/Tech-Career-Compass"
+repository: "tech-career-compass/Tech-Career-Compass"
 
 # Author information
-author: "Hardik Sankhla"
-email: "datascientist.hardiksankhla@gmail.com"
+author: "Tech Career Guides"
+email: "careers@techcareers.guide"
 
 # Build settings
 markdown: kramdown
@@ -53,7 +53,7 @@ logo: /assets/images/logo.png
 social:
   name: Tech Career Guides
   links:
-    - https://github.com/Hardik-Sankhla/Tech-Career-Compass
+    - https://github.com/tech-career-compass/Tech-Career-Compass
     - https://discord.gg/techcareers
     - https://linkedin.com/company/tech-career-guides
     - https://twitter.com/TechCareerGuide

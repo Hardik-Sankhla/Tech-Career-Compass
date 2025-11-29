@@ -2,16 +2,16 @@
 
 <div align="center">
 
-[![Live Site](https://img.shields.io/badge/Live_Site-Visit-blue?style=for-the-badge&logo=github)](https://hardik-sankhla.github.io/Tech-Career-Compass/)
+[![Live Site](https://img.shields.io/badge/Live_Site-Visit-blue?style=for-the-badge&logo=github)](https://tech-career-compass.github.io/Tech-Career-Compass/)
 [![License](https://img.shields.io/badge/License-CC_BY--SA_4.0-green?style=for-the-badge)](LICENSE)
-[![Version](https://img.shields.io/badge/Version-2.0-orange?style=for-the-badge)](https://github.com/Hardik-Sankhla/Tech-Career-Compass)
-[![GitHub stars](https://img.shields.io/github/stars/Hardik-Sankhla/Tech-Career-Compass?style=for-the-badge&logo=github)](https://github.com/Hardik-Sankhla/Tech-Career-Compass/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/Hardik-Sankhla/Tech-Career-Compass?style=for-the-badge&logo=github)](https://github.com/Hardik-Sankhla/Tech-Career-Compass/forks)
+[![Version](https://img.shields.io/badge/Version-2.0-orange?style=for-the-badge)](https://github.com/tech-career-compass/Tech-Career-Compass)
+[![GitHub stars](https://img.shields.io/github/stars/tech-career-compass/Tech-Career-Compass?style=for-the-badge&logo=github)](https://github.com/tech-career-compass/Tech-Career-Compass/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/tech-career-compass/Tech-Career-Compass?style=for-the-badge&logo=github)](https://github.com/tech-career-compass/Tech-Career-Compass/forks)
 
 <h3 align="center">🚀 Your comprehensive guide to navigating modern tech careers</h3>
 
 <p align="center">
-  <a href="https://hardik-sankhla.github.io/Tech-Career-Compass/">🌐 Live Website</a> •
+  <a href="https://tech-career-compass.github.io/Tech-Career-Compass/">🌐 Live Website</a> •
   <a href="#career-guides">📚 Browse Guides</a> •
   <a href="#contributing">🤝 Contribute</a> •
   <a href="#contact">📞 Contact</a>
@@ -26,27 +26,12 @@
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Hardik-Sankhla&repo=Tech-Career-Compass&theme=dracula&hide_border=true" alt="Tech Career Compass Repository" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=tech-career-compass&repo=Tech-Career-Compass&theme=dracula&hide_border=true" alt="Tech Career Compass Repository" />
 </div>
 
 ---
 
-## 👨‍💻 About the Creator
-
-<div align="center">
-  <h1 align="center">Hardik Sankhla 👋</h1>
-  <h3 align="center">Data Science Student | AI/ML Enthusiast | Open Source Contributor</h3>
-
-  <p align="center">
-    <a href="https://linkedin.com/in/hardik-sankhla"><img src="https://img.shields.io/badge/LinkedIn-Hardik%20Sankhla-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"></a>
-    <a href="https://github.com/Hardik-Sankhla"><img src="https://img.shields.io/badge/GitHub-Hardik%20Sankhla-black?style=for-the-badge&logo=github" alt="GitHub"></a>
-    <a href="mailto:datascientist.hardiksankhla@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_Me-red?style=for-the-badge&logo=gmail" alt="Email"></a>
-  </p>
-</div>
-
----
-
-## 🎯 About the Project
+## 🎯 About
 
 Tech Career Compass provides **comprehensive, practical career guidance** for aspiring and current technology professionals. Our guides cover complete career roadmaps, real salary data, skill development paths, and market insights for 2025-2030.
 
@@ -60,9 +45,7 @@ Tech Career Compass provides **comprehensive, practical career guidance** for as
 
 ---
 
----
-
-## �📚 Career Guides
+## 📚 Career Guides
 
 | Career Path | Salary Range | Time to Senior | Key Skills |
 |-------------|--------------|----------------|------------|
@@ -72,26 +55,26 @@ Tech Career Compass provides **comprehensive, practical career guidance** for as
 | **Cybersecurity** | $85K-$300K | 2-8 years | Security Analysis, Pen Testing |
 | **DevOps & SRE** | $110K-$400K | 2-8 years | DevOps, SRE, Platform Eng |
 
-### 🏠 [Master Index](https://hardik-sankhla.github.io/Tech-Career-Compass/00_Master_Index_Tech_Careers)
+### 🏠 [Master Index](https://tech-career-compass.github.io/Tech-Career-Compass/00_Master_Index_Tech_Careers)
 Complete navigation hub for all tech career paths with comprehensive overview and comparison
 
-### 💻 [Software Engineering Careers](https://hardik-sankhla.github.io/Tech-Career-Compass/01_Software_Engineering_Careers)
+### 💻 [Software Engineering Careers](https://tech-career-compass.github.io/Tech-Career-Compass/01_Software_Engineering_Careers)
 Master frontend, backend, full-stack, mobile, and DevOps engineering careers with complete roadmaps and salary data.  
 **Salary:** $95K-$250K | **Timeline:** 2-5 years to Senior
 
-### 🧠 [Data, AI & ML Careers](https://hardik-sankhla.github.io/Tech-Career-Compass/02_Data_AI_ML_Careers)
+### 🧠 [Data, AI & ML Careers](https://tech-career-compass.github.io/Tech-Career-Compass/02_Data_AI_ML_Careers)
 Navigate data science, AI/ML engineering, and MLOps careers with comprehensive roadmaps and market insights.  
 **Salary:** $100K-$280K | **Timeline:** 2-6 years to Senior
 
-### ☁️ [Cloud & Infrastructure Careers](https://hardik-sankhla.github.io/Tech-Career-Compass/03_Cloud_Infrastructure_Careers)
+### ☁️ [Cloud & Infrastructure Careers](https://tech-career-compass.github.io/Tech-Career-Compass/03_Cloud_Infrastructure_Careers)
 Master cloud engineering, DevOps, SRE, and platform engineering with salary data and career strategies.  
 **Salary:** $110K-$350K | **Timeline:** 2-7 years to Senior
 
-### 🔒 [Cybersecurity Careers](https://hardik-sankhla.github.io/Tech-Career-Compass/04_Cybersecurity_Careers)
+### 🔒 [Cybersecurity Careers](https://tech-career-compass.github.io/Tech-Career-Compass/04_Cybersecurity_Careers)
 Complete guide to security analysis, penetration testing, SOC operations, and security architecture careers.  
 **Salary:** $85K-$300K | **Timeline:** 2-8 years to Senior
 
-### ⚙️ [DevOps & SRE Careers](https://hardik-sankhla.github.io/Tech-Career-Compass/05_DevOps_SRE_Careers)
+### ⚙️ [DevOps & SRE Careers](https://tech-career-compass.github.io/Tech-Career-Compass/05_DevOps_SRE_Careers)
 Master DevOps engineering, site reliability engineering, and platform engineering with automation and reliability focus.  
 **Salary:** $110K-$400K | **Timeline:** 2-8 years to Senior
 
@@ -99,7 +82,7 @@ Master DevOps engineering, site reliability engineering, and platform engineerin
 
 ## 🚀 Quick Start
 
-1. **🎯 Choose Your Path** - Visit the [Master Index](https://hardik-sankhla.github.io/Tech-Career-Compass/00_Master_Index_Tech_Careers) to explore all career options
+1. **🎯 Choose Your Path** - Visit the [Master Index](https://tech-career-compass.github.io/Tech-Career-Compass/00_Master_Index_Tech_Careers) to explore all career options
 2. **📊 Assess Your Level** - Each guide includes entry, mid, and senior level paths
 3. **🗺️ Follow the Roadmap** - Use our detailed learning paths with timeframes and resources
 4. **💻 Build Projects** - Apply concepts with included project ideas and examples
@@ -170,7 +153,7 @@ gem install bundler
 ### Setup & Run
 ```bash
 # Clone repository
-git clone https://github.com/Hardik-Sankhla/Tech-Career-Compass.git
+git clone https://github.com/tech-career-compass/Tech-Career-Compass.git
 cd Tech-Career-Compass
 
 # Install dependencies
@@ -198,7 +181,7 @@ This site automatically deploys to GitHub Pages when you push to the `main` bran
 ### Manual Deployment
 1. Push changes to GitHub: `git push origin main`
 2. GitHub Actions will build and deploy automatically
-3. Site updates within 2-3 minutes at https://hardik-sankhla.github.io/Tech-Career-Compass/
+3. Site updates within 2-3 minutes at https://tech-career-compass.github.io/Tech-Career-Compass/
 
 ### Custom Domain (Optional)
 Add a `CNAME` file with your domain or configure in repository Settings → Pages.
@@ -295,30 +278,11 @@ See the [LICENSE](LICENSE) file for full license text.
 
 <div align="center">
 
-**🌐 Website:** [hardik-sankhla.github.io/Tech-Career-Compass](https://hardik-sankhla.github.io/Tech-Career-Compass/)  
-**🐛 Issues:** [Report Bugs](https://github.com/Hardik-Sankhla/Tech-Career-Compass/issues) • **💡 Ideas:** [Discussions](https://github.com/Hardik-Sankhla/Tech-Career-Compass/discussions)  
-**📧 Email:** datascientist.hardiksankhla@gmail.com
+**🌐 Website:** [tech-career-compass.github.io/Tech-Career-Compass](https://tech-career-compass.github.io/Tech-Career-Compass/)  
+**🐛 Issues:** [Report Bugs](https://github.com/tech-career-compass/Tech-Career-Compass/issues) • **💡 Ideas:** [Discussions](https://github.com/tech-career-compass/Tech-Career-Compass/discussions)  
+**📧 Email:** careers@techcareers.guide
 
 </div>
-
----
-
-## 💬 Let's Connect!
-
-Feel free to reach out if you want to collaborate on a project, need any help, or just want to say hi! 😊
-
-💼 [LinkedIn](https://www.linkedin.com/in/hardik-sankhla/) | 📝 [PeerList](https://peerlist.io/hardiksankhla) | ✉️ [Email Me](mailto:datascientist.hardiksankhla@gmail.com)
-
-<h1 align='center'>⚡️<i>Stay awesome!</i>⚡️</h1>
-<br>
-
-<div align="center">
-  <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
-</div>
-
-<p align="center">
-        <img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" alt="Github Stats" />
-</p>
 
 ---
 
@@ -351,14 +315,14 @@ Feel free to reach out if you want to collaborate on a project, need any help, o
 
 <div align="center">
 
-*Made with ❤️ by Hardik Sankhla*
+*Made with ❤️ for the tech community*
 
 **Version 2.0** | October 2025
 
-[![Explore Guides](https://img.shields.io/badge/Explore_Guides-Start_Now-blue?style=for-the-badge)](https://hardik-sankhla.github.io/Tech-Career-Compass/)
+[![Explore Guides](https://img.shields.io/badge/Explore_Guides-Start_Now-blue?style=for-the-badge)](https://tech-career-compass.github.io/Tech-Career-Compass/)
 
 **Ready to start your tech career journey?**
 
-👉 **[Explore the guides now →](https://hardik-sankhla.github.io/Tech-Career-Compass/)**
+👉 **[Explore the guides now →](https://tech-career-compass.github.io/Tech-Career-Compass/)**
 
 </div>

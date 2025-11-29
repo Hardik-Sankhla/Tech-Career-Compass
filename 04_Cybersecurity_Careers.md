@@ -7,7 +7,6 @@ last_modified: "2025-10-25"
 tags: ["cybersecurity", "security-analyst", "pentester", "soc-analyst", "security-engineer", "security-architect", "career-guide", "ethical-hacking", "threat-detection", "incident-response", "compliance"]
 categories: ["career-guides", "cybersecurity", "information-security"]
 layout: default
-permalink: /cybersecurity-careers/
 author: "Tech Career Guides"
 contributors: ["Security Architects", "Ethical Hackers", "SOC Directors", "Compliance Officers"]
 seo:
