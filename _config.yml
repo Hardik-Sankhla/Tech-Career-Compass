@@ -133,6 +133,11 @@ docs_nav:
         url: "/docs/cybersecurity"
       - title: "DevOps & SRE"
         url: "/docs/devops-sre"
+
+# Career Guides Metadata
+guides_metadata:
+  master_index:
+    title: "Master Index: Tech Career Guides"
     description: "Complete navigation hub for all tech career paths with salary data, market insights, and career roadmaps."
     tags: ["career-guide", "tech-careers", "navigation", "salary-data"]
     keywords: "tech careers, software engineering, data science, cloud computing, cybersecurity, devops, salary data, career roadmap"
@@ -211,9 +216,6 @@ seo:
 # Performance optimizations
 future: true
 strict_front_matter: true
-
-# Collections directory
-collections_dir: collections
 
 # Liquid rendering
 liquid:
