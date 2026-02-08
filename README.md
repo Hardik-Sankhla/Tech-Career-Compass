@@ -1,53 +1,220 @@
-# Tech Career Compass
+# Tech Career Compass 🧭
 
 <div align="center">
 
 [![Live Site](https://img.shields.io/badge/Live_Site-Visit-blue?style=for-the-badge&logo=github)](https://tech-career-compass.github.io/Tech-Career-Compass/)
 [![License](https://img.shields.io/badge/License-CC_BY--SA_4.0-green?style=for-the-badge)](LICENSE)
-[![Version](https://img.shields.io/badge/Version-2.0-orange?style=for-the-badge)](https://github.com/tech-career-compass/Tech-Career-Compass)
-[![GitHub stars](https://img.shields.io/github/stars/tech-career-compass/Tech-Career-Compass?style=for-the-badge&logo=github)](https://github.com/tech-career-compass/Tech-Career-Compass/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/tech-career-compass/Tech-Career-Compass?style=for-the-badge&logo=github)](https://github.com/tech-career-compass/Tech-Career-Compass/forks)
+[![Version](https://img.shields.io/badge/Version-3.0-orange?style=for-the-badge)](https://github.com/tech-career-compass/Tech-Career-Compass)
 
-<h3 align="center">🚀 Your comprehensive guide to navigating modern tech careers</h3>
+**Navigate Your Tech Career with Confidence**
 
-<p align="center">
-  <a href="https://tech-career-compass.github.io/Tech-Career-Compass/">🌐 Live Website</a> •
-  <a href="#career-guides">📚 Browse Guides</a> •
-  <a href="#contributing">🤝 Contribute</a> •
-  <a href="#contact">📞 Contact</a>
-</p>
+Professional career guidance for software engineering, data science, cloud computing, cybersecurity, and DevOps careers.
 
-</div>
+[🌐 Live Website](https://tech-career-compass.github.io/Tech-Career-Compass/) • [📚 Documentation](https://tech-career-compass.github.io/Tech-Career-Compass/docs/overview) • [✍️ Blog](https://tech-career-compass.github.io/Tech-Career-Compass/blog/)
 
----
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=4F46E5&width=435&lines=Complete+Career+Roadmaps;Real+Salary+Data;Industry+Insights;2025+Market+Trends" alt="Typing SVG" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=tech-career-compass&repo=Tech-Career-Compass&theme=dracula&hide_border=true" alt="Tech Career Compass Repository" />
 </div>
 
 ---
 
 ## 🎯 About
 
-Tech Career Compass provides **comprehensive, practical career guidance** for aspiring and current technology professionals. Our guides cover complete career roadmaps, real salary data, skill development paths, and market insights for 2025-2030.
+Tech Career Compass provides comprehensive, practical career guidance for technology professionals. Whether you're just starting out, making a career transition, or looking to advance to the next level, we provide data-driven roadmaps to help you succeed.
 
-### What Makes Us Different
+### What We Offer
 
-✅ **Real Data** - Actual salary ranges, market trends, and job statistics  
+✅ **Real Salary Data** - Actual compensation ranges, not aspirational numbers  
 ✅ **Complete Roadmaps** - Step-by-step learning paths with timeframes  
 ✅ **Practical Advice** - Real challenges, mistakes to avoid, and success strategies  
-✅ **Production-Ready** - Code examples and architecture patterns from industry  
-✅ **Always Updated** - Quarterly updates with latest technologies and trends
+✅ **Modern Design** - Clean, professional documentation-style website  
+✅ **Always Updated** - Quarterly updates with latest technologies and trends  
+✅ **Open Source** - Community-driven and transparent
+
+## 📚 Career Paths Covered
+
+| Career Path | Salary Range | Documentation |
+|------------|--------------|---------------|
+| 💻 **Software Engineering** | $95K - $250K+ | [View Guide](01_Software_Engineering_Careers.md) |
+| 🧠 **Data & AI/ML** | $100K - $280K+ | [View Guide](02_Data_AI_ML_Careers.md) |
+| ☁️ **Cloud & Infrastructure** | $110K - $350K+ | [View Guide](03_Cloud_Infrastructure_Careers.md) |
+| 🔒 **Cybersecurity** | $85K - $300K+ | [View Guide](04_Cybersecurity_Careers.md) |
+| ⚙️ **DevOps & SRE** | $110K - $400K+ | [View Guide](05_DevOps_SRE_Careers.md) |
+
+## 🚀 Quick Start
+
+### For Readers
+Visit our [live website](https://tech-career-compass.github.io/Tech-Career-Compass/) to:
+- Explore career path documentation
+- Read the latest blog posts
+- Access learning resources
+- Get salary insights
+
+### For Contributors
+```bash
+# Clone the repository
+git clone https://github.com/tech-career-compass/Tech-Career-Compass.git
+
+# Install dependencies (Ruby required)
+bundle install
+
+# Run locally
+bundle exec jekyll serve
+
+# Visit http://localhost:4000/Tech-Career-Compass/
+```
+
+## 🏗️ Project Structure
+
+```
+Tech-Career-Compass/
+├── _docs/              # Documentation pages
+│   ├── overview.md
+│   ├── career-roadmap.md
+│   └── [career guides]
+├── _posts/             # Blog posts
+│   └── YYYY-MM-DD-title.md
+├── _layouts/           # Page layouts
+│   ├── default.html    # Base layout
+│   ├── docs.html       # Documentation layout
+│   ├── blog.html       # Blog index layout
+│   └── post.html       # Blog post layout
+├── _includes/          # Reusable components
+│   ├── header.html
+│   ├── footer.html
+│   └── sidebar.html
+├── assets/             # Static assets
+│   ├── css/
+│   │   └── main.css    # Modern documentation styles
+│   ├── js/
+│   │   └── main.js
+│   └── images/
+├── blog/               # Blog index
+├── _config.yml         # Jekyll configuration
+└── index.md            # Homepage
+```
+
+## ✨ Features
+
+### Modern Documentation Design
+- Clean, professional layout inspired by top documentation sites
+- Responsive design for all devices
+- Dark mode support
+- Sticky sidebar navigation
+- Table of contents for long pages
+- Smooth scrolling and animations
+
+### Blog Functionality
+- Regular career insights and industry trends
+- Category and tag filtering
+- Social sharing integration
+- Reading time estimates
+- Related posts suggestions
+
+### User Experience
+- Fast page loads
+- Accessible design (WCAG compliant)
+- SEO optimized
+- Mobile-first approach
+- Print-friendly pages
+
+## 🤝 Contributing
+
+We welcome contributions! Here's how you can help:
+
+### Content Contributions
+- Update salary data
+- Add new career paths
+- Write blog posts
+- Improve existing guides
+- Fix typos and errors
+
+### Technical Contributions
+- Improve site performance
+- Add new features
+- Fix bugs
+- Enhance accessibility
+- Update dependencies
+
+### How to Contribute
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Make your changes
+4. Test locally (`bundle exec jekyll serve`)
+5. Commit your changes (`git commit -m 'Add amazing feature'`)
+6. Push to your branch (`git push origin feature/amazing-feature`)
+7. Open a Pull Request
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
+
+## 📝 Writing Blog Posts
+
+Create a new file in `_posts/` following this format:
+
+```markdown
+---
+layout: post
+title: "Your Post Title"
+date: 2026-MM-DD
+category: Career Advice
+tags: [tag1, tag2, tag3]
+reading_time: 8
+excerpt: "Brief description of your post"
+---
+
+Your content here...
+```
+
+## 🛠️ Technology Stack
+
+- **Static Site Generator**: Jekyll
+- **Hosting**: GitHub Pages
+- **Styling**: Custom CSS with CSS Variables
+- **JavaScript**: Vanilla JS (no framework dependencies)
+- **Markdown**: kramdown processor
+- **Syntax Highlighting**: Rouge
+
+## 📊 Version History
+
+- **v3.0** (Feb 2026) - Complete redesign with modern documentation structure and blog
+- **v2.1** (Oct 2025) - Added DevOps & SRE career guide
+- **v2.0** (July 2025) - Major update with new salary data
+- **v1.0** (Jan 2025) - Initial release
+
+## 📄 License
+
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](LICENSE).
+
+You are free to:
+- **Share** — copy and redistribute the material
+- **Adapt** — remix, transform, and build upon the material
+
+Under the following terms:
+- **Attribution** — Give appropriate credit
+- **ShareAlike** — Distribute under the same license
+- **No additional restrictions** — No legal terms or technological measures
+
+## 🌟 Acknowledgments
+
+- All contributors who have submitted salary data and career insights
+- The tech community for valuable feedback
+- Open source projects that inspired our design
+
+## 📞 Contact & Community
+
+- **Website**: [tech-career-compass.github.io/Tech-Career-Compass/](https://tech-career-compass.github.io/Tech-Career-Compass/)
+- **Issues**: [GitHub Issues](https://github.com/tech-career-compass/Tech-Career-Compass/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/tech-career-compass/Tech-Career-Compass/discussions)
 
 ---
 
-## 📚 Career Guides
+<div align="center">
+  
+**[⭐ Star this repo](https://github.com/tech-career-compass/Tech-Career-Compass)** if you find it helpful!
 
-| Career Path | Salary Range | Time to Senior | Key Skills |
+Made with ❤️ by the Tech Career Compass community
+
+</div>
+
 |-------------|--------------|----------------|------------|
 | **Software Engineering** | $95K-$250K | 2-5 years | Frontend, Backend, Full Stack |
 | **Data & AI/ML** | $100K-$280K | 2-6 years | Data Science, AI/ML, MLOps |

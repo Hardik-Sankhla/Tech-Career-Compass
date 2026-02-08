@@ -1,18 +1,192 @@
 ---
 layout: default
-title: "Tech Career Guides - Complete Career Roadmaps & Salary Data"
-description: "Comprehensive career guides for software engineering, data science, cloud computing, cybersecurity, and DevOps. Complete roadmaps, salary data, and market insights for 2025-2030."
+title: "Tech Career Compass - Navigate Your Tech Career with Confidence"
+description: "Professional career guidance for software engineering, data science, cloud computing, cybersecurity, and DevOps careers. Real salary data, learning roadmaps, and practical advice."
 ---
 
----
-layout: default
-title: "Tech Career Guides - Complete Career Roadmaps & Salary Data"
-description: "Comprehensive career guides for software engineering, data science, cloud computing, cybersecurity, and DevOps. Complete roadmaps, salary data, and market insights for 2025-2030."
----
+<div style="max-width: 1200px; margin: 0 auto; padding: 80px 24px;">
+  
+  <!-- Hero Section -->
+  <div style="text-align: center; margin-bottom: 80px;">
+    <h1 style="font-size: 3.5rem; font-weight: 800; margin-bottom: 24px; background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+      Navigate Your Tech Career<br>with Confidence
+    </h1>
+    <p style="font-size: 1.5rem; color: var(--text-secondary); margin-bottom: 40px; max-width: 800px; margin-left: auto; margin-right: auto;">
+      Comprehensive guides, real salary data, and practical roadmaps for modern tech careers
+    </p>
+    <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+      <a href="/Tech-Career-Compass/docs/overview" style="padding: 14px 32px; background: #6366f1; color: white; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s;">
+        Explore Career Paths →
+      </a>
+      <a href="/Tech-Career-Compass/blog/" style="padding: 14px 32px; background: transparent; color: #6366f1; text-decoration: none; border-radius: 8px; font-weight: 600; border: 2px solid #6366f1; transition: all 0.3s;">
+        Read the Blog
+      </a>
+    </div>
+  </div>
 
-# 🚀 Your Complete Guide to Tech Careers
+  <!-- Stats -->
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 32px; margin-bottom: 80px;">
+    <div style="text-align: center;">
+      <div style="font-size: 2.5rem; font-weight: 700; color: #6366f1;">5+</div>
+      <div style="color: var(--text-secondary);">Career Paths</div>
+    </div>
+    <div style="text-align: center;">
+      <div style="font-size: 2.5rem; font-weight: 700; color: #6366f1;">Real</div>
+      <div style="color: var(--text-secondary);">Salary Data</div>
+    </div>
+    <div style="text-align: center;">
+      <div style="font-size: 2.5rem; font-weight: 700; color: #6366f1;">2026</div>
+      <div style="color: var(--text-secondary);">Updated Content</div>
+    </div>
+    <div style="text-align: center;">
+      <div style="font-size: 2.5rem; font-weight: 700; color: #6366f1;">Free</div>
+      <div style="color: var(--text-secondary);">Open Source</div>
+    </div>
+  </div>
 
-Welcome to the ultimate resource for navigating your tech career journey in 2025-2030. Discover comprehensive career guides with detailed roadmaps, salary data, and market insights to help you succeed in the tech industry.
+  <!-- Career Paths Grid -->
+  <div style="margin-bottom: 80px;">
+    <h2 style="font-size: 2.5rem; font-weight: 700; text-align: center; margin-bottom: 48px;">Choose Your Path</h2>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 32px;">
+      
+      <!-- Software Engineering -->
+      <div style="background: var(--bg-primary); border-radius: 16px; padding: 32px; border: 1px solid var(--border-color); transition: all 0.3s;">
+        <div style="font-size: 3rem; margin-bottom: 16px;">💻</div>
+        <h3 style="font-size: 1.5rem; margin-bottom: 12px;">Software Engineering</h3>
+        <p style="color: var(--text-secondary); margin-bottom: 20px; line-height: 1.6;">
+          Master frontend, backend, full-stack, and mobile development with complete roadmaps and salary data.
+        </p>
+        <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 20px; border-top: 1px solid var(--border-color);">
+          <span style="color: #10b981; font-weight: 600;">$95K - $250K+</span>
+          <a href="/Tech-Career-Compass/01_Software_Engineering_Careers" style="color: #6366f1; text-decoration: none; font-weight: 600;">Explore →</a>
+        </div>
+      </div>
+
+      <!-- Data & AI/ML -->
+      <div style="background: var(--bg-primary); border-radius: 16px; padding: 32px; border: 1px solid var(--border-color); transition: all 0.3s;">
+        <div style="font-size: 3rem; margin-bottom: 16px;">🧠</div>
+        <h3 style="font-size: 1.5rem; margin-bottom: 12px;">Data & AI/ML</h3>
+        <p style="color: var(--text-secondary); margin-bottom: 20px; line-height: 1.6;">
+          Navigate data science, ML engineering, and MLOps careers with technical paths and market insights.
+        </p>
+        <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 20px; border-top: 1px solid var(--border-color);">
+          <span style="color: #10b981; font-weight: 600;">$100K - $280K+</span>
+          <a href="/Tech-Career-Compass/02_Data_AI_ML_Careers" style="color: #6366f1; text-decoration: none; font-weight: 600;">Explore →</a>
+        </div>
+      </div>
+
+      <!-- Cloud & Infrastructure -->
+      <div style="background: var(--bg-primary); border-radius: 16px; padding: 32px; border: 1px solid var(--border-color); transition: all 0.3s;">
+        <div style="font-size: 3rem; margin-bottom: 16px;">☁️</div>
+        <h3 style="font-size: 1.5rem; margin-bottom: 12px;">Cloud & Infrastructure</h3>
+        <p style="color: var(--text-secondary); margin-bottom: 20px; line-height: 1.6;">
+          Master cloud engineering, platform engineering, and infrastructure architecture careers.
+        </p>
+        <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 20px; border-top: 1px solid var(--border-color);">
+          <span style="color: #10b981; font-weight: 600;">$110K - $350K+</span>
+          <a href="/Tech-Career-Compass/03_Cloud_Infrastructure_Careers" style="color: #6366f1; text-decoration: none; font-weight: 600;">Explore →</a>
+        </div>
+      </div>
+
+      <!-- Cybersecurity -->
+      <div style="background: var(--bg-primary); border-radius: 16px; padding: 32px; border: 1px solid var(--border-color); transition: all 0.3s;">
+        <div style="font-size: 3rem; margin-bottom: 16px;">🔒</div>
+        <h3 style="font-size: 1.5rem; margin-bottom: 12px;">Cybersecurity</h3>
+        <p style="color: var(--text-secondary); margin-bottom: 20px; line-height: 1.6;">
+          Complete guide to security analysis, penetration testing, and security architecture.
+        </p>
+        <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 20px; border-top: 1px solid var(--border-color);">
+          <span style="color: #10b981; font-weight: 600;">$85K - $300K+</span>
+          <a href="/Tech-Career-Compass/04_Cybersecurity_Careers" style="color: #6366f1; text-decoration: none; font-weight: 600;">Explore →</a>
+        </div>
+      </div>
+
+      <!-- DevOps & SRE -->
+      <div style="background: var(--bg-primary); border-radius: 16px; padding: 32px; border: 1px solid var(--border-color); transition: all 0.3s;">
+        <div style="font-size: 3rem; margin-bottom: 16px;">⚙️</div>
+        <h3 style="font-size: 1.5rem; margin-bottom: 12px;">DevOps & SRE</h3>
+        <p style="color: var(--text-secondary); margin-bottom: 20px; line-height: 1.6;">
+          Build expertise in DevOps engineering and site reliability with automation focus.
+        </p>
+        <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 20px; border-top: 1px solid var(--border-color);">
+          <span style="color: #10b981; font-weight: 600;">$110K - $400K+</span>
+          <a href="/Tech-Career-Compass/05_DevOps_SRE_Careers" style="color: #6366f1; text-decoration: none; font-weight: 600;">Explore →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Features Section -->
+  <div style="background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%); border-radius: 24px; padding: 64px 48px; margin-bottom: 80px; color: white;">
+    <h2 style="font-size: 2.5rem; font-weight: 700; text-align: center; margin-bottom: 48px; color: white;">What Makes Us Different</h2>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 40px;">
+      <div style="text-align: center;">
+        <div style="font-size: 2.5rem; margin-bottom: 16px;">📊</div>
+        <h3 style="font-size: 1.25rem; margin-bottom: 12px; color: white;">Real Salary Data</h3>
+        <p style="opacity: 0.9;">Actual compensation ranges from thousands of data points, not aspirational numbers.</p>
+      </div>
+      
+      <div style="text-align: center;">
+        <div style="font-size: 2.5rem; margin-bottom: 16px;">🗺️</div>
+        <h3 style="font-size: 1.25rem; margin-bottom: 12px; color: white;">Complete Roadmaps</h3>
+        <p style="opacity: 0.9;">Step-by-step learning paths with realistic timeframes and milestones.</p>
+      </div>
+      
+      <div style="text-align: center;">
+        <div style="font-size: 2.5rem; margin-bottom: 16px;">💡</div>
+        <h3 style="font-size: 1.25rem; margin-bottom: 12px; color: white;">Practical Advice</h3>
+        <p style="opacity: 0.9;">Real challenges, common mistakes, and battle-tested success strategies.</p>
+      </div>
+      
+      <div style="text-align: center;">
+        <div style="font-size: 2.5rem; margin-bottom: 16px;">🔄</div>
+        <h3 style="font-size: 1.25rem; margin-bottom: 12px; color: white;">Always Updated</h3>
+        <p style="opacity: 0.9;">Quarterly updates with latest technologies, trends, and market data.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Latest Blog Posts -->
+  <div style="margin-bottom: 80px;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 32px;">
+      <h2 style="font-size: 2.5rem; font-weight: 700;">Latest Insights</h2>
+      <a href="/Tech-Career-Compass/blog/" style="color: #6366f1; text-decoration: none; font-weight: 600;">View All →</a>
+    </div>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 32px;">
+      {% for post in site.posts limit:3 %}
+      <article style="background: var(--bg-primary); border-radius: 12px; padding: 28px; border: 1px solid var(--border-color);">
+        <span style="display: inline-block; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; color: #6366f1; background: var(--bg-tertiary); padding: 4px 12px; border-radius: 12px; margin-bottom: 12px;">
+          {{ post.category }}
+        </span>
+        <h3 style="font-size: 1.25rem; margin-bottom: 12px;">
+          <a href="{{ post.url | relative_url }}" style="color: var(--text-primary); text-decoration: none;">{{ post.title }}</a>
+        </h3>
+        <p style="color: var(--text-secondary); margin-bottom: 16px; line-height: 1.6;">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+        <div style="font-size: 0.875rem; color: var(--text-muted);">
+          {{ post.date | date: "%B %d, %Y" }}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- CTA Section -->
+  <div style="text-align: center; background: var(--bg-primary); border-radius: 24px; padding: 64px 32px; border: 1px solid var(--border-color);">
+    <h2 style="font-size: 2.5rem; font-weight: 700; margin-bottom: 16px;">Ready to Navigate Your Career?</h2>
+    <p style="font-size: 1.25rem; color: var(--text-secondary); margin-bottom: 32px;">
+      Start with our comprehensive career guides and roadmaps
+    </p>
+    <a href="/Tech-Career-Compass/docs/overview" style="display: inline-block; padding: 14px 40px; background: #6366f1; color: white; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 1.125rem;">
+      Get Started →
+    </a>
+  </div>
+
+</div>
+
 
 ## 🎯 Explore Career Paths
 

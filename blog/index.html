@@ -1,0 +1,24 @@
+---
+layout: blog
+title: "Blog"
+description: "Insights, trends, and advice for navigating your tech career"
+permalink: /blog/
+---
+
+<div class="posts-list">
+  {% for post in paginator.posts %}
+  <article class="post-card">
+    {% if post.category %}
+    <span class="post-category">{{ post.category }}</span>
+    {% endif %}
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+    <div class="post-meta">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+      {% if post.reading_time %}
+      <span class="reading-time">{{ post.reading_time }} min read</span>
+      {% endif %}
+    </div>
+  </article>
+  {% endfor %}
+</div>

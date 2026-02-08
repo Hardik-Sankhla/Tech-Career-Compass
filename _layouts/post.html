@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines }}{% else %}{{ site.description }}{% endif %}">
+    
+    <!-- SEO -->
+    {% seo %}
+    
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
+</head>
+<body class="blog-post">
+    {% include header.html %}
+    
+    <main class="post-container">
+        <article class="post">
+            <header class="post-header">
+                {% if page.category %}
+                <span class="post-category">{{ page.category }}</span>
+                {% endif %}
+                <h1 class="post-title">{{ page.title }}</h1>
+                <div class="post-meta">
+                    <time datetime="{{ page.date | date_to_xmlschema }}">
+                        {{ page.date | date: "%B %d, %Y" }}
+                    </time>
+                    {% if page.author %}
+                    <span class="post-author">by {{ page.author }}</span>
+                    {% endif %}
+                    {% if page.reading_time %}
+                    <span class="reading-time">{{ page.reading_time }} min read</span>
+                    {% endif %}
+                </div>
+                {% if page.tags %}
+                <div class="post-tags">
+                    {% for tag in page.tags %}
+                    <span class="tag">{{ tag }}</span>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </header>
+            
+            {% if page.featured_image %}
+            <div class="post-featured-image">
+                <img src="{{ page.featured_image | relative_url }}" alt="{{ page.title }}">
+            </div>
+            {% endif %}
+            
+            <div class="post-content">
+                {{ content }}
+            </div>
+            
+            <footer class="post-footer">
+                <div class="post-share">
+                    <h4>Share this article</h4>
+                    <div class="share-buttons">
+                        <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url }}" target="_blank" rel="noopener" class="share-btn twitter">Twitter</a>
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title | url_encode }}" target="_blank" rel="noopener" class="share-btn linkedin">LinkedIn</a>
+                    </div>
+                </div>
+            </footer>
+        </article>
+        
+        <aside class="post-sidebar">
+            <div class="sidebar-widget">
+                <h4>Recent Posts</h4>
+                <ul class="recent-posts">
+                    {% for post in site.posts limit:5 %}
+                    {% if post.url != page.url %}
+                    <li>
+                        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                        <time>{{ post.date | date: "%b %d, %Y" }}</time>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </aside>
+    </main>
+    
+    {% include footer.html %}
+    
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>

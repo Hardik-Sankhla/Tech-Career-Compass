@@ -1,103 +1,138 @@
-# Tech Career Guides - Jekyll Configuration for GitHub Pages
-# https://techcareers.guide
+# Tech Career Compass - Modern Documentation & Blog
+# Professional career guidance platform
 
-# Site settings
-title: "Tech Career Guides - Complete Career Roadmaps & Salary Data"
-description: "Comprehensive career guides for software engineering, data science, cloud computing, cybersecurity, and DevOps. Complete roadmaps, salary data, and market insights for 2025-2030."
+# Site Settings
+title: "Tech Career Compass"
+tagline: "Navigate Your Tech Career with Confidence"
+description: "Professional documentation and insights for software engineering, data science, cloud computing, cybersecurity, and DevOps careers."
 url: "https://tech-career-compass.github.io"
 baseurl: "/Tech-Career-Compass"
 repository: "tech-career-compass/Tech-Career-Compass"
 
-# Author information
-author: "Tech Career Guides"
-email: "careers@techcareers.guide"
+# Author Information
+author:
+  name: "Tech Career Compass Team"
+  email: "careers@techcareers.guide"
+  twitter: "TechCareerGuide"
 
-# Build settings
+# Build Settings
 markdown: kramdown
 highlighter: rouge
-theme: minima
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate
+
+# Pagination
+paginate: 10
+paginate_path: "/blog/page:num/"
 
 # Permalinks
-permalink: /:title/
+permalink: /blog/:year/:month/:day/:title/
 
 # Collections
 collections:
-  guides:
+  docs:
     output: true
-    permalink: /:collection/:name/
+    permalink: /docs/:path/
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
 
-# Exclude from processing
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "docs"
+      sidebar: true
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Tech Career Compass Team"
+      comments: false
+
+# Exclude from Processing
 exclude:
+  - Gemfile
   - Gemfile.lock
   - vendor/
   - .bundle/
   - .sass-cache/
   - .jekyll-cache/
-  - gemfiles/
+  - node_modules/
   - .vscode/
   - .git/
   - .github/
+  - Archive/
+  - README_PROJECT_STATUS.md
+  - "*.backup"
 
-# Include files
+# Include Files
 include:
-  - _pages
+  - _docs
+  - _posts
   - sitemap.xml
   - robots.txt
 
-# SEO and social
+# SEO & Social
 logo: /assets/images/logo.png
-social:
-  name: Tech Career Guides
-  links:
-    - https://github.com/tech-career-compass/Tech-Career-Compass
-    - https://discord.gg/techcareers
-    - https://linkedin.com/company/tech-career-guides
-    - https://twitter.com/TechCareerGuide
-
-# Twitter and Open Graph
 twitter:
   username: TechCareerGuide
   card: summary_large_image
 
-# Custom variables
-version: "2.1"
-last_updated: "2025-10-25"
+social:
+  name: Tech Career Compass
+  links:
+    - https://github.com/tech-career-compass/Tech-Career-Compass
 
-# Analytics (add your tracking codes here)
-# google_analytics: "UA-XXXXXXXXX-X"
-# plausible_analytics: "techcareers.guide"
+# Site Metadata
+version: "3.0"
+last_updated: "2026-02-08"
 
-# Navigation
-navigation:
-  - title: "Home"
-    url: "/"
-  - title: "Master Index"
-    url: "/00_Master_Index_Tech_Careers"
-  - title: "Software Engineering"
-    url: "/01_Software_Engineering_Careers"
-  - title: "Data & AI/ML"
-    url: "/02_Data_AI_ML_Careers"
-  - title: "Cloud & Infrastructure"
-    url: "/03_Cloud_Infrastructure_Careers"
-  - title: "Cybersecurity"
-    url: "/04_Cybersecurity_Careers"
-  - title: "DevOps & SRE"
-    url: "/05_DevOps_SRE_Careers"
-  - title: "About"
-    url: "/about"
+# Main Navigation
+nav_links:
+  - title: "Documentation"
+    url: "/docs/"
+  - title: "Blog"
+    url: "/blog/"
   - title: "Resources"
     url: "/resources"
-  - title: "Contact"
-    url: "/contact"
+  - title: "About"
+    url: "/about"
 
-# Career guides metadata
-guides:
-  master_index:
-    title: "Master Index: Tech Career Guides"
+# Documentation Sidebar
+docs_nav:
+  - title: "Getting Started"
+    items:
+      - title: "Overview"
+        url: "/docs/overview"
+      - title: "Career Roadmap"
+        url: "/docs/career-roadmap"
+  
+  - title: "Career Paths"
+    items:
+      - title: "Software Engineering"
+        url: "/docs/software-engineering"
+      - title: "Data & AI/ML"
+        url: "/docs/data-ai-ml"
+      - title: "Cloud & Infrastructure"
+        url: "/docs/cloud-infrastructure"
+      - title: "Cybersecurity"
+        url: "/docs/cybersecurity"
+      - title: "DevOps & SRE"
+        url: "/docs/devops-sre"
     description: "Complete navigation hub for all tech career paths with salary data, market insights, and career roadmaps."
     tags: ["career-guide", "tech-careers", "navigation", "salary-data"]
     keywords: "tech careers, software engineering, data science, cloud computing, cybersecurity, devops, salary data, career roadmap"

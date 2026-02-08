@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    
+    <!-- SEO -->
+    {% seo %}
+    
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
+</head>
+<body class="docs-page">
+    {% include header.html %}
+    
+    <div class="docs-container">
+        {% if page.sidebar != false %}
+        <aside class="docs-sidebar">
+            {% include sidebar.html %}
+        </aside>
+        {% endif %}
+        
+        <main class="docs-content">
+            <article class="documentation">
+                <header class="docs-header">
+                    <h1>{{ page.title }}</h1>
+                    {% if page.description %}
+                    <p class="lead">{{ page.description }}</p>
+                    {% endif %}
+                    {% if page.last_updated %}
+                    <p class="meta">Last updated: {{ page.last_updated | date: "%B %d, %Y" }}</p>
+                    {% endif %}
+                </header>
+                
+                <div class="docs-body">
+                    {{ content }}
+                </div>
+                
+                {% if page.show_edit_link != false %}
+                <footer class="docs-footer">
+                    <a href="https://github.com/{{ site.repository }}/edit/main/{{ page.path }}" class="edit-link">
+                        Edit this page on GitHub
+                    </a>
+                </footer>
+                {% endif %}
+            </article>
+            
+            {% if page.toc != false %}
+            <aside class="docs-toc">
+                <div class="toc-wrapper">
+                    <h4>On This Page</h4>
+                    <div id="toc"></div>
+                </div>
+            </aside>
+            {% endif %}
+        </main>
+    </div>
+    
+    {% include footer.html %}
+    
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+    <script>
+        // Generate TOC
+        if (document.getElementById('toc')) {
+            const content = document.querySelector('.docs-body');
+            const headings = content.querySelectorAll('h2, h3, h4');
+            const toc = document.getElementById('toc');
+            
+            if (headings.length > 0) {
+                const ul = document.createElement('ul');
+                headings.forEach((heading, index) => {
+                    const li = document.createElement('li');
+                    li.className = `toc-${heading.tagName.toLowerCase()}`;
+                    const a = document.createElement('a');
+                    const id = heading.id || `heading-${index}`;
+                    heading.id = id;
+                    a.href = `#${id}`;
+                    a.textContent = heading.textContent;
+                    li.appendChild(a);
+                    ul.appendChild(li);
+                });
+                toc.appendChild(ul);
+            } else {
+                document.querySelector('.docs-toc').style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>

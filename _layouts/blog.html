@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    
+    <!-- SEO -->
+    {% seo %}
+    
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
+</head>
+<body class="blog-page">
+    {% include header.html %}
+    
+    <main class="blog-container">
+        <header class="blog-header">
+            <h1>{{ page.title | default: "Blog" }}</h1>
+            {% if page.description %}
+            <p class="lead">{{ page.description }}</p>
+            {% endif %}
+        </header>
+        
+        <div class="blog-content">
+            <div class="posts-list">
+                {{ content }}
+                
+                {% if paginator %}
+                <div class="pagination">
+                    {% if paginator.previous_page %}
+                    <a href="{{ paginator.previous_page_path | relative_url }}" class="pagination-prev">← Newer</a>
+                    {% endif %}
+                    
+                    <span class="pagination-info">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+                    
+                    {% if paginator.next_page %}
+                    <a href="{{ paginator.next_page_path | relative_url }}" class="pagination-next">Older →</a>
+                    {% endif %}
+                </div>
+                {% endif %}
+            </div>
+            
+            <aside class="blog-sidebar">
+                <div class="sidebar-widget">
+                    <h3>Categories</h3>
+                    <ul class="category-list">
+                        <li><a href="/blog/category/career-advice">Career Advice</a></li>
+                        <li><a href="/blog/category/industry-trends">Industry Trends</a></li>
+                        <li><a href="/blog/category/skill-development">Skill Development</a></li>
+                        <li><a href="/blog/category/salary-insights">Salary Insights</a></li>
+                    </ul>
+                </div>
+                
+                <div class="sidebar-widget">
+                    <h3>Popular Tags</h3>
+                    <div class="tag-cloud">
+                        <a href="#" class="tag">Software Engineering</a>
+                        <a href="#" class="tag">Data Science</a>
+                        <a href="#" class="tag">Cloud</a>
+                        <a href="#" class="tag">DevOps</a>
+                        <a href="#" class="tag">Cybersecurity</a>
+                        <a href="#" class="tag">Career Tips</a>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+    
+    {% include footer.html %}
+    
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>
